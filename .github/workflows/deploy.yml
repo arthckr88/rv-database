@@ -1,12 +1,12 @@
-name: Verify park rates
+name: Deploy site
 
 on:
-  schedule:
-    - cron: "0 16 * * 1"
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  verify:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,20 +24,7 @@ jobs:
           node-version: lts/*
           cache: npm
       - run: npm ci
-      - run: npm run verify:parks
-      - name: Commit rate changes
-        run: |
-          git config user.name "park-verify"
-          git config user.email "park-verify@users.noreply.github.com"
-          git add src/data/parks.json src/data/verifyLog.json
-          if git diff --cached --quiet; then
-            echo "No rate changes"
-          else
-            git commit -m "chore: weekly park rate verify"
-            git push
-          fi
-      - name: Build site
-        run: npm run build
+      - run: npm run build
         env:
           GITHUB_PAGES: "1"
       - run: cp dist/index.html dist/404.html
@@ -45,7 +32,7 @@ jobs:
         with:
           path: dist
   deploy:
-    needs: verify
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages

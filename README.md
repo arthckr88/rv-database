@@ -13,7 +13,10 @@ Last checked September 2026.
 
 ## Live site
 
-Production is the GitHub repo on `main`. A push to `main` rebuilds the public site. Do not use the local dev server as the published copy.
+- Live: https://arthckr88.github.io/socal-rv-parks/
+- Repo: https://github.com/arthckr88/socal-rv-parks
+
+A push to `main` rebuilds that site from `dist/`. Every Monday at 16:00 UTC, `.github/workflows/verify-parks.yml` fetches official park pages, and if `parks.json` or `verifyLog.json` changed it commits `chore: weekly park rate verify` and publishes the new JSON. The same publish runs on any other push to `main`. Vercel is not used.
 
 ```bash
 npm ci
@@ -46,7 +49,7 @@ Each run appends to `src/data/verifyLog.json` (`ok`, `changed`, `failed`, `stale
 
 ### Monday job
 
-GitHub Actions runs `.github/workflows/verify-parks.yml` every Monday at 16:00 UTC, and on demand (`workflow_dispatch`). The job checks out `main`, uses Node LTS, runs `npm ci` and `npm run verify:parks`, and if `parks.json` or `verifyLog.json` changed it commits `chore: weekly park rate verify` and pushes to `main`. That push rebuilds the live site. The workflow has `contents: write`.
+GitHub Actions runs `.github/workflows/verify-parks.yml` every Monday at 16:00 UTC, and on demand (`workflow_dispatch`). The job checks out `main`, uses Node LTS, runs `npm ci` and `npm run verify:parks`, and if `parks.json` or `verifyLog.json` changed it commits `chore: weekly park rate verify` and pushes to `main`. That same job publishes the site, because a token push does not start a second workflow. Any other push to `main` is published by `.github/workflows/deploy.yml`. The verify workflow has `contents: write`.
 
 A blocked or unparsed official page keeps the old number and is marked STALE or BLOCKED. The job does not invent a rate.
 

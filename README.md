@@ -1,6 +1,6 @@
-# Where the rig sleeps
+# RV Database
 
-One planner, two tabs, for someone based near Santa Monica.
+Three lookups on one site: Nationwide, Frontier, and Santa Monica. Each one has paid RV parks and free public land.
 
 1. **Paid parks** — Southern California RV parks ranked on quality versus price, long-term and monthly first. Distance is the drive to Santa Monica Pier.
 2. **Public land** — free and near-free legal camping on public land in the United States and Canada. Mexico is out of scope.
@@ -13,8 +13,8 @@ Last checked September 2026.
 
 ## Live site
 
-- Live: https://arthckr88.github.io/socal-rv-parks/
-- Repo: https://github.com/arthckr88/socal-rv-parks
+- Live: https://arthckr88.github.io/rv-database/
+- Repo: https://github.com/arthckr88/rv-database
 
 A push to `main` rebuilds that site from `dist/`. Every Monday at 16:00 UTC, `.github/workflows/verify-parks.yml` fetches official park pages, and if `parks.json` or `verifyLog.json` changed it commits `chore: weekly park rate verify` and publishes the new JSON. The same publish runs on any other push to `main`. Vercel is not used.
 

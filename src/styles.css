@@ -293,7 +293,8 @@ code {
 }
 
 #park-map,
-#land-map {
+#land-map,
+#map {
   height: 520px;
   border-radius: 18px;
   border: 1px solid var(--line);
@@ -574,7 +575,8 @@ th:focus-visible {
   }
 
   #park-map,
-  #land-map {
+  #land-map,
+  #map {
     height: 340px;
   }
 }
@@ -616,7 +618,8 @@ th:focus-visible {
   }
 
   #park-map,
-  #land-map {
+  #land-map,
+  #map {
     height: 280px;
   }
 
@@ -635,3 +638,128 @@ th:focus-visible {
 .tag-blocked { color: var(--warn); }
 .tag-call { color: var(--warn); }
 .tag-mid { color: var(--clay); }
+
+:root {
+  --elev: var(--paper-2);
+  --radius: 16px;
+  --foam: var(--sea);
+}
+
+.lookup h1 {
+  font-family: var(--serif);
+  font-weight: 560;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.05;
+  margin: 12px 0 8px;
+}
+
+.lede {
+  max-width: 68ch;
+  color: var(--muted);
+}
+
+.lookup-switch {
+  margin: 8px 0 16px;
+}
+
+section.shortlist {
+  display: block;
+}
+
+.shortlist-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 1fr);
+  gap: 12px;
+  overflow-x: auto;
+}
+
+.mode-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  align-items: end;
+  margin: 8px 0 16px;
+}
+
+.mode-toggle {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  background: rgba(244, 236, 224, 0.06);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.mode-btn,
+.sort-btn {
+  border: 0;
+  background: transparent;
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.mode-btn.is-active,
+.sort-btn.is-active {
+  background: var(--sand);
+  color: #14110e;
+}
+
+.season-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.season-card,
+.pick {
+  text-align: left;
+}
+
+.season-card {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  color: inherit;
+  display: grid;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.season-card.is-active {
+  border-color: var(--sand);
+  box-shadow: 0 0 0 1px var(--sand);
+}
+
+.correlates,
+.section-head p {
+  color: var(--muted);
+  max-width: 78ch;
+}
+
+.pin {
+  width: 28px;
+  height: 28px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 2px solid #f4ece0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.pin span {
+  transform: rotate(45deg);
+  font-size: 11px;
+  font-weight: 600;
+  color: #14110e;
+}
+
+@media (max-width: 900px) {
+  .season-grid {
+    grid-template-columns: 1fr;
+  }
+}

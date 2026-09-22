@@ -3,37 +3,846 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Where the rig sleeps — SoCal parks and public land</title>
-    <meta
-      name="description"
-      content="A Santa Monica field guide: Southern California RV parks ranked on quality and price, and legal public-land camping in the United States and Canada."
-    />
+    <title>RV Database</title>
+    <meta name="description" content="RV Database: nationwide parks, Frontier hubs, and Santa Monica, each with paid parks and free public land." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="top">
       <div class="brand">
-        <p class="eyebrow">Santa Monica field notes</p>
-        <p class="title">Where the rig sleeps</p>
+        <p class="title">RV Database</p>
       </div>
-      <nav class="tabs" aria-label="Planner">
-        <button type="button" data-tab="parks" class="is-on" aria-current="page">Paid parks</button>
-        <button type="button" data-tab="land">Public land</button>
+      <nav class="tabs" aria-label="Lookups">
+        <button type="button" data-lookup="nationwide" class="is-on" aria-current="page">Nationwide</button>
+        <button type="button" data-lookup="frontier">Frontier</button>
+        <button type="button" data-lookup="santa-monica">Santa Monica</button>
       </nav>
       <div class="rig" role="group" aria-label="Rig">
         <button type="button" data-rig="classC" class="is-on" aria-pressed="true">Class C</button>
         <button type="button" data-rig="trailer" aria-pressed="false">Trailer + Tesla</button>
       </div>
     </header>
-
     <main id="main">
-      <section id="panel-parks" aria-label="Paid parks">
+      <section id="lookup-nationwide" class="lookup" data-lookup-panel="nationwide">
+        <p class="eyebrow">Nationwide master list · 50-state scan</p>
+          <h1>Where to be, at what price</h1>
+          <p class="lede">
+            Market scan of RV parks in every US state — not a thin starter set. Rank by quality vs price, then filter by
+            state, city, season, and airport drive so a cheap summer site in Florida does not beat a $800 Oregon monthly
+            when it is actually time to be northwest.
+          </p>
+
+        <div class="tabs lookup-switch" aria-label="Nationwide paid or free">
+          <button type="button" data-side="paid" class="is-on" aria-current="page">Paid parks</button>
+          <button type="button" data-side="free">Free land</button>
+        </div>
+        <div data-side-panel="paid">
+<div class="mode-block">
+          <p class="mode-label">Rank for</p>
+          <div class="mode-toggle" role="group" aria-label="Rank for">
+            <button type="button" class="mode-btn is-active" data-mode="classC">Class C &lt; 30 ft</button>
+            <button type="button" class="mode-btn" data-mode="trailer">Trailer + Tesla</button>
+          </div>
+          <p class="mode-label">Sort</p>
+          <div class="mode-toggle" role="group" aria-label="Sort">
+            <button type="button" class="sort-btn is-active" data-sort-mode="rank">Composite</button>
+            <button type="button" class="sort-btn" data-sort-mode="value">Bang for buck</button>
+          </div>
+</div>
+
+
+          <section class="season-board" aria-label="When to be where">
+      <div class="section-head">
+        <h2>When to be where</h2>
+        <p>
+          Weather is the other half of value. Florida in January is a different product from Florida in August. Click a
+          season to re-rank the country.
+        </p>
+      </div>
+      <div id="season-cards" class="season-grid"></div>
+      <p id="season-correlates" class="correlates"></p>
+    </section>
+
+    <section class="shortlist" aria-label="Short list">
+      <div class="section-head">
+        <h2>Short list</h2>
+        <p>Five picks from the current season and ranking — not a booking guarantee.</p>
+      </div>
+      <div id="shortlist" class="shortlist-row"></div>
+    </section>
+
+    <section class="filters-wrap">
+      <form id="filters" class="filters" aria-label="Park filters">
+        <label class="field">
+          <span>Season</span>
+          <select name="season">
+            <option value="">Any / year-round view</option>
+            <option value="winter">Winter (Nov–Mar)</option>
+            <option value="spring">Spring (Mar–May)</option>
+            <option value="summer">Summer (Jun–Aug)</option>
+            <option value="fall">Fall (Sep–Nov)</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Region</span>
+          <select name="region">
+            <option value="">All regions</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>State</span>
+          <select name="state">
+            <option value="">All states</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>City</span>
+          <select name="city">
+            <option value="">All cities</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Season fit</span>
+          <select name="seasonFit">
+            <option value="hide">Hide bad-season parks</option>
+            <option value="">Show all</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Climate</span>
+          <select name="yearRound">
+            <option value="">Any</option>
+            <option value="yes">Year-round capable</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Skip hazard</span>
+          <select name="skipHazard">
+            <option value="">None</option>
+            <option value="hurricane">Hurricane zones</option>
+            <option value="tornado">Tornado alley</option>
+            <option value="heat">Extreme heat</option>
+            <option value="snow">Snow / freeze</option>
+            <option value="wildfire">Wildfire</option>
+            <option value="monsoon">Monsoon</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Max airport drive</span>
+          <select name="maxAirport">
+            <option value="">Any / no airport filter</option>
+            <option value="10">≤ 10 min</option>
+            <option value="15">≤ 15 min</option>
+            <option value="20">≤ 20 min</option>
+            <option value="25">≤ 25 min</option>
+            <option value="30">≤ 30 min</option>
+            <option value="35">≤ 35 min</option>
+            <option value="40">≤ 40 min</option>
+            <option value="45">≤ 45 min</option>
+            <option value="50">≤ 50 min</option>
+            <option value="55">≤ 55 min</option>
+            <option value="60">≤ 60 min</option>
+            <option value="75">≤ 75 min</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Max effective monthly</span>
+          <select name="maxMonthly">
+            <option value="">Any</option>
+            <option value="500">≤ $500</option>
+            <option value="800">≤ $800</option>
+            <option value="1200">≤ $1,200</option>
+            <option value="1600">≤ $1,600</option>
+            <option value="2000">≤ $2,000</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Monthly available</span>
+          <select name="monthly">
+            <option value="">Any</option>
+            <option value="yes">Published monthly</option>
+            <option value="no">Nightly / estimated only</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Full hookups</span>
+          <select name="hookups">
+            <option value="">Any</option>
+            <option value="yes">Required</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Extra vehicle</span>
+          <select name="extraVehicle">
+            <option value="">Any</option>
+            <option value="included">Included</option>
+            <option value="fee">Fee</option>
+            <option value="limited">Limited</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Min quality</span>
+          <select name="minQuality">
+            <option value="">Any</option>
+            <option value="6">6+</option>
+            <option value="7">7+</option>
+            <option value="8">8+</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Age</span>
+          <select name="age">
+            <option value="">Any</option>
+            <option value="all-ages">All ages</option>
+            <option value="55+">55+ OK</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Min value index</span>
+          <select name="minValue">
+            <option value="">Any</option>
+            <option value="5">5+ (solid)</option>
+            <option value="8">8+ (strong deal)</option>
+            <option value="12">12+ (outlier cheap)</option>
+          </select>
+        </label>
+        <button type="button" class="text-btn" id="reset-filters">Clear</button>
+      </form>
+    </section>
+
+    <section class="workspace">
+      <div class="map-panel">
+        <div class="panel-label">
+          <h2>Map</h2>
+          <p>Pins colored by the active rank. Color in the chart is climate region, not commute rings.</p>
+        </div>
+        <div id="map" role="application" aria-label="RV park map of the United States"></div>
+        <ul class="legend" id="map-legend"></ul>
+      </div>
+      <div class="table-panel">
+        <div class="panel-label">
+          <h2 id="table-heading">Comparison</h2>
+          <p id="result-count"></p>
+        </div>
+        <div class="table-scroll">
+          <table class="grid" id="table">
+            <thead>
+              <tr>
+                <th data-sort="rank">Rank</th>
+                <th data-sort="name">Park</th>
+                <th data-sort="state">State</th>
+                <th data-sort="city">City</th>
+                <th data-sort="airport">Airport</th>
+                <th data-sort="monthly">Monthly</th>
+                <th data-sort="stay">Stay cap</th>
+                <th data-sort="quality">Quality</th>
+                <th data-sort="value">Value</th>
+                <th data-sort="season">Season</th>
+                <th data-sort="fitC">Class C</th>
+                <th data-sort="fitT">Trailer</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="empty" id="empty" hidden>No parks match these filters. Clear one constraint and try again.</p>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <div class="section-head">
+        <h2>Quality vs price</h2>
+        <p>
+          X is effective monthly (published, or nightly × 22 if estimated). Y is quality. Dot size is review count.
+          Color is climate region. Upper-left is bang for the buck.
+        </p>
+      </div>
+      <div class="chart-frame">
+        <canvas id="scatter" aria-label="Quality versus effective monthly scatter plot"></canvas>
+      </div>
+    </section>
+
+    <section class="method" id="method">
+      <div class="section-head">
+        <h2>How scores work</h2>
+        <p>Transparent math. Honest gaps. Call before you book a monthly.</p>
+      </div>
+      <div class="method-grid">
+        <article>
+          <h3>Quality (0–10)</h3>
+          <ul>
+            <li>Review rating 25%</li>
+            <li>Amenities / site quality 20%</li>
+            <li>Noise / setting 15%</li>
+            <li>Security 15%</li>
+            <li>Year-round climate / livability 15%</li>
+            <li>Wifi / livability 10%</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Price + value</h3>
+          <p>
+            Lower cost scores higher, calibrated to a national monthly (Rio Grande Valley $400 is a 9; SoCal $1,500 is
+            mid-pack). Prefers a published monthly. If monthly is unknown, effective monthly =
+            <code>nightlyFrom × 22</code> and the row is flagged estimated.
+          </p>
+          <p>
+            <code>value index = quality / (effectiveMonthly / 1000)</code>
+            — that is bang for the buck. A 7.0 park at $400/mo outruns an 8.0 park at $2,000.
+          </p>
+        </article>
+        <article>
+          <h3>Season + rank</h3>
+          <p>
+            Composite rank is
+            <code>0.38×quality + 0.32×price + 0.15×fit + 0.15×season</code>.
+            Season score is ~9.5 in a park’s best window, ~2.4 in its avoid window. Year-round SoCal still gets a
+            climate bonus when season is “any.”
+          </p>
+          <p>
+            Class C is easy almost everywhere; 14–21 night caps still hurt. Trailer + Tesla wants extra vehicle,
+            unhitch room, and a trailer that can sit. Florida in summer is not “interesting weather” — it is heat,
+            humidity, and hurricane season. Be there Nov–Apr.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    
+        </div>
+        <div data-side-panel="free" hidden>
+          <section id="panel-land" aria-label="Public land">
+        <div class="lede-block">
+          <h1>Public land, United States and Canada</h1>
+          <p>
+            Free and near-free camping where the law actually allows it. Mexico is out. A colored polygon is a manager,
+            not a reservation. The winter belt for a cheap month is Imperial, Blythe, Quartzsite, and Yuma — and the cheap
+            month there is an LTVA permit, not $0.
+          </p>
+          <p>Winter trailer belt: Quartzsite, Yuma, or Blythe LTVA, or graded BLM. Not Malibu.</p>
+          <p>Land status is an overlay. Confirm with the field office / LTVA page before you drive.</p>
+        </div>
+        <div id="teach" class="teach"></div>
+        <div class="land-tools">
+          <label class="field month-field">
+            <span>Month · <strong id="month-label">January</strong></span>
+            <input id="month" type="range" min="1" max="12" step="1" value="1" />
+          </label>
+          <p id="month-note" class="month-note"></p>
+          <label class="field">
+            <span>Show</span>
+            <select id="area-filter">
+              <option value="all">All featured areas</option>
+              <option value="season" selected>In season this month</option>
+              <option value="ltva">LTVA permits</option>
+              <option value="free">Marked free</option>
+              <option value="closest">Closest to Los Angeles</option>
+              <option value="usfs">National Forest corridors</option>
+              <option value="canada">Canada</option>
+            </select>
+          </label>
+          <label class="field grow">
+            <span>Find an area</span>
+            <input id="area-q" type="search" placeholder="Quartzsite, forest, Yukon…" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Canada</span>
+            <select id="province"></select>
+          </label>
+        </div>
+        <article id="province-card" class="province-card" hidden></article>
+        <div id="layer-toggles" class="layer-toggles" aria-label="Map layers"></div>
+        <p id="layer-banner" class="banner" hidden></p>
+        <div class="workspace">
+          <div class="map-panel">
+            <div class="panel-label">
+              <h2>Land manager map</h2>
+              <p>
+                Basemap is Esri’s dark gray canvas. Overlays are official BLM and
+                <a id="padus-link" href="https://maps.usgs.gov/padusdataexplorer/" target="_blank" rel="noreferrer">PAD-US</a>.
+                Hubs are resupply towns. Featured pins are a curated set, not every acre.
+              </p>
+            </div>
+            <div id="land-map" role="application" aria-label="Public land map of the United States and Canada"></div>
+            <ul class="legend">
+              <li><i style="background:#2f6a56"></i>Free where legal</li>
+              <li><i style="background:#8a6232"></i>Low permit</li>
+              <li><i style="background:#b85c38"></i>LTVA permit</li>
+              <li><i style="background:#3d6f78"></i>Cost varies</li>
+              <li><i style="background:#8c3d2a"></i>Heat or closure month</li>
+            </ul>
+          </div>
+          <div class="table-panel">
+            <article id="identify" class="identify">
+              <h3>Click the map</h3>
+              <p>You get a land manager when BLM or PAD-US answers. You do not get permission to camp. If the query fails, the result is unknown.</p>
+            </article>
+            <div class="panel-label">
+              <h2>Featured areas</h2>
+              <p id="area-count"></p>
+            </div>
+            <div id="area-list" class="area-list"></div>
+          </div>
+        </div>
+      </section>
+    
+        </div>
+        <aside class="drawer" id="drawer" hidden>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+        <button type="button" class="drawer-close" id="drawer-close" aria-label="Close park details">Close</button>
+        <div id="drawer-body"></div>
+      </div>
+    </aside>
+      </section>
+      <section id="lookup-frontier" class="lookup frontier" data-lookup-panel="frontier" hidden>
+        <p class="eyebrow">Frontier Go Wild circuit · plan 2027, not today</p>
+          <h1>Park near a hub. Fly to LA.</h1>
+          <p class="lede">
+            Market scan of parks and storage near Frontier airports across the country — not a thin KOA sample. Default
+            horizon is spring 2027, because today’s table ends. Routes die (LAS–BUR after 12 Oct 2026). New flying
+            shows up (daily DTW–LAX from 20 Nov 2026). Uber to the terminal. Never airport parking.
+          </p>
+
+        <div class="tabs lookup-switch" aria-label="Frontier paid or free">
+          <button type="button" data-side="paid" class="is-on" aria-current="page">Paid parks</button>
+          <button type="button" data-side="free">Free land</button>
+        </div>
+        <div data-side-panel="paid">
+          <div class="mode-block">
+            <p class="mode-label">Rank for</p>
+            <div class="mode-toggle" role="group" aria-label="Rank for">
+              <button type="button" class="mode-btn is-active" data-mode="classC">Class C &lt; 30 ft</button>
+              <button type="button" class="mode-btn" data-mode="trailer">Trailer + Tesla</button>
+            </div>
+            <p class="mode-label">Sort</p>
+            <div class="mode-toggle" role="group" aria-label="Sort">
+              <button type="button" class="sort-btn is-active" data-sort-mode="rank">Composite</button>
+              <button type="button" class="sort-btn" data-sort-mode="value">Bang for buck</button>
+              <button type="button" class="sort-btn" data-sort-mode="trip">This trip $</button>
+            </div>
+          </div>
+          <section class="gowild-strip" aria-label="Go Wild rules that matter">
+      <p>
+        Domestic Go Wild inventory usually opens the <strong>day before</strong> (often midnight local at the departure
+        city). Taxes, bags, and seats are extra. Connecting to LA means two independent seat drops — a bad last-minute
+        plan. Prefer nonstops with several weekly banks. <strong>LAS–BUR is not the LA plan</strong> after
+        12 Oct 2026. Skip California Frontier airports as bases for flying <em>to</em> LA.
+      </p>
+    </section>
+
+    <section class="trip-board" aria-label="Planning horizon">
+      <div class="section-head">
+        <h2>Which schedule are you planning on?</h2>
+        <p>
+          Today’s Frontier table is a snapshot. It will be wrong next month. Default is spring 2027: BUR gone, DTW–LAX
+          treated as last-minute LA if it still files, Colombia daily out of Orlando (not an LA hop). Click a horizon to
+          re-score launching vs live vs ended.
+        </p>
+      </div>
+      <div id="horizon-cards" class="trip-grid horizon-grid"></div>
+    </section>
+
+    <section class="warn-strip" id="bur-warn" aria-label="Forward schedule">
+      <p>Loading the forward calendar…</p>
+    </section>
+
+    <section class="trip-board" aria-label="How long you are gone">
+      <div class="section-head">
+        <h2>How long are you actually gone?</h2>
+        <p>
+          Camping with hookups is a monthly. Dry storage is a job hop to LA — days or a week, rarely a month. Click
+          the trip you are taking; the trip-cost column follows that length. Storage lots prorate even when the lot
+          only publishes a monthly quote.
+        </p>
+      </div>
+      <div id="trip-cards" class="trip-grid"></div>
+    </section>
+
+    <section class="season-board" aria-label="When to be which hub">
+      <div class="section-head">
+        <h2>When to be which hub</h2>
+        <p>
+          Weather still wins. A cheap Denver monthly in January does not beat Phoenix if the hoses freeze. Click a
+          season to re-rank.
+        </p>
+      </div>
+      <div id="season-cards" class="season-grid"></div>
+      <p id="season-correlates" class="correlates"></p>
+    </section>
+
+    <section class="hub-board" aria-label="Frontier hubs">
+      <div class="section-head">
+        <h2>Frontier presence</h2>
+        <p>
+          DEN is the primary hub. Directs always rank above connects — a Frontier connection is two seat drops, so it
+          is never the last-minute LA plan. Default is LAX nonstop and a 45-minute Uber cap, in 5-minute steps if you
+          want tighter. Click a hub to filter.
+        </p>
+      </div>
+      <div id="hub-cards" class="hub-grid"></div>
+    </section>
+
+    <section class="shortlist" aria-label="Short list">
+      <div class="section-head">
+        <h2>Short list</h2>
+        <p>
+          Five picks on the current filters: cheapest to actually camp with hookups, cheapest dry-storage week (job
+          hop), last-minute LA (Frontier nonstop first), closest park that will sit the rig, lowest Uber round-trip.
+        </p>
+      </div>
+      <div id="shortlist" class="shortlist-row"></div>
+    </section>
+
+    <section class="filters-wrap">
+      <form id="filters" class="filters" aria-label="Park filters">
+        <label class="field">
+          <span>Season</span>
+          <select name="season">
+            <option value="">Any / year-round view</option>
+            <option value="winter">Winter (Nov–Mar)</option>
+            <option value="spring">Spring (Mar–May)</option>
+            <option value="summer">Summer (Jun–Aug)</option>
+            <option value="fall">Fall (Sep–Nov)</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Hub</span>
+          <select name="hub">
+            <option value="">All hubs</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>State</span>
+          <select name="state">
+            <option value="">All states</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>City</span>
+          <select name="city">
+            <option value="">All cities</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>LAX access</span>
+          <select name="lax">
+            <option value="">Any (includes connects)</option>
+            <option value="nonstop" selected>LAX nonstop only</option>
+            <option value="excellent">Excellent last-minute (fat LAX bank)</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Max Uber / drive</span>
+          <select name="maxAirport">
+            <option value="">Any</option>
+            <option value="10">≤ 10 min</option>
+            <option value="15">≤ 15 min</option>
+            <option value="20">≤ 20 min</option>
+            <option value="25">≤ 25 min</option>
+            <option value="30">≤ 30 min</option>
+            <option value="35">≤ 35 min</option>
+            <option value="40">≤ 40 min</option>
+            <option value="45" selected>≤ 45 min</option>
+            <option value="50">≤ 50 min</option>
+            <option value="55">≤ 55 min</option>
+            <option value="60">≤ 60 min</option>
+            <option value="75">≤ 75 min</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>What this place is</span>
+          <select name="kind">
+            <option value="">Live-in, storage, or hybrid</option>
+            <option value="live-in">Live-in parks</option>
+            <option value="hybrid">Live or store</option>
+            <option value="storage">Storage lots only</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Sit while you fly</span>
+          <select name="sit">
+            <option value="">Any</option>
+            <option value="will-sit">Will sit the empty rig</option>
+            <option value="keep-site">Keep paying the site</option>
+            <option value="storage">Storage lot / on-site storage</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Season fit</span>
+          <select name="seasonFit">
+            <option value="hide">Hide bad-season parks</option>
+            <option value="">Show all</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Skip hazard</span>
+          <select name="skipHazard">
+            <option value="">None</option>
+            <option value="hurricane">Hurricane zones</option>
+            <option value="tornado">Tornado alley</option>
+            <option value="heat">Extreme heat</option>
+            <option value="snow">Snow / freeze</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Max camp / mo (hookups)</span>
+          <select name="maxCamp">
+            <option value="">Any</option>
+            <option value="500">≤ $500</option>
+            <option value="700">≤ $700</option>
+            <option value="1000">≤ $1,000</option>
+            <option value="1400">≤ $1,400</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Max store / week (job hop)</span>
+          <select name="maxStore">
+            <option value="">Any</option>
+            <option value="30">≤ $30 / week</option>
+            <option value="50">≤ $50 / week</option>
+            <option value="75">≤ $75 / week</option>
+            <option value="100">≤ $100 / week</option>
+            <option value="150">≤ $150 / week</option>
+            <option value="280">≤ $280 / week</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Published rate</span>
+          <select name="monthly">
+            <option value="">Any</option>
+            <option value="yes">Occupied or storage monthly</option>
+            <option value="no">Nightly / estimated only</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Full hookups</span>
+          <select name="hookups">
+            <option value="">Any</option>
+            <option value="yes">Required (hides storage lots)</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Extra vehicle</span>
+          <select name="extraVehicle">
+            <option value="">Any</option>
+            <option value="included">Included</option>
+            <option value="fee">Fee</option>
+            <option value="limited">Limited</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Min quality</span>
+          <select name="minQuality">
+            <option value="">Any</option>
+            <option value="6">6+</option>
+            <option value="7">7+</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Age</span>
+          <select name="age">
+            <option value="">Any</option>
+            <option value="all-ages">All ages</option>
+            <option value="55+">55+ OK</option>
+          </select>
+        </label>
+        <button type="button" class="text-btn" id="reset-filters">Clear</button>
+      </form>
+    </section>
+
+    <section class="workspace">
+      <div class="map-panel">
+        <div class="panel-label">
+          <h2>Map</h2>
+          <p>Pins colored by rank. Diamonds are Frontier airports. Squares on the map are storage lots.</p>
+        </div>
+        <div id="map" role="application" aria-label="Frontier hub RV park map"></div>
+        <ul class="legend" id="map-legend"></ul>
+      </div>
+      <div class="table-panel">
+        <div class="panel-label">
+          <h2 id="table-heading">Comparison</h2>
+          <p id="result-count"></p>
+        </div>
+        <div class="table-scroll">
+          <table class="grid" id="table">
+            <thead>
+              <tr>
+                <th data-sort="rank">Rank</th>
+                <th data-sort="name">Park</th>
+                <th data-sort="hub">Hub</th>
+                <th data-sort="airport">Drive</th>
+                <th data-sort="uber">Uber RT</th>
+                <th data-sort="camp">Camp / mo</th>
+                <th data-sort="store">Store (day / wk)</th>
+                <th data-sort="trip">This trip</th>
+                <th data-sort="sit">Sit</th>
+                <th data-sort="lax">LAX</th>
+                <th data-sort="quality">Quality</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="empty" id="empty" hidden>No parks match these filters. Clear the 45-minute cap or the cheap filter and try again.</p>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <div class="section-head">
+        <h2>Quality vs camp vs store</h2>
+        <p>
+          Circles are occupied hookup monthly (actually camping). Squares are a week of dry storage for a job hop —
+          days and weeks, not a forced month. Y is quality. Size is airport proximity. Directs always rank above
+          connects.
+        </p>
+      </div>
+      <div class="chart-frame">
+        <canvas id="scatter" aria-label="Quality versus leave-behind monthly scatter plot"></canvas>
+      </div>
+    </section>
+
+    <section class="method" id="method">
+      <div class="section-head">
+        <h2>How to actually run this</h2>
+        <p>
+          This is the country-wide Frontier market scan: live-in parks and storage lots near Frontier airports, scored
+          on a <strong>forward schedule</strong> (default spring 2027). Nationwide weather ranking — every state, Frontier
+          or not — stays at the site root.
+        </p>
+      </div>
+      <div class="method-grid">
+        <article>
+          <h3>The 45-minute rule</h3>
+          <p>
+            Default filter is ≤ 45 minutes to the Frontier airport. Stretch parks (Apache Junction, Colorado Springs,
+            Ocala) stay in the file; clear the drive cap to see them. Last-minute Go Wild is a midnight seat drop plus
+            an Uber, not an hour-twenty drive in the Tesla.
+          </p>
+        </article>
+        <article>
+          <h3>Sit the rig, or store it</h3>
+          <p>
+            If a monthly park will let an empty trailer sit, a 2–4 day LA dash costs the Uber round-trip — the month is
+            already sunk. If they will not, or you are not paying monthly, use a storage lot ($80–$360) and Uber. Airport
+            parking is the expensive wrong answer for a 30-foot trailer.
+          </p>
+        </article>
+        <article>
+          <h3>Frontier rank</h3>
+          <p>
+            Composite is
+            <code>0.18×quality + 0.16×price + 0.10×fit + 0.12×season + 0.16×airport drive + 0.12×LAX + 0.10×sit + 0.06×hub</code>.
+            Dash/week trips shift a little more weight onto sit. Uber is an estimate from miles × city multiplier, not a
+            live quote.
+          </p>
+        </article>
+        <article>
+          <h3>What is still missing</h3>
+          <p>
+            Hundreds of county-fair lots, casino overflow, and classifieds exist. Kent KOA (the old Sea-Tac park) closed
+            in 2021. Confirm every monthly, every storage minimum, and this week’s Frontier–LAX table before you point
+            the rig.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    
+        </div>
+        <div data-side-panel="free" hidden>
+          <section id="panel-land" aria-label="Public land">
+        <div class="lede-block">
+          <h1>Public land, United States and Canada</h1>
+          <p>
+            Free and near-free camping where the law actually allows it. Mexico is out. A colored polygon is a manager,
+            not a reservation. The winter belt for a cheap month is Imperial, Blythe, Quartzsite, and Yuma — and the cheap
+            month there is an LTVA permit, not $0.
+          </p>
+          <p>Winter trailer belt: Quartzsite, Yuma, or Blythe LTVA, or graded BLM. Not Malibu.</p>
+          <p>Land status is an overlay. Confirm with the field office / LTVA page before you drive.</p>
+        </div>
+        <div id="teach" class="teach"></div>
+        <div class="land-tools">
+          <label class="field month-field">
+            <span>Month · <strong id="month-label">January</strong></span>
+            <input id="month" type="range" min="1" max="12" step="1" value="1" />
+          </label>
+          <p id="month-note" class="month-note"></p>
+          <label class="field">
+            <span>Show</span>
+            <select id="area-filter">
+              <option value="all">All featured areas</option>
+              <option value="season" selected>In season this month</option>
+              <option value="ltva">LTVA permits</option>
+              <option value="free">Marked free</option>
+              <option value="closest">Closest to Los Angeles</option>
+              <option value="usfs">National Forest corridors</option>
+              <option value="canada">Canada</option>
+            </select>
+          </label>
+          <label class="field grow">
+            <span>Find an area</span>
+            <input id="area-q" type="search" placeholder="Quartzsite, forest, Yukon…" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Canada</span>
+            <select id="province"></select>
+          </label>
+        </div>
+        <article id="province-card" class="province-card" hidden></article>
+        <div id="layer-toggles" class="layer-toggles" aria-label="Map layers"></div>
+        <p id="layer-banner" class="banner" hidden></p>
+        <div class="workspace">
+          <div class="map-panel">
+            <div class="panel-label">
+              <h2>Land manager map</h2>
+              <p>
+                Basemap is Esri’s dark gray canvas. Overlays are official BLM and
+                <a id="padus-link" href="https://maps.usgs.gov/padusdataexplorer/" target="_blank" rel="noreferrer">PAD-US</a>.
+                Hubs are resupply towns. Featured pins are a curated set, not every acre.
+              </p>
+            </div>
+            <div id="land-map" role="application" aria-label="Public land map of the United States and Canada"></div>
+            <ul class="legend">
+              <li><i style="background:#2f6a56"></i>Free where legal</li>
+              <li><i style="background:#8a6232"></i>Low permit</li>
+              <li><i style="background:#b85c38"></i>LTVA permit</li>
+              <li><i style="background:#3d6f78"></i>Cost varies</li>
+              <li><i style="background:#8c3d2a"></i>Heat or closure month</li>
+            </ul>
+          </div>
+          <div class="table-panel">
+            <article id="identify" class="identify">
+              <h3>Click the map</h3>
+              <p>You get a land manager when BLM or PAD-US answers. You do not get permission to camp. If the query fails, the result is unknown.</p>
+            </article>
+            <div class="panel-label">
+              <h2>Featured areas</h2>
+              <p id="area-count"></p>
+            </div>
+            <div id="area-list" class="area-list"></div>
+          </div>
+        </div>
+      </section>
+    
+        </div>
+        <aside class="drawer" id="drawer" hidden>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+        <button type="button" class="drawer-close" id="drawer-close" aria-label="Close park details">Close</button>
+        <div id="drawer-body"></div>
+      </div>
+    </aside>
+      </section>
+      <section id="lookup-santa" class="lookup" data-lookup-panel="santa-monica" hidden>
+        <div class="tabs lookup-switch" aria-label="Santa Monica paid or free">
+          <button type="button" data-tab="parks" class="is-on" aria-current="page">Paid parks</button>
+          <button type="button" data-tab="land">Free land</button>
+        </div>
+        <section id="panel-parks" aria-label="Paid parks">
         <div class="lede-block">
           <p id="rate-banner">Rates last checked. Yellow = confirm before you tow.</p>
           <h1>Southern California, priced against the pier</h1>
@@ -160,7 +969,8 @@
         </section>
       </section>
 
-      <section id="panel-land" aria-label="Public land" hidden>
+      
+        <section id="panel-land" aria-label="Public land" hidden>
         <div class="lede-block">
           <h1>Public land, United States and Canada</h1>
           <p>
@@ -234,23 +1044,15 @@
           </div>
         </div>
       </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>
-        Rates, stay limits, and fire closures change. A monthly that is not on the park’s own card is not shown as a
-        monthly. Public-land color is not a campsite. Posted signs, the forest motor-vehicle map, and the provincial
-        atlas beat this website. United States and Canada only — no Mexico. Planning notes checked September 2026.
-      </p>
-    </footer>
-
-    <aside class="drawer" id="drawer" hidden>
+    
+        <aside class="drawer" id="drawer" hidden>
       <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
         <button type="button" class="text-btn" id="drawer-close">Close</button>
         <div id="drawer-body"></div>
       </div>
     </aside>
-
+      </section>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

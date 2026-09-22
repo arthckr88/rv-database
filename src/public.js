@@ -70,7 +70,9 @@ const MANG = {
   UNK: "Unknown",
 };
 
-const state = {
+export function createLand(root, options = {}) {
+  const q = (sel) => root.querySelector(sel);
+  const state = {
   rig: "classC",
   month: new Date().getMonth() + 1,
   filter: "season",
@@ -147,7 +149,7 @@ function serviceWord(value) {
 }
 
 function renderTeach() {
-  document.querySelector("#teach").innerHTML = `
+  q("#teach").innerHTML = `
     <h2>${esc(usRules.headline)}</h2>
     <div class="teach-grid">
       ${usRules.points
@@ -160,20 +162,20 @@ function renderTeach() {
 
 function renderMonth() {
   const spec = monthSpec();
-  document.querySelector("#month-label").textContent = spec.name;
-  document.querySelector("#month-note").textContent = spec.note;
-  document.querySelector("#month").value = String(state.month);
+  q("#month-label").textContent = spec.name;
+  q("#month-note").textContent = spec.note;
+  q("#month").value = String(state.month);
 }
 
 function renderProvinceSelect() {
-  const select = document.querySelector("#province");
+  const select = q("#province");
   select.innerHTML = `<option value="">Canada — pick a province</option>${canada.provinces
     .map((p) => `<option value="${esc(p.id)}">${esc(p.name)}</option>`)
     .join("")}`;
 }
 
 function renderProvince(id) {
-  const card = document.querySelector("#province-card");
+  const card = q("#province-card");
   const province = canada.provinces.find((p) => p.id === id);
   if (!province) {
     card.hidden = true;
@@ -193,8 +195,8 @@ function renderProvince(id) {
 
 function renderAreas() {
   const list = visibleAreas();
-  document.querySelector("#area-count").textContent = `${list.length} areas · ${state.rig === "trailer" ? "4x4 and soft sand hidden" : "Class C sees rough roads, labeled"}`;
-  document.querySelector("#area-list").innerHTML = list
+  q("#area-count").textContent = `${list.length} areas · ${state.rig === "trailer" ? "4x4 and soft sand hidden" : "Class C sees rough roads, labeled"}`;
+  q("#area-list").innerHTML = list
     .map((area) => {
       const look = styleFor(area);
       const hub = hubById(area.nearestHub);
@@ -230,7 +232,7 @@ function drawAreaMarkers(list) {
     marker.bindPopup(popupHtml(area));
     marker.on("click", (event) => {
       L.DomEvent.stopPropagation(event);
-      document.querySelector(`[data-area="${area.id}"]`)?.scrollIntoView({ block: "nearest" });
+      q(`[data-area="${area.id}"]`)?.scrollIntoView({ block: "nearest" });
     });
     marker.addTo(areaLayer);
     areaMarkers.set(area.id, marker);
@@ -258,7 +260,7 @@ function drawHubs() {
 }
 
 function showBanner() {
-  const banner = document.querySelector("#layer-banner");
+  const banner = q("#layer-banner");
   if (!failed.size) {
     banner.hidden = true;
     banner.textContent = "";
@@ -330,7 +332,7 @@ function dynamicLayer(url, layers) {
 }
 
 async function bootLayers() {
-  const box = document.querySelector("#layer-toggles");
+  const box = q("#layer-toggles");
   box.innerHTML = "";
   for (const svc of SERVICES) {
     const ok = await probe(svc.url);
@@ -359,7 +361,7 @@ async function bootLayers() {
   osm.className = "check";
   osm.innerHTML = `<input type="checkbox" id="osm-toggle"> Unofficial OSM camp hints`;
   box.append(osm);
-  document.querySelector("#osm-toggle").addEventListener("change", (event) => {
+  q("#osm-toggle").addEventListener("change", (event) => {
     state.osm = event.target.checked;
     if (!state.osm) {
       osmLayer.clearLayers();
@@ -403,7 +405,7 @@ function describeResult(result) {
 }
 
 function renderIdentify(html) {
-  document.querySelector("#identify").innerHTML = html;
+  q("#identify").innerHTML = html;
 }
 
 async function onMapClick(event) {
@@ -505,7 +507,7 @@ function bootMap() {
     map.invalidateSize();
     return;
   }
-  map = L.map("land-map", { scrollWheelZoom: false, maxZoom: 16 }).setView([34.4, -116.2], 6);
+  map = L.map(q("#land-map"), { scrollWheelZoom: false, maxZoom: 16 }).setView([34.4, -116.2], 6);
   addDarkBasemap(map);
   L.circleMarker([PIER.lat, PIER.lng], {
     radius: 5,
@@ -521,8 +523,12 @@ function bootMap() {
   osmLayer = L.layerGroup().addTo(map);
   drawHubs();
   renderAreas();
-  const focus = areas.filter((a) => a.closestToLa || a.group === "ltva");
-  map.fitBounds(L.latLngBounds(focus.map((a) => [a.lat, a.lng])).pad(0.15));
+  if (options.focus === "us") {
+    map.setView([39.5, -98.35], 4);
+  } else {
+    const focus = areas.filter((a) => a.closestToLa || a.group === "ltva");
+    map.fitBounds(L.latLngBounds(focus.map((a) => [a.lat, a.lng])).pad(0.15));
+  }
   map.on("click", onMapClick);
   map.on("moveend", () => {
     if (!state.osm) return;
@@ -530,31 +536,31 @@ function bootMap() {
     osmTimer = setTimeout(loadOsm, 700);
   });
   map.on("click", () => map.scrollWheelZoom.enable());
-  new ResizeObserver(() => map.invalidateSize()).observe(document.querySelector("#land-map"));
+  new ResizeObserver(() => map.invalidateSize()).observe(q("#land-map"));
   bootLayers();
 }
 
-export function mountPublic() {
+function mount() {
   renderTeach();
   renderMonth();
   renderProvinceSelect();
-  document.querySelector("#month").addEventListener("input", (event) => {
+  q("#month").addEventListener("input", (event) => {
     state.month = Number(event.target.value);
     renderMonth();
     renderAreas();
   });
-  document.querySelector("#province").addEventListener("change", (event) => {
+  q("#province").addEventListener("change", (event) => {
     renderProvince(event.target.value);
   });
-  document.querySelector("#area-filter").addEventListener("change", (event) => {
+  q("#area-filter").addEventListener("change", (event) => {
     state.filter = event.target.value;
     renderAreas();
   });
-  document.querySelector("#area-q").addEventListener("input", (event) => {
+  q("#area-q").addEventListener("input", (event) => {
     state.q = event.target.value.trim().toLowerCase();
     renderAreas();
   });
-  document.querySelector("#area-list").addEventListener("click", (event) => {
+  q("#area-list").addEventListener("click", (event) => {
     const card = event.target.closest("[data-area]");
     if (!card || !map) return;
     const marker = areaMarkers.get(card.dataset.area);
@@ -562,17 +568,19 @@ export function mountPublic() {
     map.setView(marker.getLatLng(), Math.max(map.getZoom(), 8));
     marker.openPopup();
   });
-  const padus = document.querySelector("#padus-link");
+  const padus = q("#padus-link");
   if (padus) padus.href = "https://maps.usgs.gov/padusdataexplorer/";
 }
 
-export function setPublicRig(rig) {
+function setRig(rig) {
   state.rig = rig;
-  if (document.querySelector("#panel-land").hidden) return;
+  if (q("#panel-land").hidden) return;
   renderAreas();
 }
 
-export function showPublic() {
+function show() {
   bootMap();
   renderAreas();
+}
+  return { mount, setRig, show };
 }

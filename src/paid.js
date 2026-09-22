@@ -16,6 +16,9 @@ import {
   QUALITY_WEIGHTS,
 } from "./lib/scoring.js";
 
+const santaRoot = document.querySelector("#lookup-santa");
+const q = (sel) => santaRoot.querySelector(sel);
+
 const parks = parksRaw.map(enrichPark);
 
 const state = {
@@ -137,7 +140,7 @@ function picks() {
 }
 
 function renderShortlist() {
-  const root = document.querySelector("#shortlist");
+  const root = q("#shortlist");
   root.innerHTML = picks()
     .map(({ kicker, park, why }) => {
       if (!park) {
@@ -157,11 +160,11 @@ function renderShortlist() {
 
 function renderTable() {
   const rows = ranked();
-  const count = document.querySelector("#park-count");
+  const count = q("#park-count");
   const rateLabel = state.rateMode === "winter" ? "winter-only rates" : "year-round blend";
   count.textContent = `${rows.length} of ${parks.length} parks · sorted for ${rigName(state.rig)} · ${rateLabel}`;
-  const tbody = document.querySelector("#park-table tbody");
-  document.querySelector("#park-empty").hidden = rows.length > 0;
+  const tbody = q("#park-table tbody");
+  q("#park-empty").hidden = rows.length > 0;
   tbody.innerHTML = rows
     .map((p) => {
       const rate = rateOf(p);
@@ -207,7 +210,7 @@ function renderMarkers() {
 }
 
 function renderChart() {
-  const canvas = document.querySelector("#scatter");
+  const canvas = q("#scatter");
   const rows = ranked().filter((p) => rateOf(p).value != null);
   const datasets = RING_ORDER.map((ring) => ({
     label: ringLabel(ring),
@@ -261,7 +264,7 @@ function renderChart() {
 }
 
 function renderLegend() {
-  document.querySelector("#park-legend").innerHTML = RINGS.map(
+  q("#park-legend").innerHTML = RINGS.map(
     (r) => `<li><i style="background:${RING_COLORS[r.id]}"></i>${esc(r.label)} <span>${esc(r.blurb)}</span></li>`,
   ).join("");
 }
@@ -315,13 +318,13 @@ function linked(park, label) {
 }
 
 function renderBanner() {
-  const el = document.querySelector("#rate-banner");
+  const el = q("#rate-banner");
   if (!el) return;
   el.textContent = `Rates last checked ${oldestVerified(ranked())}. Yellow = confirm before you tow.`;
 }
 
 function fillDrawer(park) {
-  const body = document.querySelector("#drawer-body");
+  const body = q("#drawer-body");
   const sources = (park.sources || []).map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noreferrer">${esc(s)}</a></li>`).join("");
   const rate = rateOf(park);
   const badges = parkBadges(park, state.rateMode);
@@ -364,17 +367,17 @@ function openPark(id) {
   state.selectedId = id;
   renderTable();
   renderMarkers();
-  document.querySelector("#drawer").hidden = false;
+  q("#drawer").hidden = false;
   fillDrawer(park);
   const marker = markers.get(id);
   if (marker && map) {
     map.panTo(marker.getLatLng());
   }
-  document.querySelector("#drawer-close").focus();
+  q("#drawer-close").focus();
 }
 
 function closeDrawer() {
-  document.querySelector("#drawer").hidden = true;
+  q("#drawer").hidden = true;
   state.selectedId = null;
   renderTable();
   renderMarkers();
@@ -386,7 +389,7 @@ function paint() {
   renderTable();
   renderMarkers();
   renderChart();
-  const drawer = document.querySelector("#drawer");
+  const drawer = q("#drawer");
   if (state.selectedId && drawer && !drawer.hidden) {
     const park = parks.find((p) => p.id === state.selectedId);
     if (park) fillDrawer(park);
@@ -398,7 +401,7 @@ function bootMap() {
     map.invalidateSize();
     return;
   }
-  map = L.map("park-map", { scrollWheelZoom: false, maxZoom: 16 }).setView([PIER.lat, PIER.lng], 9);
+  map = L.map(q("#park-map"), { scrollWheelZoom: false, maxZoom: 16 }).setView([PIER.lat, PIER.lng], 9);
   addDarkBasemap(map);
   RINGS.forEach((ring) => {
     L.circle([PIER.lat, PIER.lng], {
@@ -425,19 +428,19 @@ function bootMap() {
   map.fitBounds(bounds.pad(0.12));
   renderMarkers();
   map.on("click", () => map.scrollWheelZoom.enable());
-  new ResizeObserver(() => map.invalidateSize()).observe(document.querySelector("#park-map"));
+  new ResizeObserver(() => map.invalidateSize()).observe(q("#park-map"));
 }
 
 function fillRings() {
-  const select = document.querySelector("#park-filters select[name=ring]");
+  const select = q("#park-filters select[name=ring]");
   select.innerHTML = `<option value="">All rings</option>${RINGS.map((r) => `<option value="${r.id}">${esc(r.label)} — ${esc(r.blurb)}</option>`).join("")}`;
 }
 
 export function mountPaid() {
   fillRings();
   renderLegend();
-  document.querySelector("#method-weights").innerHTML = QUALITY_WEIGHTS.map((w) => `<li>${esc(w.key)} ${w.pct}%</li>`).join("");
-  document.querySelector("#park-filters").addEventListener("input", (event) => {
+  q("#method-weights").innerHTML = QUALITY_WEIGHTS.map((w) => `<li>${esc(w.key)} ${w.pct}%</li>`).join("");
+  q("#park-filters").addEventListener("input", (event) => {
     const form = event.currentTarget;
     state.filters.q = form.q.value;
     state.filters.ring = form.ring.value;
@@ -448,13 +451,13 @@ export function mountPaid() {
     state.rateMode = form.rates.value || "blended";
     paint();
   });
-  document.querySelector("#reset-parks").addEventListener("click", () => {
-    document.querySelector("#park-filters").reset();
+  q("#reset-parks").addEventListener("click", () => {
+    q("#park-filters").reset();
     state.rateMode = "blended";
     state.filters = { q: "", ring: "", longTerm: false, maxMonthly: "", monthly: "", hookups: "" };
     paint();
   });
-  document.querySelector("#park-table").addEventListener("click", (event) => {
+  q("#park-table").addEventListener("click", (event) => {
     const th = event.target.closest("th");
     if (th?.dataset.sort) {
       const key = th.dataset.sort;
@@ -470,23 +473,23 @@ export function mountPaid() {
     const row = event.target.closest("[data-open]");
     if (row) openPark(row.dataset.open);
   });
-  document.querySelector("#shortlist").addEventListener("click", (event) => {
+  q("#shortlist").addEventListener("click", (event) => {
     const btn = event.target.closest("[data-open]");
     if (btn) openPark(btn.dataset.open);
   });
-  document.querySelector("#drawer-close").addEventListener("click", closeDrawer);
-  document.querySelector("#drawer").addEventListener("click", (event) => {
+  q("#drawer-close").addEventListener("click", closeDrawer);
+  q("#drawer").addEventListener("click", (event) => {
     if (event.target.id === "drawer") closeDrawer();
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !document.querySelector("#drawer").hidden) closeDrawer();
+    if (event.key === "Escape" && !q("#drawer").hidden) closeDrawer();
   });
   paint();
 }
 
 export function setPaidRig(rig) {
   state.rig = rig;
-  if (document.querySelector("#panel-parks").hidden) return;
+  if (q("#panel-parks").hidden) return;
   paint();
 }
 

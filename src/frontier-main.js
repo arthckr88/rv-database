@@ -34,6 +34,10 @@ import {
   kindLabel,
 } from "./lib/frontier-scoring.js";
 
+const root = document.querySelector("#lookup-frontier");
+const q = (sel) => root.querySelector(sel);
+const qa = (sel) => root.querySelectorAll(sel);
+
 const rawAll = [...rawParks, ...moreParks, ...scanParks];
 
 let parks = [];
@@ -74,25 +78,25 @@ const state = {
 };
 
 const els = {
-  shortlist: document.querySelector("#shortlist"),
-  filters: document.querySelector("#filters"),
-  reset: document.querySelector("#reset-filters"),
-  table: document.querySelector("#table"),
-  tbody: document.querySelector("#table tbody"),
-  empty: document.querySelector("#empty"),
-  count: document.querySelector("#result-count"),
-  heading: document.querySelector("#table-heading"),
-  drawer: document.querySelector("#drawer"),
-  drawerBody: document.querySelector("#drawer-body"),
-  drawerClose: document.querySelector("#drawer-close"),
-  legend: document.querySelector("#map-legend"),
-  scatter: document.querySelector("#scatter"),
-  seasonCards: document.querySelector("#season-cards"),
-  correlates: document.querySelector("#season-correlates"),
-  hubCards: document.querySelector("#hub-cards"),
-  tripCards: document.querySelector("#trip-cards"),
-  horizonCards: document.querySelector("#horizon-cards"),
-  warn: document.querySelector("#bur-warn"),
+  shortlist: q("#shortlist"),
+  filters: q("#filters"),
+  reset: q("#reset-filters"),
+  table: q("#table"),
+  tbody: q("#table tbody"),
+  empty: q("#empty"),
+  count: q("#result-count"),
+  heading: q("#table-heading"),
+  drawer: q("#drawer"),
+  drawerBody: q("#drawer-body"),
+  drawerClose: q("#drawer-close"),
+  legend: q("#map-legend"),
+  scatter: q("#scatter"),
+  seasonCards: q("#season-cards"),
+  correlates: q("#season-correlates"),
+  hubCards: q("#hub-cards"),
+  tripCards: q("#trip-cards"),
+  horizonCards: q("#horizon-cards"),
+  warn: q("#bur-warn"),
 };
 
 let map;
@@ -446,7 +450,7 @@ function renderTable() {
   els.empty.hidden = list.length > 0;
   els.table.hidden = list.length === 0;
 
-  document.querySelectorAll(".grid th").forEach((th) => {
+  qa(".grid th").forEach((th) => {
     const key = th.dataset.sort;
     th.setAttribute("aria-sort", key === state.sortKey ? (state.sortDir === "asc" ? "ascending" : "descending") : "none");
   });
@@ -488,7 +492,7 @@ function popupHtml(park) {
 }
 
 function initMap() {
-  const mapEl = document.querySelector("#map");
+  const mapEl = q("#map");
   if (mapEl._leaflet_id) {
     mapEl._leaflet_id = null;
     mapEl.innerHTML = "";
@@ -862,23 +866,24 @@ function setHorizon(id) {
 }
 
 function bind() {
-  document.querySelectorAll(".mode-btn").forEach((btn) => {
+  qa(".mode-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.mode = btn.dataset.mode;
-      document.querySelectorAll(".mode-btn").forEach((b) => b.classList.toggle("is-active", b === btn));
+      qa(".mode-btn").forEach((b) => b.classList.toggle("is-active", b === btn));
       if (state.sortKey !== "value" && state.sortKey !== "trip") {
         state.sortKey = "rank";
         state.sortDir = "desc";
       }
       renderAll();
+      document.dispatchEvent(new CustomEvent("rv-rig-set", { detail: state.mode }));
     });
   });
 
-  document.querySelectorAll(".sort-btn").forEach((btn) => {
+  qa(".sort-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.sortKey = btn.dataset.sortMode;
       state.sortDir = btn.dataset.sortMode === "trip" ? "asc" : "desc";
-      document.querySelectorAll(".sort-btn").forEach((b) => b.classList.toggle("is-active", b === btn));
+      qa(".sort-btn").forEach((b) => b.classList.toggle("is-active", b === btn));
       renderAll();
     });
   });
@@ -943,7 +948,7 @@ function bind() {
     state.trip = "week";
     state.horizon = DEFAULT_HORIZON;
     rebuildParks();
-    document.querySelectorAll(".sort-btn").forEach((b) => b.classList.toggle("is-active", b.dataset.sortMode === "rank"));
+    qa(".sort-btn").forEach((b) => b.classList.toggle("is-active", b.dataset.sortMode === "rank"));
     renderAll();
   });
 
@@ -956,7 +961,7 @@ function bind() {
       state.sortKey = key;
       state.sortDir = key === "name" || key === "hub" || key === "airport" || key === "uber" || key === "camp" || key === "store" || key === "monthly" || key === "trip" ? "asc" : "desc";
     }
-    document.querySelectorAll(".sort-btn").forEach((b) =>
+    qa(".sort-btn").forEach((b) =>
       b.classList.toggle("is-active", b.dataset.sortMode === state.sortKey),
     );
     renderTable();
@@ -979,9 +984,22 @@ function bind() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeDrawer();
   });
+  document.addEventListener("rv-rig", (event) => {
+    if (event.detail !== "classC" && event.detail !== "trailer") return;
+    if (state.mode === event.detail) return;
+    state.mode = event.detail;
+    qa(".mode-btn").forEach((b) => b.classList.toggle("is-active", b.dataset.mode === state.mode));
+    renderAll();
+  });
+  document.addEventListener("rv-show", (event) => {
+    if (event.detail !== "frontier") return;
+    if (map) setTimeout(() => map.invalidateSize(), 60);
+  });
 }
 
 try {
+  state.mode = localStorage.getItem("rv-rig") === "trailer" ? "trailer" : "classC";
+  qa(".mode-btn").forEach((b) => b.classList.toggle("is-active", b.dataset.mode === state.mode));
   rebuildParks();
   populateFilterOptions();
   els.filters.elements.seasonFit.value = "hide";
@@ -996,5 +1014,5 @@ try {
   renderAll();
 } catch (err) {
   console.error(err);
-  document.querySelector(".lede").textContent = `App failed to start: ${err.message}`;
+  q(".lede").textContent = `App failed to start: ${err.message}`;
 }

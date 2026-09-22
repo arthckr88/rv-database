@@ -452,6 +452,8 @@ export function compareParks(a, b, mode, sortKey, dir, rateMode = "blended") {
   return (av < bv ? -1 : 1) * mul;
 }
 
+export { seasonalFit } from "./seasons.js";
+
 export const QUALITY_WEIGHTS = [
   { key: "Reviews", pct: 29 },
   { key: "Amenities", pct: 24 },

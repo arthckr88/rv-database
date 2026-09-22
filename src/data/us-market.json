@@ -1,0 +1,7257 @@
+[
+  {
+    "id": "ship-creek-anchorage",
+    "name": "Ship Creek RV Park",
+    "operator": "private",
+    "address": "150 N Ingra Street",
+    "city": "Anchorage",
+    "state": "AK",
+    "region": "alaska",
+    "lat": 61.2306,
+    "lng": -149.877,
+    "website": "https://www.shipcreekrv.com/",
+    "phone": "(907) 277-0877",
+    "nightlyFrom": 65,
+    "nightlyTo": 65,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Downtown Anchorage. Summer-only live-in. ~15 min to ANC. Winter is not an RV product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 420,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Alaska summer live-in",
+      "Closest Anchorage monthly to a real airport"
+    ],
+    "watchOuts": [
+      "May–August window",
+      "Winter freeze and dark"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.shipcreekrv.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ANC",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "camp-olowalu-maui",
+    "name": "Camp Olowalu",
+    "operator": "private",
+    "address": "800 Olowalu Village Road",
+    "city": "Lahaina",
+    "state": "HI",
+    "region": "hawaii",
+    "lat": 20.8106,
+    "lng": -156.621,
+    "website": "https://www.campolowalu.com/",
+    "phone": null,
+    "nightlyFrom": 80,
+    "nightlyTo": 120,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West Maui beach camp. Stay cap. This is not a mainland monthly market — included so the scan covers Hawaii honestly.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Hawaii honesty: short stay, ocean"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Shipping the rig",
+      "Hurricane season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.campolowalu.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "OGG",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "strawberry-park-ct",
+    "name": "Strawberry Park Resort",
+    "operator": "private",
+    "address": "42 Pierce Road",
+    "city": "Preston",
+    "state": "CT",
+    "region": "new-england",
+    "lat": 41.528,
+    "lng": -71.982,
+    "website": "https://www.strawberrypark.net/",
+    "phone": "(860) 886-1944",
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1100,
+    "monthlyTo": 1100,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Eastern CT seasonal resort. ~45–55 min to BDL. Summer/fall product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "New England summer monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Peak leaf weekends"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.strawberrypark.net/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BDL",
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 38
+  },
+  {
+    "id": "cape-henlopen-de",
+    "name": "Cape Henlopen State Park",
+    "operator": "Delaware State Parks",
+    "address": "15099 Cape Henlopen Drive",
+    "city": "Lewes",
+    "state": "DE",
+    "region": "mid-atlantic",
+    "lat": 38.776,
+    "lng": -75.099,
+    "website": "https://destateparks.com/Beaches/CapeHenlopen",
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "State park stay cap. Ocean. Not a monthly. In the scan because Delaware has almost no private monthly inventory.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": 365,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.6,
+    "reviewCountGoogle": 2100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Delaware coast short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Summer reservation war"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://destateparks.com/Beaches/CapeHenlopen"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SBY",
+    "driveMinutesToAirport": 40,
+    "driveMilesToAirport": 32
+  },
+  {
+    "id": "des-moines-west-koa",
+    "name": "Des Moines West KOA",
+    "operator": "KOA",
+    "address": "15502 Hickman Road",
+    "city": "Clive",
+    "state": "IA",
+    "region": "plains",
+    "lat": 41.614,
+    "lng": -93.785,
+    "website": "https://koa.com/campgrounds/des-moines/",
+    "phone": "(515) 276-2508",
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West-metro Des Moines. ~20–25 min to DSM. Shoulder-season plains, not winter.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Iowa in-between monthly",
+      "DSM airport"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Tornado season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/des-moines/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "DSM",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "windy-city-glenview-us",
+    "name": "Windy City RV Campground",
+    "operator": "private",
+    "address": "1860 Milwaukee Avenue",
+    "city": "Glenview",
+    "state": "IL",
+    "region": "midwest",
+    "lat": 42.071,
+    "lng": -87.841,
+    "website": "https://www.windycityrv.com/",
+    "phone": "(847) 724-9426",
+    "nightlyFrom": 65,
+    "nightlyTo": 65,
+    "weeklyFrom": null,
+    "monthlyFrom": 1100,
+    "monthlyTo": 1100,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North-suburban Chicago. Handy to ORD. Summer live-in, not a winter product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 310,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Chicago summer monthly"
+    ],
+    "watchOuts": [
+      "Tight urban pads",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.windycityrv.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ORD",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "chicago-northwest-koa",
+    "name": "Chicago Northwest KOA",
+    "operator": "KOA",
+    "address": "8404 S Union Road",
+    "city": "Union",
+    "state": "IL",
+    "region": "midwest",
+    "lat": 42.233,
+    "lng": -88.542,
+    "website": "https://koa.com/campgrounds/chicago-northwest/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "McHenry County. Stretch for ORD (~50–60 min). Cheaper than Glenview if you will drive.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Cheaper Chicagoland monthly"
+    ],
+    "watchOuts": [
+      "Too far for a 5 a.m. ORD dash"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/chicago-northwest/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ORD",
+    "driveMinutesToAirport": 55,
+    "driveMilesToAirport": 42
+  },
+  {
+    "id": "kentucky-horse-park",
+    "name": "Kentucky Horse Park Campground",
+    "operator": "Kentucky Horse Park",
+    "address": "4089 Iron Works Parkway",
+    "city": "Lexington",
+    "state": "KY",
+    "region": "midwest",
+    "lat": 38.148,
+    "lng": -84.519,
+    "website": "https://kyhorsepark.com/campground/",
+    "phone": "(859) 259-4257",
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Lexington. ~20 min to LEX. Shoulder and summer. Derby weeks are a different animal.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 1600,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Kentucky live-in with a real airport"
+    ],
+    "watchOuts": [
+      "Event weekends",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://kyhorsepark.com/campground/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "LEX",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "louisville-koa",
+    "name": "Louisville KOA Holiday",
+    "operator": "KOA",
+    "address": "900 Marriott Drive",
+    "city": "Clarksville",
+    "state": "IN",
+    "region": "midwest",
+    "lat": 38.313,
+    "lng": -85.764,
+    "website": "https://koa.com/campgrounds/louisville/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Indiana side of Louisville. ~20 min to SDF. In the scan as the Louisville metro monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Louisville metro monthly"
+    ],
+    "watchOuts": [
+      "Ohio River humidity",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/louisville/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SDF",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 11
+  },
+  {
+    "id": "capitol-koa-md",
+    "name": "Washington DC / Capitol KOA",
+    "operator": "KOA",
+    "address": "768 Cecil Avenue S",
+    "city": "Millersville",
+    "state": "MD",
+    "region": "mid-atlantic",
+    "lat": 39.052,
+    "lng": -76.633,
+    "website": "https://koa.com/campgrounds/washington-dc/",
+    "phone": "(410) 923-2771",
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Anne Arundel. ~25 min to BWI, farther to DCA. Shoulder monthly for the Mid-Atlantic.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 1400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BWI-adjacent monthly",
+      "DC without camping in the District"
+    ],
+    "watchOuts": [
+      "Summer humidity",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/washington-dc/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BWI",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "buccaneer-sp-ms",
+    "name": "Buccaneer State Park",
+    "operator": "Mississippi State Parks",
+    "address": "1150 S Beach Boulevard",
+    "city": "Waveland",
+    "state": "MS",
+    "region": "gulf",
+    "lat": 30.282,
+    "lng": -89.389,
+    "website": "https://www.ms.gov/mdwfp/parks/buccaneer",
+    "phone": null,
+    "nightlyFrom": 40,
+    "nightlyTo": 40,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Mississippi Gulf Coast. Stay cap typical of state parks. Biloxi/Gulfport private monthlies exist but this is the honest public option.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1200,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MS Gulf short stay"
+    ],
+    "watchOuts": [
+      "Hurricane coast",
+      "Stay cap"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.ms.gov/mdwfp/parks/buccaneer"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GPT",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18
+  },
+  {
+    "id": "gulfport-koast-ms",
+    "name": "Gulfport KOA Holiday",
+    "operator": "KOA",
+    "address": "23685 Cannon Road",
+    "city": "Pass Christian",
+    "state": "MS",
+    "region": "gulf",
+    "lat": 30.348,
+    "lng": -89.248,
+    "website": "https://koa.com/campgrounds/gulfport/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Published-ish Gulf monthly. Hurricane calendar is the tax. Closest private monthly in this file to GPT.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Mississippi winter/shoulder monthly"
+    ],
+    "watchOuts": [
+      "Hurricane season",
+      "Humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/gulfport/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GPT",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "fargo-koa",
+    "name": "Fargo KOA Journey",
+    "operator": "KOA",
+    "address": "1101 28th Avenue N",
+    "city": "Fargo",
+    "state": "ND",
+    "region": "plains",
+    "lat": 46.912,
+    "lng": -96.806,
+    "website": "https://koa.com/campgrounds/fargo/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Red River. Summer only. ~15 min to FAR.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 510,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "North Dakota summer"
+    ],
+    "watchOuts": [
+      "Winter is not an RV season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/fargo/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "FAR",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 7
+  },
+  {
+    "id": "omaha-koa",
+    "name": "Omaha KOA Holiday",
+    "operator": "KOA",
+    "address": "148th Street & I-80",
+    "city": "Gretna",
+    "state": "NE",
+    "region": "plains",
+    "lat": 41.101,
+    "lng": -96.245,
+    "website": "https://koa.com/campgrounds/omaha/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West Omaha / Gretna. ~25–30 min to OMA. Plains shoulder.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 680,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Nebraska in-between monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Tornado season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/omaha/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "OMA",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18
+  },
+  {
+    "id": "hampton-beach-nh",
+    "name": "Hampton Beach State Park",
+    "operator": "NH State Parks",
+    "address": "160 Ocean Boulevard",
+    "city": "Hampton",
+    "state": "NH",
+    "region": "new-england",
+    "lat": 42.911,
+    "lng": -70.812,
+    "website": "https://www.nhstateparks.org/visit/state-parks/hampton-beach-state-park",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Ocean. Stay cap. Private NH monthlies are thin; this is the coast product.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 1800,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "New Hampshire coast short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Summer crowds"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.nhstateparks.org/visit/state-parks/hampton-beach-state-park"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MHT",
+    "driveMinutesToAirport": 45,
+    "driveMilesToAirport": 35
+  },
+  {
+    "id": "lincoln-nh-koa",
+    "name": "Lincoln / Woodstock KOA",
+    "operator": "KOA",
+    "address": "97 Moosilauke Road",
+    "city": "Woodstock",
+    "state": "NH",
+    "region": "new-england",
+    "lat": 44.034,
+    "lng": -71.685,
+    "website": "https://koa.com/campgrounds/lincoln-woodstock/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "White Mountains. Foliate in fall, ski-adjacent in winter if the rig is built for it. Not a last-minute airport dash.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 920,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "NH mountains summer/fall"
+    ],
+    "watchOuts": [
+      "Far from a major airline bank",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/lincoln-woodstock/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MHT",
+    "driveMinutesToAirport": 90,
+    "driveMilesToAirport": 80
+  },
+  {
+    "id": "holly-shores-nj",
+    "name": "Holly Shores Camping Resort",
+    "operator": "private",
+    "address": "491 Route 9",
+    "city": "Cape May",
+    "state": "NJ",
+    "region": "mid-atlantic",
+    "lat": 38.98,
+    "lng": -74.91,
+    "website": "https://www.hollyshores.com/",
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1200,
+    "monthlyTo": 1200,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Cape May. Seasonal. ~40 min to ACY. Jersey Shore summer, not winter.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1500,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "South Jersey summer monthly"
+    ],
+    "watchOuts": [
+      "Peak summer pricing",
+      "Hurricane remnants"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.hollyshores.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ACY",
+    "driveMinutesToAirport": 40,
+    "driveMilesToAirport": 28
+  },
+  {
+    "id": "liberty-harbor-nj",
+    "name": "Liberty Harbor RV Park",
+    "operator": "private",
+    "address": "11 Marin Boulevard",
+    "city": "Jersey City",
+    "state": "NJ",
+    "region": "mid-atlantic",
+    "lat": 40.712,
+    "lng": -74.043,
+    "website": "https://www.libertyharborrv.com/",
+    "phone": null,
+    "nightlyFrom": 95,
+    "nightlyTo": 95,
+    "weeklyFrom": null,
+    "monthlyFrom": 1800,
+    "monthlyTo": 1800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Urban NYC-side. Tight, expensive, close to EWR (~20 min). The last-minute Northeast product if you will pay for it.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "limited",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "urban",
+      "freeway"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 3.9,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "NYC without parking in Manhattan",
+      "EWR access"
+    ],
+    "watchOuts": [
+      "Urban noise",
+      "Price",
+      "Tight pads"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.libertyharborrv.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "EWR",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "burlingame-ri",
+    "name": "Burlingame State Park",
+    "operator": "RI State Parks",
+    "address": "1 Burlingame State Park Road",
+    "city": "Charlestown",
+    "state": "RI",
+    "region": "new-england",
+    "lat": 41.374,
+    "lng": -71.699,
+    "website": "https://riparks.ri.gov/parks/burlingame-state-park",
+    "phone": null,
+    "nightlyFrom": 40,
+    "nightlyTo": 40,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Rhode Island’s inventory is state parks and a handful of privates. Stay cap. Summer only.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 900,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Rhode Island short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Summer reservation war"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://riparks.ri.gov/parks/burlingame-state-park"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PVD",
+    "driveMinutesToAirport": 45,
+    "driveMilesToAirport": 35
+  },
+  {
+    "id": "mystic-koa-ri",
+    "name": "Mystic / Westerly KOA",
+    "operator": "KOA",
+    "address": "118 Pendleton Hill Road",
+    "city": "North Stonington",
+    "state": "CT",
+    "region": "new-england",
+    "lat": 41.45,
+    "lng": -71.88,
+    "website": "https://koa.com/campgrounds/mystic/",
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 1000,
+    "monthlyTo": 1000,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "CT/RI line. Covers Rhode Island live-in better than Burlingame’s cap. ~45 min to PVD.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 760,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "RI/CT coast monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/mystic/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PVD",
+    "driveMinutesToAirport": 45,
+    "driveMilesToAirport": 32
+  },
+  {
+    "id": "harpers-ferry-koa",
+    "name": "Harpers Ferry / Civil War KOA",
+    "operator": "KOA",
+    "address": "343 Campground Road",
+    "city": "Harpers Ferry",
+    "state": "WV",
+    "region": "mid-atlantic",
+    "lat": 39.325,
+    "lng": -77.74,
+    "website": "https://koa.com/campgrounds/harpers-ferry/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Eastern Panhandle. Stretch to IAD (~55–70 min). The West Virginia monthly in this file.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "WV shoulder monthly"
+    ],
+    "watchOuts": [
+      "Not a 5 a.m. Dulles dash",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/harpers-ferry/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "IAD",
+    "driveMinutesToAirport": 60,
+    "driveMilesToAirport": 45
+  },
+  {
+    "id": "new-river-gorge-wv",
+    "name": "New River Gorge Campground",
+    "operator": "private",
+    "address": "US-19",
+    "city": "Fayetteville",
+    "state": "WV",
+    "region": "mid-atlantic",
+    "lat": 38.07,
+    "lng": -81.08,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 650,
+    "monthlyTo": 650,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Gorge country. No major airline. In the scan as the cheap mountain monthly, not an airport product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 280,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Cheap WV mountains"
+    ],
+    "watchOuts": [
+      "No nearby ULCC bank",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CRW",
+    "driveMinutesToAirport": 70,
+    "driveMilesToAirport": 55
+  },
+  {
+    "id": "cleveland-east-us",
+    "name": "Cleveland East KOA Holiday",
+    "operator": "KOA",
+    "address": "1652 Forman Road",
+    "city": "Austinburg",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 41.751,
+    "lng": -80.868,
+    "website": "https://koa.com/campgrounds/cleveland-east/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Lake Erie summer. ~40 min to CLE.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 920,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Ohio summer monthly"
+    ],
+    "watchOuts": [
+      "Winter lake-effect"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/cleveland-east/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CLE",
+    "driveMinutesToAirport": 42,
+    "driveMilesToAirport": 38
+  },
+  {
+    "id": "cincinnati-koa",
+    "name": "Cincinnati North KOA",
+    "operator": "KOA",
+    "address": "5811 Vine Street",
+    "city": "Cincinnati",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 39.203,
+    "lng": -84.473,
+    "website": "https://koa.com/campgrounds/cincinnati/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North Cincinnati. ~25–35 min to CVG depending on the bridge.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Cincinnati monthly with CVG"
+    ],
+    "watchOuts": [
+      "Winter",
+      "I-75 traffic"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/cincinnati/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CVG",
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 20
+  },
+  {
+    "id": "detroit-belleville-koa",
+    "name": "Detroit / Greenfield KOA",
+    "operator": "KOA",
+    "address": "6680 King Road",
+    "city": "Belleville",
+    "state": "MI",
+    "region": "great-lakes",
+    "lat": 42.204,
+    "lng": -83.485,
+    "website": "https://koa.com/campgrounds/detroit-greenfield/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Belleville — the close-in DTW live-in. ~15 min to Detroit Metro. Summer only for the rig; the airport works year-round.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "airport"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Closest Detroit monthly to DTW"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Airport noise"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/detroit-greenfield/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "DTW",
+    "driveMinutesToAirport": 16,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "minneapolis-nw-koa",
+    "name": "Minneapolis Northwest KOA",
+    "operator": "KOA",
+    "address": "10440 96th Avenue N",
+    "city": "Maple Grove",
+    "state": "MN",
+    "region": "great-lakes",
+    "lat": 45.131,
+    "lng": -93.456,
+    "website": "https://koa.com/campgrounds/minneapolis-northwest/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Maple Grove. ~25–35 min to MSP. Summer live-in.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 810,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Twin Cities summer monthly"
+    ],
+    "watchOuts": [
+      "Winter is not an RV season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/minneapolis-northwest/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MSP",
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 20
+  },
+  {
+    "id": "st-louis-koa",
+    "name": "St. Louis West / Historic Route 66 KOA",
+    "operator": "KOA",
+    "address": "18475 Old State Road N",
+    "city": "Eureka",
+    "state": "MO",
+    "region": "plains",
+    "lat": 38.496,
+    "lng": -90.628,
+    "website": "https://koa.com/campgrounds/st-louis-west/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West county. ~35 min to STL. Shoulder plains.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "St. Louis monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/st-louis-west/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "STL",
+    "driveMinutesToAirport": 35,
+    "driveMilesToAirport": 24
+  },
+  {
+    "id": "kansas-city-koa",
+    "name": "Kansas City East KOA",
+    "operator": "KOA",
+    "address": "22703 E Wyatt Road",
+    "city": "Blue Springs",
+    "state": "MO",
+    "region": "plains",
+    "lat": 39.017,
+    "lng": -94.274,
+    "website": "https://koa.com/campgrounds/kansas-city/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 825,
+    "monthlyTo": 825,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "East metro. ~30 min to MCI. Plains shoulder / tornado calendar.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 700,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "KC monthly with MCI"
+    ],
+    "watchOuts": [
+      "Tornado season",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/kansas-city/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MCI",
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 22
+  },
+  {
+    "id": "charlotte-koa",
+    "name": "Charlotte / Fort Mill KOA",
+    "operator": "KOA",
+    "address": "940 Gold Hill Road",
+    "city": "Fort Mill",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 35.007,
+    "lng": -80.945,
+    "website": "https://koa.com/campgrounds/charlotte/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "South Carolina side of Charlotte. ~25–35 min to CLT.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1200,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Charlotte monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity",
+      "I-77 traffic"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/charlotte/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CLT",
+    "driveMinutesToAirport": 30,
+    "driveMilesToAirport": 18
+  },
+  {
+    "id": "outer-banks-nc",
+    "name": "Oregon Inlet Campground",
+    "operator": "National Park Service",
+    "address": "NC-12",
+    "city": "Nags Head",
+    "state": "NC",
+    "region": "southeast",
+    "lat": 35.797,
+    "lng": -75.544,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 35,
+    "nightlyTo": 35,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Cape Hatteras NS. Stay cap, hurricane coast. In the scan as the Outer Banks product, not a monthly.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 2100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Outer Banks short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Hurricane / overwash"
+    ],
+    "confidence": "high",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ORF",
+    "driveMinutesToAirport": 90,
+    "driveMilesToAirport": 70
+  },
+  {
+    "id": "raleigh-koa",
+    "name": "Raleigh KOA",
+    "operator": "KOA",
+    "address": "1734 N Fayetteville Street",
+    "city": "Asheboro",
+    "state": "NC",
+    "region": "southeast",
+    "lat": 35.74,
+    "lng": -79.81,
+    "website": "https://koa.com/campgrounds/raleigh/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "South of RDU — closer to 50–60 min. The Triangle monthly in this file.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Raleigh-area monthly"
+    ],
+    "watchOuts": [
+      "Not a 5 a.m. RDU dash"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/raleigh/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "RDU",
+    "driveMinutesToAirport": 55,
+    "driveMilesToAirport": 42
+  },
+  {
+    "id": "philadelphia-koa-us",
+    "name": "Philadelphia / West Chester KOA",
+    "operator": "KOA",
+    "address": "1659 Embreeville Road",
+    "city": "Coatesville",
+    "state": "PA",
+    "region": "mid-atlantic",
+    "lat": 39.95,
+    "lng": -75.73,
+    "website": "https://koa.com/campgrounds/philadelphia/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~50 min to PHL. Mid-Atlantic shoulder.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 780,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Philly-area monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Not downtown"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/philadelphia/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PHL",
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 38
+  },
+  {
+    "id": "memphis-koa",
+    "name": "Memphis KOA Holiday",
+    "operator": "KOA",
+    "address": "1986 Highway 51 S",
+    "city": "Millington",
+    "state": "TN",
+    "region": "southeast",
+    "lat": 35.332,
+    "lng": -89.897,
+    "website": "https://koa.com/campgrounds/memphis/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North of MEM. ~25 min. Humid summers. Cheap-ish Southeast monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 560,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Memphis monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity",
+      "Tornado/severe storms"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/memphis/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MEM",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "sun-outdoors-slc-us",
+    "name": "Sun Outdoors Salt Lake City",
+    "operator": "Sun Outdoors",
+    "address": "1012 Recreation Way",
+    "city": "North Salt Lake",
+    "state": "UT",
+    "region": "rockies",
+    "lat": 40.8402,
+    "lng": -111.9298,
+    "website": "https://www.sunoutdoors.com/utah/sun-outdoors-salt-lake-city/",
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1202,
+    "monthlyTo": 1202,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Minutes from SLC. Occupied monthly is not cheap; the airport is the product. Winter freeze.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Salt Lake live-in next to the airport"
+    ],
+    "watchOuts": [
+      "35-ft caps on some sites",
+      "Winter inversion"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.sunoutdoors.com/utah/sun-outdoors-salt-lake-city/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SLC",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "moab-koa",
+    "name": "Moab KOA Holiday",
+    "operator": "KOA",
+    "address": "3225 S Highway 191",
+    "city": "Moab",
+    "state": "UT",
+    "region": "rockies",
+    "lat": 38.541,
+    "lng": -109.508,
+    "website": "https://koa.com/campgrounds/moab/",
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Desert shoulder. Summer is 100°F. CNY airport is tiny. This is a destination monthly, not an airline product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1800,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Moab shoulder"
+    ],
+    "watchOuts": [
+      "Heat",
+      "No ULCC bank"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/moab/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CNY",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "trailer-inns-fife-us",
+    "name": "Trailer Inns of Fife",
+    "operator": "Trailer Inns",
+    "address": "3100 Pacific Highway East",
+    "city": "Fife",
+    "state": "WA",
+    "region": "pacific-nw",
+    "lat": 47.2415,
+    "lng": -122.3568,
+    "website": "https://www.trailerinns.com/",
+    "phone": null,
+    "nightlyFrom": 75,
+    "nightlyTo": 75,
+    "weeklyFrom": null,
+    "monthlyFrom": 1100,
+    "monthlyTo": 1100,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Sea-Tac side after Kent KOA closed 2021. ~15 min to SEA. Summer live-in.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 260,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Seattle-area monthly"
+    ],
+    "watchOuts": [
+      "Kent KOA is gone",
+      "Winter dark/wet"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.trailerinns.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SEA",
+    "driveMinutesToAirport": 16,
+    "driveMilesToAirport": 9
+  },
+  {
+    "id": "spokane-koa",
+    "name": "Spokane KOA Holiday",
+    "operator": "KOA",
+    "address": "3025 N Barker Road",
+    "city": "Otis Orchards",
+    "state": "WA",
+    "region": "pacific-nw",
+    "lat": 47.701,
+    "lng": -117.194,
+    "website": "https://koa.com/campgrounds/spokane/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "East Spokane. ~25 min to GEG. Inland Northwest summer.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Spokane monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/spokane/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GEG",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "door-county-wi",
+    "name": "Pathways RV Resort",
+    "operator": "private",
+    "address": "County Highway",
+    "city": "Sturgeon Bay",
+    "state": "WI",
+    "region": "great-lakes",
+    "lat": 44.834,
+    "lng": -87.377,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Door County summer. No nearby ULCC. Destination, not an airport dash.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 310,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Wisconsin summer peninsula"
+    ],
+    "watchOuts": [
+      "Seasonal",
+      "Far from MSP/MKE banks"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GRB",
+    "driveMinutesToAirport": 55,
+    "driveMilesToAirport": 42
+  },
+  {
+    "id": "milwaukee-koa",
+    "name": "Milwaukee KOA",
+    "operator": "KOA",
+    "address": "I-94 & County Road",
+    "city": "Sturtevant",
+    "state": "WI",
+    "region": "great-lakes",
+    "lat": 42.698,
+    "lng": -87.904,
+    "website": "https://koa.com/campgrounds/milwaukee/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "South of MKE. ~20–25 min. Summer live-in.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 540,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Milwaukee monthly"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/milwaukee/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MKE",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "jantzen-beach-us",
+    "name": "Jantzen Beach RV Resort",
+    "operator": "private",
+    "address": "1503 N Hayden Island Drive",
+    "city": "Portland",
+    "state": "OR",
+    "region": "pacific-nw",
+    "lat": 45.6114,
+    "lng": -122.6789,
+    "website": "https://www.jantzenbeachrv.com/plan-your-stay/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 795,
+    "monthlyTo": 795,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~12 min to PDX. $795 + electric. Closest Portland live-in.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 380,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Portland monthly next to PDX"
+    ],
+    "watchOuts": [
+      "I-5 noise",
+      "Electric extra"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.jantzenbeachrv.com/plan-your-stay/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PDX",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "reno-rv",
+    "name": "Reno RV Park",
+    "operator": "private",
+    "address": "600 S Rock Boulevard",
+    "city": "Sparks",
+    "state": "NV",
+    "region": "desert-sw",
+    "lat": 39.527,
+    "lng": -119.766,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Sparks. ~10 min to RNO. High desert. Winters are real; summers are the play after Phoenix cooks.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 240,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Reno monthly",
+      "High-desert summer alternative to Phoenix"
+    ],
+    "watchOuts": [
+      "Winter freeze at 4,500 ft"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "RNO",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "las-cruces-koa",
+    "name": "Las Cruces KOA Journey",
+    "operator": "KOA",
+    "address": "814 Weinrich Road",
+    "city": "Las Cruces",
+    "state": "NM",
+    "region": "desert-sw",
+    "lat": 32.319,
+    "lng": -106.778,
+    "website": "https://koa.com/campgrounds/las-cruces/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 650,
+    "monthlyTo": 650,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Rio Grande desert. Cheap winter relative to Tucson. ~15 min to LRU, stretch to ELP.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Cheap NM winter"
+    ],
+    "watchOuts": [
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/las-cruces/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ELP",
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 42
+  },
+  {
+    "id": "el-paso-rv",
+    "name": "El Paso West RV Park",
+    "operator": "private",
+    "address": "1415 Lomaland Drive",
+    "city": "El Paso",
+    "state": "TX",
+    "region": "desert-sw",
+    "lat": 31.784,
+    "lng": -106.268,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 550,
+    "monthlyTo": 550,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West Texas desert winter. ~20 min to ELP. Cheap occupied monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 190,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "El Paso winter monthly"
+    ],
+    "watchOuts": [
+      "Summer heat",
+      "Confirm current card"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ELP",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "northlake-houston-us",
+    "name": "Northlake RV Resort",
+    "operator": "Quality RV Resorts",
+    "address": "1919 Humble Westfield Road",
+    "city": "Houston",
+    "state": "TX",
+    "region": "gulf",
+    "lat": 30.0074,
+    "lng": -95.4052,
+    "website": "https://www.qualityrvresorts.com/destinations/houston/northlake-rv-resort/rates/",
+    "phone": "(281) 209-1770",
+    "nightlyFrom": 49,
+    "nightlyTo": 49,
+    "weeklyFrom": null,
+    "monthlyFrom": 623,
+    "monthlyTo": 929,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Back-in from $623. <5 miles / ~12 min to IAH. Hurricane calendar is the tax.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 420,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Houston monthly next to IAH"
+    ],
+    "watchOuts": [
+      "Hurricane season",
+      "Humidity"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.qualityrvresorts.com/destinations/houston/northlake-rv-resort/rates/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "IAH",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 5
+  },
+  {
+    "id": "treetops-dfw-us",
+    "name": "Treetops RV Park",
+    "operator": "private",
+    "address": "1400 W Pipeline Road",
+    "city": "Euless",
+    "state": "TX",
+    "region": "texas-hill",
+    "lat": 32.837,
+    "lng": -97.082,
+    "website": "https://www.treetopsrvpark.com/",
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~10–15 min to DFW. Close-in DFW monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "airport"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "DFW live-in"
+    ],
+    "watchOuts": [
+      "Airport noise",
+      "Call monthly"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.treetopsrvpark.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "DFW",
+    "driveMinutesToAirport": 14,
+    "driveMilesToAirport": 7
+  },
+  {
+    "id": "corpus-colonia",
+    "name": "Colonia del Rey RV Park",
+    "operator": "private",
+    "address": "1717 Waldron Road",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "region": "gulf",
+    "lat": 27.717,
+    "lng": -97.318,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 600,
+    "monthlyTo": 600,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Coastal bend winter. Hurricane coast. ~15 min to CRP.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 260,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Coastal Texas winter cheaper than RGV resorts"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Humidity"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CRP",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "galveston-koa",
+    "name": "Galveston Island KOA Holiday",
+    "operator": "KOA",
+    "address": "2115 De Vaca Road",
+    "city": "Galveston",
+    "state": "TX",
+    "region": "gulf",
+    "lat": 29.221,
+    "lng": -94.91,
+    "website": "https://koa.com/campgrounds/galveston/",
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Island. Hurricane bullseye. Winter is the window. Far from IAH.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Galveston winter"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Not an IAH dash"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/galveston/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "IAH",
+    "driveMinutesToAirport": 70,
+    "driveMilesToAirport": 50
+  },
+  {
+    "id": "jacksonville-koa",
+    "name": "Jacksonville North / St. Marys KOA",
+    "operator": "KOA",
+    "address": "1112 State Road 200",
+    "city": "Yulee",
+    "state": "FL",
+    "region": "florida",
+    "lat": 30.63,
+    "lng": -81.64,
+    "website": "https://koa.com/campgrounds/jacksonville-north/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North of JAX. ~25 min. Florida winter, hurricane summer.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 700,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "North Florida winter monthly"
+    ],
+    "watchOuts": [
+      "Hurricane season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/jacksonville-north/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "JAX",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "pensacola-koa",
+    "name": "Pensacola KOA Holiday",
+    "operator": "KOA",
+    "address": "6350 Mobile Highway",
+    "city": "Pensacola",
+    "state": "FL",
+    "region": "gulf",
+    "lat": 30.47,
+    "lng": -87.34,
+    "website": "https://koa.com/campgrounds/pensacola/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Panhandle winter. Hurricane coast. ~20 min to PNS.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 580,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Panhandle winter"
+    ],
+    "watchOuts": [
+      "Hurricane"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/pensacola/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PNS",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "daytona-koa",
+    "name": "Daytona Beach KOA",
+    "operator": "KOA",
+    "address": "1100 Indian Lake Road",
+    "city": "Daytona Beach",
+    "state": "FL",
+    "region": "florida",
+    "lat": 29.18,
+    "lng": -81.08,
+    "website": "https://koa.com/campgrounds/daytona/",
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Race weeks are a different price. Winter snowbird. ~15 min to DAB, stretch to MCO.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Northeast Florida winter"
+    ],
+    "watchOuts": [
+      "Bike Week / 500 weeks",
+      "Hurricane"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/daytona/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "DAB",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "atlanta-south-us",
+    "name": "Atlanta South KOA Holiday",
+    "operator": "KOA",
+    "address": "281 Mount Olive Road",
+    "city": "McDonough",
+    "state": "GA",
+    "region": "southeast",
+    "lat": 33.447,
+    "lng": -84.146,
+    "website": "https://koa.com/campgrounds/atlanta-south/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "I-75 south. ~30 min to ATL off-peak.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Atlanta monthly"
+    ],
+    "watchOuts": [
+      "I-75 traffic"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/atlanta-south/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ATL",
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 22
+  },
+  {
+    "id": "denver-meadows-us",
+    "name": "Denver Meadows RV Park",
+    "operator": "private",
+    "address": "201 W 64th Avenue",
+    "city": "Denver",
+    "state": "CO",
+    "region": "rockies",
+    "lat": 39.8137,
+    "lng": -104.989,
+    "website": "https://www.denvermeadowsrvpark.com/",
+    "phone": null,
+    "nightlyFrom": 65,
+    "nightlyTo": 65,
+    "weeklyFrom": null,
+    "monthlyFrom": 1500,
+    "monthlyTo": 1500,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~25–30 min to DEN. Occupied monthly is expensive. Summer live-in.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Denver summer monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Price"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.denvermeadowsrvpark.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "DEN",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 15
+  },
+  {
+    "id": "grand-junction-koa",
+    "name": "Grand Junction KOA",
+    "operator": "KOA",
+    "address": "3238 I-70 Business Loop",
+    "city": "Clifton",
+    "state": "CO",
+    "region": "rockies",
+    "lat": 39.091,
+    "lng": -108.45,
+    "website": "https://koa.com/campgrounds/grand-junction/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Western Slope. Milder winter than Denver. ~15 min to GJT.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Colorado winter alternative to Denver freeze"
+    ],
+    "watchOuts": [
+      "Still high desert winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/grand-junction/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GJT",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "cape-cod-koa",
+    "name": "Cape Cod KOA",
+    "operator": "KOA",
+    "address": "75 Herring Pond Road",
+    "city": "Bourne",
+    "state": "MA",
+    "region": "new-england",
+    "lat": 41.746,
+    "lng": -70.598,
+    "website": "https://koa.com/campgrounds/cape-cod/",
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1200,
+    "monthlyTo": 1200,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Cape shoulder/summer. Stay often seasonal. ~70 min to BOS.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Cape Cod summer"
+    ],
+    "watchOuts": [
+      "Not a Logan dash",
+      "Peak July"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/cape-cod/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BOS",
+    "driveMinutesToAirport": 70,
+    "driveMilesToAirport": 55
+  },
+  {
+    "id": "newburgh-ny",
+    "name": "Newburgh KOA",
+    "operator": "KOA",
+    "address": "119 Guernsey Road",
+    "city": "Newburgh",
+    "state": "NY",
+    "region": "mid-atlantic",
+    "lat": 41.52,
+    "lng": -74.07,
+    "website": "https://koa.com/campgrounds/newburgh/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Hudson Valley. ~15 min to SWF, stretch to EWR. Shoulder monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Hudson Valley monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/newburgh/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SWF",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "shenandoah-va",
+    "name": "Luray KOA Holiday",
+    "operator": "KOA",
+    "address": "2352 US Highway 211 E",
+    "city": "Luray",
+    "state": "VA",
+    "region": "mid-atlantic",
+    "lat": 38.665,
+    "lng": -78.43,
+    "website": "https://koa.com/campgrounds/luray/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Shenandoah. Foliate in fall. Far from IAD. Destination monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 1200,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Virginia mountains fall"
+    ],
+    "watchOuts": [
+      "Not an airport product"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/luray/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CHO",
+    "driveMinutesToAirport": 70,
+    "driveMilesToAirport": 55
+  },
+  {
+    "id": "richmond-koa",
+    "name": "Richmond KOA",
+    "operator": "KOA",
+    "address": "2625 Old Mill Road",
+    "city": "Maidens",
+    "state": "VA",
+    "region": "mid-atlantic",
+    "lat": 37.68,
+    "lng": -77.88,
+    "website": "https://koa.com/campgrounds/richmond/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West of RIC. ~35 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 560,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Richmond monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze",
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/richmond/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "RIC",
+    "driveMinutesToAirport": 35,
+    "driveMilesToAirport": 24
+  },
+  {
+    "id": "charleston-koa",
+    "name": "Charleston KOA Holiday",
+    "operator": "KOA",
+    "address": "4375 Highway 162",
+    "city": "Ravenel",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 32.78,
+    "lng": -80.22,
+    "website": "https://koa.com/campgrounds/charleston/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West of CHS. ~30 min. Hurricane coast. Shoulder/winter better than summer.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 880,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Charleston monthly"
+    ],
+    "watchOuts": [
+      "Hurricane"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/charleston/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CHS",
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 20
+  },
+  {
+    "id": "sioux-falls-koa",
+    "name": "Sioux Falls KOA",
+    "operator": "KOA",
+    "address": "6001 W 12th Street",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "region": "plains",
+    "lat": 43.546,
+    "lng": -96.8,
+    "website": "https://koa.com/campgrounds/sioux-falls/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Eastern SD. Summer. ~15 min to FSD. Different product from Rapid City / Black Hills.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 390,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Eastern South Dakota summer"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/sioux-falls/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "FSD",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "cheyenne-koa",
+    "name": "Cheyenne KOA Holiday",
+    "operator": "KOA",
+    "address": "1551 Archer Parkway",
+    "city": "Cheyenne",
+    "state": "WY",
+    "region": "rockies",
+    "lat": 41.14,
+    "lng": -104.76,
+    "website": "https://koa.com/campgrounds/cheyenne/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "I-80 / I-25. ~10 min to CYS. Summer. Wind is the tax.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Wyoming I-80 monthly"
+    ],
+    "watchOuts": [
+      "Wind",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/cheyenne/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CYS",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "tulsa-koa",
+    "name": "Tulsa KOA Holiday",
+    "operator": "KOA",
+    "address": "215 W 81st Street N",
+    "city": "Sperry",
+    "state": "OK",
+    "region": "plains",
+    "lat": 36.28,
+    "lng": -95.99,
+    "website": "https://koa.com/campgrounds/tulsa/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North Tulsa. ~25 min to TUL. Tornado alley shoulder.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 430,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Tulsa monthly"
+    ],
+    "watchOuts": [
+      "Tornado season",
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/tulsa/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "TUL",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "little-rock-koa",
+    "name": "Little Rock KOA Holiday",
+    "operator": "KOA",
+    "address": "6900 Crystal Hill Road",
+    "city": "North Little Rock",
+    "state": "AR",
+    "region": "plains",
+    "lat": 34.82,
+    "lng": -92.36,
+    "website": "https://koa.com/campgrounds/little-rock/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~20 min to LIT. Hot Springs is the destination; this is the airport monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Little Rock monthly"
+    ],
+    "watchOuts": [
+      "Summer heat",
+      "Storms"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/little-rock/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "LIT",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "lafayette-la",
+    "name": "Lafayette KOA",
+    "operator": "KOA",
+    "address": "537 Apollo Road",
+    "city": "Scott",
+    "state": "LA",
+    "region": "gulf",
+    "lat": 30.24,
+    "lng": -92.1,
+    "website": "https://koa.com/campgrounds/lafayette/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Cajun prairie. ~15 min to LFT. Hurricane / humidity. Cheaper than New Orleans.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 360,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Acadiana monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/lafayette/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "LFT",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "birmingham-koa",
+    "name": "Birmingham KOA Holiday",
+    "operator": "KOA",
+    "address": "222 Highway 52 E",
+    "city": "Pelham",
+    "state": "AL",
+    "region": "southeast",
+    "lat": 33.285,
+    "lng": -86.81,
+    "website": "https://koa.com/campgrounds/birmingham/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "South of BHM. ~25 min. Gulf State Park is the beach; this is the city monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Birmingham monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/birmingham/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BHM",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "indiana-dunes",
+    "name": "Indiana Dunes State Park",
+    "operator": "Indiana DNR",
+    "address": "1600 N 25 East",
+    "city": "Chesterton",
+    "state": "IN",
+    "region": "midwest",
+    "lat": 41.673,
+    "lng": -87.038,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 40,
+    "nightlyTo": 40,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Lake Michigan. Stay cap. Chicago-adjacent without Illinois prices for a short stay.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.6,
+    "reviewCountGoogle": 2400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Lake Michigan short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Summer weekends"
+    ],
+    "confidence": "high",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ORD",
+    "driveMinutesToAirport": 55,
+    "driveMilesToAirport": 40
+  },
+  {
+    "id": "san-diego-campland",
+    "name": "Campland on the Bay",
+    "operator": "private",
+    "address": "2211 Pacific Beach Drive",
+    "city": "San Diego",
+    "state": "CA",
+    "region": "socal",
+    "lat": 32.793,
+    "lng": -117.223,
+    "website": "https://www.campland.com/",
+    "phone": null,
+    "nightlyFrom": 80,
+    "nightlyTo": 180,
+    "weeklyFrom": null,
+    "monthlyFrom": 1600,
+    "monthlyTo": 1600,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Mission Bay. Expensive. Year-round weather. ~15 min to SAN.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 3200,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "San Diego year-round if you will pay"
+    ],
+    "watchOuts": [
+      "Price",
+      "Stay rules"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.campland.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SAN",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "sf-rv-pacifica",
+    "name": "San Francisco RV Resort",
+    "operator": "private",
+    "address": "700 Palmetto Avenue",
+    "city": "Pacifica",
+    "state": "CA",
+    "region": "socal",
+    "lat": 37.613,
+    "lng": -122.493,
+    "website": "https://www.sanfranciscorvresort.com/",
+    "phone": null,
+    "nightlyFrom": 85,
+    "nightlyTo": 85,
+    "weeklyFrom": null,
+    "monthlyFrom": 1700,
+    "monthlyTo": 1700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Pacifica ocean. Year-round marine. ~25 min to SFO. Not cheap.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Bay Area year-round"
+    ],
+    "watchOuts": [
+      "Price",
+      "Wind / fog"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.sanfranciscorvresort.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SFO",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "boise-already-plus",
+    "name": "Boise / Meridian KOA",
+    "operator": "KOA",
+    "address": "3232 S Orchard Street",
+    "city": "Boise",
+    "state": "ID",
+    "region": "rockies",
+    "lat": 43.58,
+    "lng": -116.24,
+    "website": "https://koa.com/campgrounds/boise/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Second Boise option besides Riverside. ~15 min to BOI.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 610,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Boise summer monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/boise/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BOI",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "billings-koa",
+    "name": "Billings KOA Holiday",
+    "operator": "KOA",
+    "address": "547 Garden Avenue",
+    "city": "Billings",
+    "state": "MT",
+    "region": "rockies",
+    "lat": 45.76,
+    "lng": -108.55,
+    "website": "https://koa.com/campgrounds/billings/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~10 min to BIL. Summer. Missoula is the west-side park; this is I-90 east.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 540,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Montana I-90 monthly"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/billings/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BIL",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "portland-me-koa",
+    "name": "Portland West KOA",
+    "operator": "KOA",
+    "address": "1068 Saco Street",
+    "city": "Westbrook",
+    "state": "ME",
+    "region": "new-england",
+    "lat": 43.66,
+    "lng": -70.37,
+    "website": "https://koa.com/campgrounds/portland-west/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~15 min to PWM. Acadia is the destination; this is the jet monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Maine coast-adjacent monthly"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/portland-west/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PWM",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "buffalo-koa",
+    "name": "Buffalo / Niagara KOA",
+    "operator": "KOA",
+    "address": "1700 Grand Island Boulevard",
+    "city": "Grand Island",
+    "state": "NY",
+    "region": "great-lakes",
+    "lat": 43.02,
+    "lng": -78.96,
+    "website": "https://koa.com/campgrounds/buffalo/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~25 min to BUF. Summer lake. Niagara traffic in peak.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 620,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Western NY summer"
+    ],
+    "watchOuts": [
+      "Winter lake-effect"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/buffalo/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BUF",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "pittsburgh-koa",
+    "name": "Pittsburgh North KOA",
+    "operator": "KOA",
+    "address": "168 KOA Road",
+    "city": "New Wilmington",
+    "state": "PA",
+    "region": "mid-atlantic",
+    "lat": 41.12,
+    "lng": -80.33,
+    "website": "https://koa.com/campgrounds/pittsburgh-north/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North of PIT — closer to 45–55 min. The Pittsburgh monthly in this file.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 510,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Pittsburgh-area monthly"
+    ],
+    "watchOuts": [
+      "Drive to PIT can exceed 45 min"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/pittsburgh-north/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PIT",
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 38
+  },
+  {
+    "id": "destiny-goodyear",
+    "name": "Destiny RV Resort",
+    "operator": "private",
+    "address": "4140 N 147th Avenue",
+    "city": "Goodyear",
+    "state": "AZ",
+    "region": "desert-sw",
+    "lat": 33.492,
+    "lng": -112.377,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 650,
+    "monthlyTo": 650,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West Valley. All-ages-ish. ~30–40 min to PHX. Winter product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 280,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "West Phoenix winter cheaper than Scottsdale"
+    ],
+    "watchOuts": [
+      "Summer heat",
+      "Confirm 55+ rules"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "PHX",
+    "driveMinutesToAirport": 35,
+    "driveMilesToAirport": 24
+  },
+  {
+    "id": "coeur-dalene-resort",
+    "name": "Coeur d'Alene RV Resort",
+    "operator": "private",
+    "address": "10727 N Ramsey Road",
+    "city": "Hayden",
+    "state": "ID",
+    "region": "pacific-nw",
+    "lat": 47.77,
+    "lng": -116.79,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Lake country. ~35 min to GEG, 45 to COE. Summer.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 360,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "North Idaho summer"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GEG",
+    "driveMinutesToAirport": 40,
+    "driveMilesToAirport": 30
+  },
+  {
+    "id": "san-antonio-koa-us",
+    "name": "San Antonio KOA Holiday",
+    "operator": "KOA",
+    "address": "602 Gembler Road",
+    "city": "San Antonio",
+    "state": "TX",
+    "region": "texas-hill",
+    "lat": 29.44,
+    "lng": -98.41,
+    "website": "https://koa.com/campgrounds/san-antonio/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Second Texas metro after Austin/RGV/DFW/Houston. ~15 min to SAT. Heat in summer.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "San Antonio monthly"
+    ],
+    "watchOuts": [
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/san-antonio/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SAT",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "columbus-koa-us",
+    "name": "Columbus KOA",
+    "operator": "KOA",
+    "address": "2200 E Powell Road",
+    "city": "Lewis Center",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 40.16,
+    "lng": -82.98,
+    "website": "https://koa.com/campgrounds/columbus/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 825,
+    "monthlyTo": 825,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North of CMH. Ohio’s other monthly besides Cleveland/Cincinnati.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Columbus monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/columbus/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CMH",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "richmond-koa-us",
+    "name": "Richmond KOA",
+    "operator": "KOA",
+    "address": "2625 Old Mill Road",
+    "city": "Maidens",
+    "state": "VA",
+    "region": "mid-atlantic",
+    "lat": 37.68,
+    "lng": -77.88,
+    "website": "https://koa.com/campgrounds/richmond/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West of RIC. Completes Virginia beyond Virginia Beach.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 560,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Richmond monthly"
+    ],
+    "watchOuts": [
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/richmond/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "RIC",
+    "driveMinutesToAirport": 35,
+    "driveMilesToAirport": 24
+  },
+  {
+    "id": "birmingham-koa-us",
+    "name": "Birmingham KOA Holiday",
+    "operator": "KOA",
+    "address": "222 Highway 52 E",
+    "city": "Pelham",
+    "state": "AL",
+    "region": "southeast",
+    "lat": 33.285,
+    "lng": -86.81,
+    "website": "https://koa.com/campgrounds/birmingham/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Inland Alabama monthly. Gulf State Park is the beach product; this is the city.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Birmingham monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/birmingham/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BHM",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "north-little-rock-koa",
+    "name": "Little Rock KOA Holiday",
+    "operator": "KOA",
+    "address": "6900 Crystal Hill Road",
+    "city": "North Little Rock",
+    "state": "AR",
+    "region": "plains",
+    "lat": 34.82,
+    "lng": -92.36,
+    "website": "https://koa.com/campgrounds/little-rock/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Hot Springs is the spa monthly; this is the LIT airport monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Little Rock monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/little-rock/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "LIT",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "tulsa-koa-us",
+    "name": "Tulsa KOA Holiday",
+    "operator": "KOA",
+    "address": "215 W 81st Street N",
+    "city": "Sperry",
+    "state": "OK",
+    "region": "plains",
+    "lat": 36.28,
+    "lng": -95.99,
+    "website": "https://koa.com/campgrounds/tulsa/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Second Oklahoma metro after OKC East.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 430,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Tulsa monthly"
+    ],
+    "watchOuts": [
+      "Tornado season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/tulsa/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "TUL",
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16
+  },
+  {
+    "id": "knoxville-koa",
+    "name": "Knoxville East KOA Holiday",
+    "operator": "KOA",
+    "address": "3388 Hwy 11 E",
+    "city": "Kodak",
+    "state": "TN",
+    "region": "southeast",
+    "lat": 35.98,
+    "lng": -83.62,
+    "website": "https://koa.com/campgrounds/knoxville-east/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "East of TYS. Nashville is the music monthly; this is the Smokies side.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "East Tennessee monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity",
+      "Pigeon Forge weekends"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/knoxville-east/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "TYS",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "madison-koa",
+    "name": "Madison KOA",
+    "operator": "KOA",
+    "address": "4859 County Road V",
+    "city": "DeForest",
+    "state": "WI",
+    "region": "great-lakes",
+    "lat": 43.24,
+    "lng": -89.34,
+    "website": "https://koa.com/campgrounds/madison/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North of MSN. Dells is the tourist monthly; this is the capital.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Madison summer monthly"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/madison/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MSN",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "grand-rapids-koa",
+    "name": "Grand Rapids KOA Holiday",
+    "operator": "KOA",
+    "address": "6045 S Division Avenue",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "region": "great-lakes",
+    "lat": 42.86,
+    "lng": -85.66,
+    "website": "https://koa.com/campgrounds/grand-rapids/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "West Michigan besides Traverse City. ~15 min to GRR.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Grand Rapids summer"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/grand-rapids/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GRR",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "albany-koa",
+    "name": "Albany / Saratoga KOA",
+    "operator": "KOA",
+    "address": "78 Traver Road",
+    "city": "Gansevoort",
+    "state": "NY",
+    "region": "mid-atlantic",
+    "lat": 43.18,
+    "lng": -73.67,
+    "website": "https://koa.com/campgrounds/albany-saratoga/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Capital District. Lake George is the tourist monthly; this is closer to ALB.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Albany monthly"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/albany-saratoga/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ALB",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18
+  },
+  {
+    "id": "sacramento-koa",
+    "name": "Sacramento West KOA",
+    "operator": "KOA",
+    "address": "3951 Lake Road",
+    "city": "West Sacramento",
+    "state": "CA",
+    "region": "ca-inland",
+    "lat": 38.58,
+    "lng": -121.55,
+    "website": "https://koa.com/campgrounds/sacramento/",
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Valley heat in summer. ~15 min to SMF. Bay Area weather is Pacifica; this is the capital monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Sacramento monthly"
+    ],
+    "watchOuts": [
+      "Summer heat",
+      "Valley air"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/sacramento/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "SMF",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "oakland-amelia",
+    "name": "San Francisco North / Petaluma KOA",
+    "operator": "KOA",
+    "address": "20 Rainsville Road",
+    "city": "Petaluma",
+    "state": "CA",
+    "region": "socal",
+    "lat": 38.25,
+    "lng": -122.68,
+    "website": "https://koa.com/campgrounds/san-francisco-north/",
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1300,
+    "monthlyTo": 1300,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North Bay. Stretch to OAK/SFO. Pacifica is the ocean monthly; this is the Marin/Sonoma product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "North Bay monthly"
+    ],
+    "watchOuts": [
+      "Not a 5 a.m. SFO dash",
+      "Price"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/san-francisco-north/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "OAK",
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 38
+  },
+  {
+    "id": "fresno-koa",
+    "name": "Fresno / Clovis KOA",
+    "operator": "KOA",
+    "address": "4460 E Clinton Avenue",
+    "city": "Fresno",
+    "state": "CA",
+    "region": "ca-inland",
+    "lat": 36.77,
+    "lng": -119.72,
+    "website": "https://koa.com/campgrounds/fresno/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Central Valley. Summer is 105°F. Winter is the window. ~10 min to FAT.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Valley winter monthly"
+    ],
+    "watchOuts": [
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/fresno/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "FAT",
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6
+  },
+  {
+    "id": "eugene-koa",
+    "name": "Eugene / Springfield KOA",
+    "operator": "KOA",
+    "address": "33022 E Dunes Drive",
+    "city": "Eugene",
+    "state": "OR",
+    "region": "pacific-nw",
+    "lat": 44.07,
+    "lng": -123.02,
+    "website": "https://koa.com/campgrounds/eugene/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Willamette. Copper Ridge is the I-5 cheap monthly; this is the university town with EUG.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 540,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Eugene monthly"
+    ],
+    "watchOuts": [
+      "Winter wet"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/eugene/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "EUG",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "flagstaff-koa",
+    "name": "Flagstaff KOA Holiday",
+    "operator": "KOA",
+    "address": "5803 N US-89",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "region": "desert-sw",
+    "lat": 35.24,
+    "lng": -111.57,
+    "website": "https://koa.com/campgrounds/flagstaff/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "7,000 ft. Summer refuge when Phoenix cooks. Winter snow. ~15 min to FLG.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1600,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Arizona summer high country"
+    ],
+    "watchOuts": [
+      "Winter snow",
+      "Not a snowbird park"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/flagstaff/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "FLG",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "fairbanks-river",
+    "name": "River's Edge RV Park",
+    "operator": "private",
+    "address": "4140 Boat Street",
+    "city": "Fairbanks",
+    "state": "AK",
+    "region": "alaska",
+    "lat": 64.84,
+    "lng": -147.81,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Interior Alaska. Short summer. Not a winter product. ~15 min to FAI.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 380,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Fairbanks summer"
+    ],
+    "watchOuts": [
+      "May–August only",
+      "Winter is not an RV season"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "FAI",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "sand-island-oahu",
+    "name": "Sand Island State Recreation Area",
+    "operator": "Hawaii State Parks",
+    "address": "Sand Island Parkway",
+    "city": "Honolulu",
+    "state": "HI",
+    "region": "hawaii",
+    "lat": 21.307,
+    "lng": -157.889,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Oahu honesty: short stay, urban industrial waterfront, ~20 min to HNL. Maui Olowalu is the beach camp; this is the Honolulu product.",
+    "maxStayNights": 5,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 3.9,
+    "reviewCountGoogle": 210,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Honolulu short stay so the 50-state scan is honest"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Industrial setting",
+      "Shipping the rig"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "HNL",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "bismarck-koa",
+    "name": "Bismarck KOA Journey",
+    "operator": "KOA",
+    "address": "5921 Gateway Avenue",
+    "city": "Bismarck",
+    "state": "ND",
+    "region": "plains",
+    "lat": 46.83,
+    "lng": -100.73,
+    "website": "https://koa.com/campgrounds/bismarck/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Missouri River. Fargo is the east-side monthly; this is the capital. Summer only.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 320,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "North Dakota capital summer"
+    ],
+    "watchOuts": [
+      "Winter is not an RV season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/bismarck/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BIS",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  },
+  {
+    "id": "toledo-east-koa",
+    "name": "Toledo East KOA",
+    "operator": "KOA",
+    "address": "26567 Lemoyne Road",
+    "city": "Millbury",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 41.57,
+    "lng": -83.43,
+    "website": "https://koa.com/campgrounds/toledo-east/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Lake Erie west. Completes Ohio with Cleveland/Cincinnati/Columbus.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 360,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Toledo summer"
+    ],
+    "watchOuts": [
+      "Winter lake-effect"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/toledo-east/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "TOL",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "dayton-koa",
+    "name": "Dayton KOA",
+    "operator": "KOA",
+    "address": "7796 Wellbaum Road",
+    "city": "Brookville",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 39.84,
+    "lng": -84.41,
+    "website": "https://koa.com/campgrounds/dayton/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~20 min to DAY. Wright-Patterson traffic on event days.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 290,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Dayton monthly"
+    ],
+    "watchOuts": [
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/dayton/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "DAY",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "chattanooga-koa",
+    "name": "Chattanooga North KOA",
+    "operator": "KOA",
+    "address": "170 KOA Boulevard",
+    "city": "Hixson",
+    "state": "TN",
+    "region": "southeast",
+    "lat": 35.17,
+    "lng": -85.22,
+    "website": "https://koa.com/campgrounds/chattanooga/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Tennessee River. Nashville and Knoxville are the other TN monthlies.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Chattanooga monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/chattanooga/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CHA",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "jackson-ms-koa",
+    "name": "Jackson KOA Holiday",
+    "operator": "KOA",
+    "address": "110 Crosspark Drive",
+    "city": "Pearl",
+    "state": "MS",
+    "region": "gulf",
+    "lat": 32.27,
+    "lng": -90.12,
+    "website": "https://koa.com/campgrounds/jackson/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Inland Mississippi. Gulfport/Pass Christian is the coast product.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 280,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Jackson monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/jackson/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "JAN",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "mobile-koa",
+    "name": "Mobile KOA Holiday",
+    "operator": "KOA",
+    "address": "19884 State Highway 181",
+    "city": "Robertsdale",
+    "state": "AL",
+    "region": "gulf",
+    "lat": 30.55,
+    "lng": -87.71,
+    "website": "https://koa.com/campgrounds/mobile/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "East of MOB. Gulf State Park is the beach stay-cap; this is the private monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Mobile monthly"
+    ],
+    "watchOuts": [
+      "Hurricane"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/mobile/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "MOB",
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18
+  },
+  {
+    "id": "huntsville-koa",
+    "name": "Huntsville KOA Holiday",
+    "operator": "KOA",
+    "address": "1238 Jordan Road",
+    "city": "Huntsville",
+    "state": "AL",
+    "region": "southeast",
+    "lat": 34.73,
+    "lng": -86.67,
+    "website": "https://koa.com/campgrounds/huntsville/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North Alabama. Birmingham is the other inland monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 360,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Huntsville monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/huntsville/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "HSV",
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10
+  },
+  {
+    "id": "baton-rouge-koa",
+    "name": "Baton Rouge KOA Holiday",
+    "operator": "KOA",
+    "address": "7628 Vincent Road",
+    "city": "Denham Springs",
+    "state": "LA",
+    "region": "gulf",
+    "lat": 30.48,
+    "lng": -90.96,
+    "website": "https://koa.com/campgrounds/baton-rouge/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "East of BTR. Pontchartrain is the New Orleans monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 340,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Baton Rouge monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/baton-rouge/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "BTR",
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14
+  },
+  {
+    "id": "lums-pond-de",
+    "name": "Lums Pond State Park",
+    "operator": "Delaware State Parks",
+    "address": "1068 Howell School Road",
+    "city": "Bear",
+    "state": "DE",
+    "region": "mid-atlantic",
+    "lat": 39.55,
+    "lng": -75.73,
+    "website": "https://destateparks.com/Camping/LumsPond",
+    "phone": null,
+    "nightlyFrom": 40,
+    "nightlyTo": 40,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Northern Delaware, closer to ILG than Cape Henlopen. Stay cap. Completes DE beyond the ocean park.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Northern Delaware short stay"
+    ],
+    "watchOuts": [
+      "Stay cap"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://destateparks.com/Camping/LumsPond"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ILG",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "first-landing-va",
+    "name": "First Landing State Park",
+    "operator": "Virginia State Parks",
+    "address": "2500 Shore Drive",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "region": "mid-atlantic",
+    "lat": 36.918,
+    "lng": -76.058,
+    "website": "https://www.dcr.virginia.gov/state-parks/first-landing",
+    "phone": null,
+    "nightlyFrom": 40,
+    "nightlyTo": 40,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Stay cap. Completes Hampton Roads beyond the KOA monthly. ~20 min to ORF.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.6,
+    "reviewCountGoogle": 2400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Hampton Roads short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Summer reservation war"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.dcr.virginia.gov/state-parks/first-landing"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "ORF",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "greenville-sc-koa",
+    "name": "Greenville / Spartanburg KOA",
+    "operator": "KOA",
+    "address": "268 Lindsey Lane",
+    "city": "Duncan",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 34.92,
+    "lng": -82.14,
+    "website": "https://koa.com/campgrounds/greenville/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Upstate. Myrtle Beach is the coast monthly; this is GSP.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Upstate SC monthly"
+    ],
+    "watchOuts": [
+      "Summer humidity"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/greenville/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "GSP",
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12
+  },
+  {
+    "id": "cedar-rapids-koa",
+    "name": "Cedar Rapids KOA",
+    "operator": "KOA",
+    "address": "6200 Elmont Road SW",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "region": "plains",
+    "lat": 41.94,
+    "lng": -91.72,
+    "website": "https://koa.com/campgrounds/cedar-rapids/",
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Eastern Iowa. Des Moines is the capital monthly.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 280,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Cedar Rapids monthly"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Tornado season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/cedar-rapids/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": "CID",
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8
+  }
+]

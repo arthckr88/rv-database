@@ -1,0 +1,1194 @@
+[
+  {
+    "parkId": "bolsa-chica",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:39:58.372Z"
+  },
+  {
+    "parkId": "canyon-rv",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:39:58.827Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "maxRvLengthFt",
+    "old": 40,
+    "new": 40,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "nightlyFrom",
+    "old": 65,
+    "new": 65,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "nightlyTo",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "stayCapNights",
+    "old": 21,
+    "new": 21,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "stayCapWindowDays",
+    "old": 60,
+    "new": 60,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.294Z"
+  },
+  {
+    "parkId": "emma-wood",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:01.321Z"
+  },
+  {
+    "parkId": "evergreen-oxnard",
+    "field": "fetch",
+    "old": null,
+    "new": null,
+    "status": "failed",
+    "timestamp": "2026-09-22T04:40:00.345Z"
+  },
+  {
+    "parkId": "fairplex",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:39:58.319Z"
+  },
+  {
+    "parkId": "faria-beach",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:01.945Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:39:57.343Z"
+  },
+  {
+    "parkId": "golden-village-palms",
+    "field": "fetch",
+    "old": null,
+    "new": null,
+    "status": "failed",
+    "timestamp": "2026-09-22T04:40:03.124Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "electricExtra",
+    "old": "not included; application says $1,500 plus electricity",
+    "new": "not included; application says $1,500 plus electricity",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:56.725Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "monthlyFrom",
+    "old": 1500,
+    "new": 1500,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:56.725Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:56.725Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "nightlyFrom",
+    "old": 79,
+    "new": 79,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:56.725Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "nightlyTo",
+    "old": 79,
+    "new": 79,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:56.725Z"
+  },
+  {
+    "parkId": "leo-carrillo",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:39:56.725Z"
+  },
+  {
+    "parkId": "malibu-beach",
+    "field": "fetch",
+    "old": null,
+    "new": null,
+    "status": "failed",
+    "timestamp": "2026-09-22T04:39:55.622Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlyFrom",
+    "old": 1207,
+    "new": 1207,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlySummer",
+    "old": {
+      "from": 2100,
+      "to": 4500
+    },
+    "new": {
+      "from": 2104,
+      "to": 4553
+    },
+    "status": "changed",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlyTo",
+    "old": 2536,
+    "new": 2536,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlyWinter",
+    "old": {
+      "from": 1207,
+      "to": 2536
+    },
+    "new": {
+      "from": 1207,
+      "to": 2536
+    },
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "nightlyFrom",
+    "old": 84,
+    "new": 84,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "nightlyTo",
+    "old": 360,
+    "new": 590,
+    "status": "changed",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "stayCapNights",
+    "old": 180,
+    "new": 180,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "monthlyFrom",
+    "old": 1450,
+    "new": 1450,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:00.345Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:00.345Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "nightlyFrom",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:00.345Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "nightlyTo",
+    "old": 125,
+    "new": 125,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:00.345Z"
+  },
+  {
+    "parkId": "pismo-coast-village",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:03.706Z"
+  },
+  {
+    "parkId": "ramona-oaks",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:03.647Z"
+  },
+  {
+    "parkId": "rincon-parkway",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:01.662Z"
+  },
+  {
+    "parkId": "san-bernardino-rv",
+    "field": "electricExtra",
+    "old": "metered 30/50 amp; not included in the $700",
+    "new": "metered 30/50 amp; not included in the $700",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:04.833Z"
+  },
+  {
+    "parkId": "san-bernardino-rv",
+    "field": "monthlyFrom",
+    "old": 700,
+    "new": 700,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:04.833Z"
+  },
+  {
+    "parkId": "san-bernardino-rv",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:40:04.833Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "electricExtra",
+    "old": "included (site rate includes sewer, water, electric, Wi-Fi, tax)",
+    "new": "included (site rate includes sewer, water, electric, Wi-Fi, tax)",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.329Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "extraVehicle",
+    "old": "included",
+    "new": "included",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.329Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "monthlyFrom",
+    "old": 1300,
+    "new": 1300,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.329Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "monthlyTo",
+    "old": 1300,
+    "new": 1300,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.329Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "nightlyFrom",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.329Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "nightlyTo",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:57.329Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:58.319Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:58.319Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "nightlyFrom",
+    "old": 85,
+    "new": 85,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:58.319Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "nightlyTo",
+    "old": 105,
+    "new": 105,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:58.319Z"
+  },
+  {
+    "parkId": "ventura-beach",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:01.215Z"
+  },
+  {
+    "parkId": "ventura-oaks",
+    "field": "rates",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:40:02.399Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "electricExtra",
+    "old": "metered; $200 deposit for final electric charges",
+    "new": "metered; $200 deposit for final electric charges",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:59.029Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "monthlyFrom",
+    "old": 1650,
+    "new": 1650,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:59.029Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "monthlyTo",
+    "old": 1650,
+    "new": 1650,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:59.029Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "nightlyFrom",
+    "old": 119,
+    "new": 119,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:59.029Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "nightlyTo",
+    "old": 169,
+    "new": 169,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:39:59.029Z"
+  },
+  {
+    "parkId": "bolsa-chica",
+    "field": "maxRvLengthFt",
+    "old": 40,
+    "new": 40,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.509Z"
+  },
+  {
+    "parkId": "bolsa-chica",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.509Z"
+  },
+  {
+    "parkId": "bolsa-chica",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.509Z"
+  },
+  {
+    "parkId": "bolsa-chica",
+    "field": "nightlyFrom",
+    "old": 60,
+    "new": 60,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.509Z"
+  },
+  {
+    "parkId": "bolsa-chica",
+    "field": "nightlyTo",
+    "old": 70,
+    "new": 70,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.509Z"
+  },
+  {
+    "parkId": "canyon-rv",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.957Z"
+  },
+  {
+    "parkId": "canyon-rv",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.957Z"
+  },
+  {
+    "parkId": "canyon-rv",
+    "field": "nightlyFrom",
+    "old": 90,
+    "new": 90,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.957Z"
+  },
+  {
+    "parkId": "canyon-rv",
+    "field": "nightlyTo",
+    "old": 90,
+    "new": 90,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.957Z"
+  },
+  {
+    "parkId": "canyon-rv",
+    "field": "weeklyFrom",
+    "old": 505,
+    "new": 505,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.957Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "maxRvLengthFt",
+    "old": 40,
+    "new": 40,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "nightlyFrom",
+    "old": 65,
+    "new": 65,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "nightlyTo",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "stayCapNights",
+    "old": 21,
+    "new": 21,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "dockweiler",
+    "field": "stayCapWindowDays",
+    "old": 60,
+    "new": 60,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.175Z"
+  },
+  {
+    "parkId": "emma-wood",
+    "field": "nightlyFrom",
+    "old": 40,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "emma-wood",
+    "field": "stayCapNights",
+    "old": 30,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "evergreen-oxnard",
+    "field": "fetch",
+    "old": null,
+    "new": null,
+    "status": "blocked",
+    "timestamp": "2026-09-22T04:52:54.754Z"
+  },
+  {
+    "parkId": "fairplex",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:52:53.318Z"
+  },
+  {
+    "parkId": "fairplex",
+    "field": "nightlyFrom",
+    "old": 71,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:52:53.318Z"
+  },
+  {
+    "parkId": "faria-beach",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.539Z"
+  },
+  {
+    "parkId": "faria-beach",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.539Z"
+  },
+  {
+    "parkId": "faria-beach",
+    "field": "nightlyFrom",
+    "old": 47,
+    "new": 67,
+    "status": "changed",
+    "timestamp": "2026-09-22T04:52:56.539Z"
+  },
+  {
+    "parkId": "faria-beach",
+    "field": "nightlyTo",
+    "old": 69,
+    "new": 74,
+    "status": "changed",
+    "timestamp": "2026-09-22T04:52:56.539Z"
+  },
+  {
+    "parkId": "faria-beach",
+    "field": "stayCapNights",
+    "old": 7,
+    "new": 7,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.539Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.857Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.857Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "nightlyFrom",
+    "old": 85,
+    "new": 85,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.857Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "nightlyTo",
+    "old": 95,
+    "new": 90,
+    "status": "changed",
+    "timestamp": "2026-09-22T04:52:53.857Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "stayCapSummerNights",
+    "old": 14,
+    "new": 14,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.857Z"
+  },
+  {
+    "parkId": "golden-shore",
+    "field": "weeklyFrom",
+    "old": 515,
+    "new": 515,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.857Z"
+  },
+  {
+    "parkId": "golden-village-palms",
+    "field": "fetch",
+    "old": null,
+    "new": null,
+    "status": "blocked",
+    "timestamp": "2026-09-22T04:52:56.804Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "electricExtra",
+    "old": "not included; application says $1,500 plus electricity",
+    "new": "not included; application says $1,500 plus electricity",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "monthlyFrom",
+    "old": 1500,
+    "new": 1500,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "nightlyFrom",
+    "old": 79,
+    "new": 79,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "hollywood-rv",
+    "field": "nightlyTo",
+    "old": 79,
+    "new": 79,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "leo-carrillo",
+    "field": "nightlyFrom",
+    "old": 45,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "leo-carrillo",
+    "field": "stayCapNights",
+    "old": 30,
+    "new": null,
+    "status": "stale",
+    "timestamp": "2026-09-22T04:52:51.996Z"
+  },
+  {
+    "parkId": "malibu-beach",
+    "field": "fetch",
+    "old": null,
+    "new": null,
+    "status": "blocked",
+    "timestamp": "2026-09-22T04:52:50.939Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlyFrom",
+    "old": 1207,
+    "new": 1207,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlySummer",
+    "old": {
+      "from": 2104,
+      "to": 4553
+    },
+    "new": {
+      "from": 2104,
+      "to": 4553
+    },
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlyTo",
+    "old": 2536,
+    "new": 2536,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "monthlyWinter",
+    "old": {
+      "from": 1207,
+      "to": 2536
+    },
+    "new": {
+      "from": 1207,
+      "to": 2536
+    },
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "nightlyFrom",
+    "old": 84,
+    "new": 84,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "nightlyTo",
+    "old": 590,
+    "new": 590,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "newport-dunes",
+    "field": "stayCapNights",
+    "old": 180,
+    "new": 180,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.075Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "monthlyFrom",
+    "old": 1450,
+    "new": 1450,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.077Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.077Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "nightlyFrom",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.077Z"
+  },
+  {
+    "parkId": "pacific-wilmington",
+    "field": "nightlyTo",
+    "old": 125,
+    "new": 125,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:54.077Z"
+  },
+  {
+    "parkId": "pismo-coast-village",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.663Z"
+  },
+  {
+    "parkId": "pismo-coast-village",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.663Z"
+  },
+  {
+    "parkId": "pismo-coast-village",
+    "field": "nightlyFrom",
+    "old": 111,
+    "new": 111,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.663Z"
+  },
+  {
+    "parkId": "pismo-coast-village",
+    "field": "nightlyTo",
+    "old": 126,
+    "new": 126,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.663Z"
+  },
+  {
+    "parkId": "pismo-coast-village",
+    "field": "stayCapNights",
+    "old": 29,
+    "new": 29,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.663Z"
+  },
+  {
+    "parkId": "ramona-oaks",
+    "field": "monthlyFrom",
+    "old": 800,
+    "new": 800,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.357Z"
+  },
+  {
+    "parkId": "ramona-oaks",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:58.357Z"
+  },
+  {
+    "parkId": "ramona-oaks",
+    "field": "nightlyFrom",
+    "old": null,
+    "new": 65,
+    "status": "changed",
+    "timestamp": "2026-09-22T04:52:58.357Z"
+  },
+  {
+    "parkId": "rincon-parkway",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.335Z"
+  },
+  {
+    "parkId": "rincon-parkway",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.335Z"
+  },
+  {
+    "parkId": "rincon-parkway",
+    "field": "nightlyFrom",
+    "old": 47,
+    "new": 47,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.335Z"
+  },
+  {
+    "parkId": "rincon-parkway",
+    "field": "nightlyTo",
+    "old": 51,
+    "new": 51,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.335Z"
+  },
+  {
+    "parkId": "rincon-parkway",
+    "field": "stayCapNights",
+    "old": 7,
+    "new": 7,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:56.335Z"
+  },
+  {
+    "parkId": "san-bernardino-rv",
+    "field": "electricExtra",
+    "old": "metered 30/50 amp; not included in the $700",
+    "new": "metered 30/50 amp; not included in the $700",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:57.315Z"
+  },
+  {
+    "parkId": "san-bernardino-rv",
+    "field": "monthlyFrom",
+    "old": 700,
+    "new": 700,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:57.315Z"
+  },
+  {
+    "parkId": "san-bernardino-rv",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:57.315Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "electricExtra",
+    "old": "included (site rate includes sewer, water, electric, Wi-Fi, tax)",
+    "new": "included (site rate includes sewer, water, electric, Wi-Fi, tax)",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.456Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "extraVehicle",
+    "old": "included",
+    "new": "included",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.456Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "monthlyFrom",
+    "old": 1300,
+    "new": 1300,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.456Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "monthlyTo",
+    "old": 1300,
+    "new": 1300,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.456Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "nightlyFrom",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.456Z"
+  },
+  {
+    "parkId": "silverland",
+    "field": "nightlyTo",
+    "old": 75,
+    "new": 75,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:52.456Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.297Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.297Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "nightlyFrom",
+    "old": 85,
+    "new": 85,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.297Z"
+  },
+  {
+    "parkId": "valencia-travel-village",
+    "field": "nightlyTo",
+    "old": 105,
+    "new": 105,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.297Z"
+  },
+  {
+    "parkId": "ventura-beach",
+    "field": "monthlyFrom",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.505Z"
+  },
+  {
+    "parkId": "ventura-beach",
+    "field": "monthlyTo",
+    "old": null,
+    "new": null,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.505Z"
+  },
+  {
+    "parkId": "ventura-beach",
+    "field": "nightlyFrom",
+    "old": 140,
+    "new": 140,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:55.505Z"
+  },
+  {
+    "parkId": "ventura-beach",
+    "field": "nightlyTo",
+    "old": 227,
+    "new": 244,
+    "status": "changed",
+    "timestamp": "2026-09-22T04:52:55.505Z"
+  },
+  {
+    "parkId": "ventura-oaks",
+    "field": "monthlyFrom",
+    "old": 950,
+    "new": 950,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:57.678Z"
+  },
+  {
+    "parkId": "ventura-oaks",
+    "field": "monthlyTo",
+    "old": 1330,
+    "new": 1330,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:57.678Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "electricExtra",
+    "old": "metered; $200 deposit for final electric charges",
+    "new": "metered; $200 deposit for final electric charges",
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.269Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "monthlyFrom",
+    "old": 1650,
+    "new": 1650,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.269Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "monthlyTo",
+    "old": 1650,
+    "new": 1650,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.269Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "nightlyFrom",
+    "old": 119,
+    "new": 119,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.269Z"
+  },
+  {
+    "parkId": "walnut",
+    "field": "nightlyTo",
+    "old": 169,
+    "new": 169,
+    "status": "ok",
+    "timestamp": "2026-09-22T04:52:53.269Z"
+  }
+]

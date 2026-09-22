@@ -1,0 +1,148 @@
+{
+  "note": "Crown land is provincial or territorial. There is no single national polygon, and this map does not invent one. Non-resident rules are stricter than a U.S. BLM stay. Posted signs and the provincial atlas win.",
+  "provinces": [
+    {
+      "id": "BC",
+      "name": "British Columbia",
+      "stay": "Recreation sites and informal Crown-land camping are often 14 consecutive days. Confirm the forest district.",
+      "nonResident": "No single provincial camping permit for all Crown land, but some recreation sites charge a fee.",
+      "atlas": "https://www2.gov.bc.ca/gov/content/sports-culture/recreation/camping-hiking/sites-trails",
+      "atlasLabel": "BC recreation sites and trails",
+      "map": "https://maps.gov.bc.ca/ess/hm/imap4m/",
+      "center": [53.8, -125.5],
+      "zoom": 5
+    },
+    {
+      "id": "AB",
+      "name": "Alberta",
+      "stay": "Public-land camping is typically 14 days where it is allowed. Public Land Use Zones have their own rules. Random camping is not legal on every acre of provincial land.",
+      "nonResident": "Allowed only where public-land camping is allowed. Do not assume the Eastern Slopes are open.",
+      "atlas": "https://www.alberta.ca/public-land-camping",
+      "atlasLabel": "Alberta public land camping",
+      "map": "https://geodiscover.alberta.ca/geoportal/",
+      "center": [53.5, -114.5],
+      "zoom": 6
+    },
+    {
+      "id": "SK",
+      "name": "Saskatchewan",
+      "stay": "Vacant Crown land camping is commonly limited to about 21 days. Forest fringe and park land are different products.",
+      "nonResident": "Confirm with the Ministry before treating a prairie section as a campsite.",
+      "atlas": "https://www.saskatchewan.ca/residents/parks-culture-heritage-and-sport/parks-and-recreation",
+      "atlasLabel": "Saskatchewan parks and Crown land",
+      "map": "https://gisappl.saskatchewan.ca/Html5Viewer/index.html?viewer=saskinteractive",
+      "center": [54.5, -106],
+      "zoom": 5
+    },
+    {
+      "id": "MB",
+      "name": "Manitoba",
+      "stay": "Crown land camping is provincial. Stay limits are often in the 21-day range and do not apply inside provincial parks the same way.",
+      "nonResident": "Provincial park campgrounds are a fee. Backcountry Crown land needs the current provincial rule.",
+      "atlas": "https://www.gov.mb.ca/sd/parks/",
+      "atlasLabel": "Manitoba parks",
+      "map": "https://web33.gov.mb.ca/mapgallery/mgp.html",
+      "center": [53.8, -98.5],
+      "zoom": 5
+    },
+    {
+      "id": "ON",
+      "name": "Ontario",
+      "stay": "Crown land camping is typically up to 21 days.",
+      "nonResident": "Non-residents need a Crown land camping permit. This is the province where skipping the permit is a real mistake.",
+      "atlas": "https://www.ontario.ca/page/crown-land-camping-permit",
+      "atlasLabel": "Ontario Crown land camping permit",
+      "map": "https://www.lioapplications.lrc.gov.on.ca/CLUPA/index.html?viewer=CLUPA.CLUPA&locale=en-CA",
+      "center": [49.5, -86.5],
+      "zoom": 5
+    },
+    {
+      "id": "QC",
+      "name": "Quebec",
+      "stay": "SEPAQ parks are paid campgrounds. Public-land camping exists under provincial rules and is not a western-style BLM stay.",
+      "nonResident": "Confirm the zone. Do not import a U.S. dispersed-camping habit.",
+      "atlas": "https://www.quebec.ca/tourisme-et-loisirs/activites-sportives-et-de-plein-air/camping",
+      "atlasLabel": "Quebec camping rules",
+      "map": "https://www.foretouverte.gouv.qc.ca/",
+      "center": [48.5, -72],
+      "zoom": 5
+    },
+    {
+      "id": "NB",
+      "name": "New Brunswick",
+      "stay": "Crown land camping is not the western free-for-all. Provincial parks are the straightforward option and they charge.",
+      "nonResident": "Use the provincial park system unless the natural-resources office says a specific Crown site is open.",
+      "atlas": "https://www.parcsnbparks.ca/",
+      "atlasLabel": "New Brunswick parks",
+      "map": "https://www2.gnb.ca/content/gnb/en/departments/erd/natural_resources.html",
+      "center": [46.5, -66.2],
+      "zoom": 6
+    },
+    {
+      "id": "NS",
+      "name": "Nova Scotia",
+      "stay": "Provincial parks and a few designated backcountry sites. Not open Crown-land camping.",
+      "nonResident": "Book or follow the park rules.",
+      "atlas": "https://parks.novascotia.ca/",
+      "atlasLabel": "Nova Scotia parks",
+      "map": "https://nsgi.novascotia.ca/datalocator/finddata/",
+      "center": [45.1, -63.3],
+      "zoom": 6
+    },
+    {
+      "id": "PE",
+      "name": "Prince Edward Island",
+      "stay": "Camp in provincial or national park campgrounds. The island is not a dispersed-camping inventory.",
+      "nonResident": "Fees apply at the parks.",
+      "atlas": "https://www.tourismpei.com/what-to-do/outdoor-activities/camping",
+      "atlasLabel": "PEI camping",
+      "map": "https://www.princeedwardisland.ca/en/information/environment-energy-and-climate-action/public-lands",
+      "center": [46.3, -63.3],
+      "zoom": 8
+    },
+    {
+      "id": "NL",
+      "name": "Newfoundland and Labrador",
+      "stay": "Provincial parks charge. Crown-land camping rules are provincial and sparse compared with B.C.",
+      "nonResident": "Confirm before you leave a highway pullout overnight.",
+      "atlas": "https://www.gov.nl.ca/tcar/parks/",
+      "atlasLabel": "NL parks",
+      "map": "https://www.gov.nl.ca/landuseatlas/",
+      "center": [53.2, -60],
+      "zoom": 5
+    },
+    {
+      "id": "YT",
+      "name": "Yukon",
+      "stay": "Camping on territorial land is allowed outside municipalities and posted closures, with conditions. Highway campgrounds are a separate, paid system.",
+      "nonResident": "Territorial land is not a reserved site. First Nations settlement land is not public camping.",
+      "atlas": "https://yukon.ca/en/outdoor-recreation-and-wildlife/camping",
+      "atlasLabel": "Yukon camping",
+      "map": "https://mapservices.gov.yk.ca/GeoYukon/",
+      "center": [63.5, -136],
+      "zoom": 5
+    },
+    {
+      "id": "NT",
+      "name": "Northwest Territories",
+      "stay": "Territorial parks are the reliable overnight. Crown and territorial land outside parks is not a casual trailer base.",
+      "nonResident": "Confirm with the territorial parks office.",
+      "atlas": "https://www.nwtparks.ca/",
+      "atlasLabel": "NWT parks",
+      "map": "https://www.maps.geomatics.gov.nt.ca/Html5Viewer/index.html?viewer=ATLAS",
+      "center": [64.5, -118],
+      "zoom": 4
+    },
+    {
+      "id": "NU",
+      "name": "Nunavut",
+      "stay": "Not a drive-up dispersed system. Community and park permission matters more than a map color.",
+      "nonResident": "Plan with the territorial government, not with a U.S. BLM habit.",
+      "atlas": "https://www.gov.nu.ca/en",
+      "atlasLabel": "Government of Nunavut",
+      "map": "https://nunavutgeomatics.maps.arcgis.com/",
+      "center": [66, -95],
+      "zoom": 4
+    }
+  ]
+}

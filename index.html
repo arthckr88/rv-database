@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Where the rig sleeps — SoCal parks and public land</title>
+    <meta
+      name="description"
+      content="A Santa Monica field guide: Southern California RV parks ranked on quality and price, and legal public-land camping in the United States and Canada."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="top">
+      <div class="brand">
+        <p class="eyebrow">Santa Monica field notes</p>
+        <p class="title">Where the rig sleeps</p>
+      </div>
+      <nav class="tabs" aria-label="Planner">
+        <button type="button" data-tab="parks" class="is-on" aria-current="page">Paid parks</button>
+        <button type="button" data-tab="land">Public land</button>
+      </nav>
+      <div class="rig" role="group" aria-label="Rig">
+        <button type="button" data-rig="classC" class="is-on" aria-pressed="true">Class C</button>
+        <button type="button" data-rig="trailer" aria-pressed="false">Trailer + Tesla</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="panel-parks" aria-label="Paid parks">
+        <div class="lede-block">
+          <p id="rate-banner">Rates last checked. Yellow = confirm before you tow.</p>
+          <h1>Southern California, priced against the pier</h1>
+          <p>
+            Long-term and monthly first. Distance is road miles to Santa Monica Pier. Class C means you live in the rig.
+            Trailer + Tesla means you drop the trailer, unhitch, and drive the car — so an extra vehicle, an easy unhitch,
+            and a place the trailer can sit matter more than a 21-night beach cap.
+          </p>
+        </div>
+        <div class="lede-block" id="week-strip">
+          <p>Long-term near Santa Monica: Hollywood RV Park, Walnut RV Park, then Silverland RV Park.</p>
+          <p>Short beach week: Dockweiler (airport noise, 21-night cap) or Malibu Beach RV Park (the monthly is the expensive one).</p>
+        </div>
+        <div id="shortlist" class="shortlist" aria-label="Short list"></div>
+        <form id="park-filters" class="filters">
+          <label class="field grow">
+            <span>Search</span>
+            <input name="q" type="search" placeholder="Park or city" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Ring</span>
+            <select name="ring"></select>
+          </label>
+          <label class="field">
+            <span>Monthly ceiling</span>
+            <select name="maxMonthly">
+              <option value="">Any</option>
+              <option value="1000">≤ $1,000</option>
+              <option value="1600">≤ $1,600</option>
+              <option value="2000">≤ $2,000</option>
+              <option value="3000">≤ $3,000</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Monthly source</span>
+            <select name="monthly">
+              <option value="">Any</option>
+              <option value="yes">Published monthly</option>
+              <option value="no">Estimate or unpublished</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Hookups</span>
+            <select name="hookups">
+              <option value="">Any</option>
+              <option value="yes">Full hookups</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Rates</span>
+            <select name="rates">
+              <option value="blended">Year-round blended</option>
+              <option value="winter">Winter-only rates</option>
+            </select>
+          </label>
+          <label class="check">
+            <input name="longTerm" type="checkbox" />
+            Long stay only
+          </label>
+          <button type="button" class="text-btn" id="reset-parks">Clear</button>
+        </form>
+        <div class="workspace">
+          <div class="map-panel">
+            <div class="panel-label">
+              <h2>Map</h2>
+              <p>Rings are miles from Santa Monica Pier. Pin color is the ring, not a rating.</p>
+            </div>
+            <div id="park-map" role="application" aria-label="Map of Southern California RV parks"></div>
+            <ul class="legend" id="park-legend"></ul>
+          </div>
+          <div class="table-panel">
+            <div class="panel-label">
+              <h2>Comparison</h2>
+              <p id="park-count"></p>
+            </div>
+            <div class="table-scroll">
+              <table class="grid" id="park-table">
+                <thead>
+                  <tr>
+                    <th data-sort="rank" aria-sort="descending">Rank</th>
+                    <th data-sort="name">Park</th>
+                    <th data-sort="ring">Ring</th>
+                    <th data-sort="drive">To pier</th>
+                    <th data-sort="monthly">Monthly</th>
+                    <th data-sort="stay">Stay</th>
+                    <th data-sort="quality">Quality</th>
+                    <th data-sort="price">Price</th>
+                    <th data-sort="fit">Fit</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <p class="empty" id="park-empty" hidden>Nothing matches. Clear a filter.</p>
+          </div>
+        </div>
+        <section class="chart-section" aria-label="Quality versus price">
+          <div class="panel-label">
+            <h2>Quality vs price</h2>
+            <p>Horizontal is the monthly the rank uses: a year-round blend, a winter midpoint, the midpoint of a published range, or nightly × 30. Upper-left is the better deal. Click a dot.</p>
+          </div>
+          <div class="chart-frame">
+            <canvas id="scatter" aria-label="Scatter plot of quality against effective monthly rate"></canvas>
+          </div>
+        </section>
+        <section class="method" id="method">
+          <h2>How the rank is built</h2>
+          <div class="method-grid">
+            <article>
+              <h3>Quality, 0–10</h3>
+              <ul id="method-weights"></ul>
+            </article>
+            <article>
+              <h3>Price</h3>
+              <p>Price uses the monthly the rank is allowed to use, then multiplies by the stay cap. A real monthly needs 28 nights or month-to-month. A range uses its midpoint. Winter and summer use a 50/50 blend of the two season midpoints, not the cheapest floor. The Rates control switches that to the winter midpoint. No monthly, or a cap under 28 nights, becomes nightly × 30 and is marked ESTIMATE. Caps of 14 nights or less multiply price by 0.25, 15–21 by 0.45, 22–27 by 0.70. Seasons that disagree use the stricter cap. No monthly is invented.</p>
+            </article>
+            <article>
+              <h3>Fit, distance, and rank</h3>
+              <p>Class C fit cares about hookups, length, and a stay of at least 28 nights. Trailer + Tesla is a separate score: extra vehicle, easy unhitch or pull-through, staffed or gated, and a real monthly help. No extra vehicle, a tight back-in, weak security, a stay under 28 nights, and a $200-plus nightly resort used as trailer storage hurt it.</p>
+              <p>Proximity is road miles to the Pier: full score through 20 miles, then small, medium, and heavy, and 140 miles or more scores 0 and sorts to the bottom with a FAR badge.</p>
+              <p><code>rank = 0.40×quality + 0.30×price + 0.15×fit + 0.15×proximity</code></p>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section id="panel-land" aria-label="Public land" hidden>
+        <div class="lede-block">
+          <h1>Public land, United States and Canada</h1>
+          <p>
+            Free and near-free camping where the law actually allows it. Mexico is out. A colored polygon is a manager,
+            not a reservation. The winter belt for a cheap month is Imperial, Blythe, Quartzsite, and Yuma — and the cheap
+            month there is an LTVA permit, not $0.
+          </p>
+          <p>Winter trailer belt: Quartzsite, Yuma, or Blythe LTVA, or graded BLM. Not Malibu.</p>
+          <p>Land status is an overlay. Confirm with the field office / LTVA page before you drive.</p>
+        </div>
+        <div id="teach" class="teach"></div>
+        <div class="land-tools">
+          <label class="field month-field">
+            <span>Month · <strong id="month-label">January</strong></span>
+            <input id="month" type="range" min="1" max="12" step="1" value="1" />
+          </label>
+          <p id="month-note" class="month-note"></p>
+          <label class="field">
+            <span>Show</span>
+            <select id="area-filter">
+              <option value="all">All featured areas</option>
+              <option value="season" selected>In season this month</option>
+              <option value="ltva">LTVA permits</option>
+              <option value="free">Marked free</option>
+              <option value="closest">Closest to Los Angeles</option>
+              <option value="usfs">National Forest corridors</option>
+              <option value="canada">Canada</option>
+            </select>
+          </label>
+          <label class="field grow">
+            <span>Find an area</span>
+            <input id="area-q" type="search" placeholder="Quartzsite, forest, Yukon…" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Canada</span>
+            <select id="province"></select>
+          </label>
+        </div>
+        <article id="province-card" class="province-card" hidden></article>
+        <div id="layer-toggles" class="layer-toggles" aria-label="Map layers"></div>
+        <p id="layer-banner" class="banner" hidden></p>
+        <div class="workspace">
+          <div class="map-panel">
+            <div class="panel-label">
+              <h2>Land manager map</h2>
+              <p>
+                Basemap is Esri’s dark gray canvas. Overlays are official BLM and
+                <a id="padus-link" href="https://maps.usgs.gov/padusdataexplorer/" target="_blank" rel="noreferrer">PAD-US</a>.
+                Hubs are resupply towns. Featured pins are a curated set, not every acre.
+              </p>
+            </div>
+            <div id="land-map" role="application" aria-label="Public land map of the United States and Canada"></div>
+            <ul class="legend">
+              <li><i style="background:#2f6a56"></i>Free where legal</li>
+              <li><i style="background:#8a6232"></i>Low permit</li>
+              <li><i style="background:#b85c38"></i>LTVA permit</li>
+              <li><i style="background:#3d6f78"></i>Cost varies</li>
+              <li><i style="background:#8c3d2a"></i>Heat or closure month</li>
+            </ul>
+          </div>
+          <div class="table-panel">
+            <article id="identify" class="identify">
+              <h3>Click the map</h3>
+              <p>You get a land manager when BLM or PAD-US answers. You do not get permission to camp. If the query fails, the result is unknown.</p>
+            </article>
+            <div class="panel-label">
+              <h2>Featured areas</h2>
+              <p id="area-count"></p>
+            </div>
+            <div id="area-list" class="area-list"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Rates, stay limits, and fire closures change. A monthly that is not on the park’s own card is not shown as a
+        monthly. Public-land color is not a campsite. Posted signs, the forest motor-vehicle map, and the provincial
+        atlas beat this website. United States and Canada only — no Mexico. Planning notes checked September 2026.
+      </p>
+    </footer>
+
+    <aside class="drawer" id="drawer" hidden>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+        <button type="button" class="text-btn" id="drawer-close">Close</button>
+        <div id="drawer-body"></div>
+      </div>
+    </aside>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

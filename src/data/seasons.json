@@ -1,0 +1,16 @@
+{
+  "months": [
+    { "n": 1, "name": "January", "note": "Drop the high Sierra, Rockies, and Cascades. The winter belt is the low desert: Imperial, Blythe, Quartzsite, Yuma.", "dimBands": ["high-sierra", "rockies", "high-cascades"], "warnBands": [] },
+    { "n": 2, "name": "February", "note": "Still winter-belt season. High country stays snowed in.", "dimBands": ["high-sierra", "rockies", "high-cascades"], "warnBands": [] },
+    { "n": 3, "name": "March", "note": "Desert is still the easy month. Watch wind. Sierra passes are not a trailer plan.", "dimBands": ["high-sierra"], "warnBands": [] },
+    { "n": 4, "name": "April", "note": "LTVA fee season ends April 15. After that, 14-day rules apply where camping is still open. Desert starts to warm.", "dimBands": [], "warnBands": [] },
+    { "n": 5, "name": "May", "note": "Low desert is already hot by late May. Move up in elevation if you are still out there.", "dimBands": [], "warnBands": ["low-desert"] },
+    { "n": 6, "name": "June", "note": "Low desert is a bad month. Mountains and the Northwest are the point.", "dimBands": [], "warnBands": ["low-desert"] },
+    { "n": 7, "name": "July", "note": "Desert heat warning. Afternoon temperatures in Imperial, Blythe, Quartzsite, and Yuma are dangerous. This is not a cheap summer home.", "dimBands": [], "warnBands": ["low-desert", "high-desert"] },
+    { "n": 8, "name": "August", "note": "Same heat, plus monsoon storms and flash floods in desert washes.", "dimBands": [], "warnBands": ["low-desert", "high-desert"] },
+    { "n": 9, "name": "September", "note": "LTVA fee season starts September 15. Early September is still hot. Do not treat the permit as free camping.", "dimBands": [], "warnBands": ["low-desert"] },
+    { "n": 10, "name": "October", "note": "First comfortable desert month. High country is still open early, then starts to close.", "dimBands": [], "warnBands": [] },
+    { "n": 11, "name": "November", "note": "Winter belt is honest again. High Sierra and the Rockies are a gamble.", "dimBands": ["high-sierra", "rockies"], "warnBands": [] },
+    { "n": 12, "name": "December", "note": "Short days, cold nights, snow in the high country. Desert LTVAs are the seasonal public-land option, and they are a permit.", "dimBands": ["high-sierra", "rockies", "high-cascades"], "warnBands": [] }
+  ]
+}

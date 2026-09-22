@@ -1,0 +1,3973 @@
+[
+  {
+    "id": "dockweiler",
+    "name": "Dockweiler RV Park",
+    "operator": "county",
+    "address": "12001 Vista del Mar",
+    "city": "Playa del Rey",
+    "lat": 33.9283,
+    "lng": -118.4358,
+    "website": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+    "phone": "(310) 322-4951",
+    "driveMilesToSantaMonica": 10,
+    "driveMinutesOffPeak": 22,
+    "driveMinutesPeak": 40,
+    "ring": "0-20",
+    "nightlyFrom": {
+      "value": 65,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Back-row full hookup per day."
+    },
+    "nightlyTo": {
+      "value": 75,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Front-row full hookup per day."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "County page publishes a daily fee and a night cap, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly on the county page."
+    },
+    "electricExtra": {
+      "value": "included on full-hookup rows",
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "County page: front-row full hookup $75, middle $70, back $65. Dry camper sites $45 and 19 ft max. $10 reservation fee. Pets $3/day (max 2). One extra passenger-vehicle pass is $10 and parks in the public beach lot, not at the site. Holiday surcharge $10/night. The public dump station is closed.",
+    "maxRvLengthFt": {
+      "value": 40,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Recreational vehicle size limit."
+    },
+    "siteTypes": [
+      "back-in",
+      "oceanfront",
+      "dry"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "limited",
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "$10 extra passenger vehicle in public beach lots; only one extra pass per reservation",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "risky",
+    "security": [
+      "staffed office",
+      "coded gates",
+      "cameras"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "beachfront",
+      "bike path to Venice/SM",
+      "showers",
+      "laundry",
+      "fire rings on beach"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "airport"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 1010,
+    "reviewCampendium": 4.2,
+    "bestFor": [
+      "Class C beach week",
+      "bike-to-Santa Monica",
+      "oceanfront without a Malibu bill"
+    ],
+    "watchOuts": [
+      "21 nights / 60 days",
+      "LAX jet noise is constant",
+      "One vehicle at the site; the extra pass is the public lot",
+      "Public dump station is closed",
+      "no monthly; trailer-as-storage is a bad fit"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "https://file.lacounty.gov/SDSInter/dbh/docs/1138926_RVPARK-Rules.pdf"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 21,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Maximum stay on the county page."
+    },
+    "stayCapWindowDays": {
+      "value": 60,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Stay window on the county page."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:50.918Z",
+      "error": null
+    }
+  },
+  {
+    "id": "malibu-beach",
+    "name": "Malibu Beach RV Park",
+    "operator": "private",
+    "address": "25801 Pacific Coast Highway",
+    "city": "Malibu",
+    "lat": 34.03393,
+    "lng": -118.73766,
+    "website": "https://www.maliburv.com/rates",
+    "phone": "(800) 622-6052",
+    "driveMilesToSantaMonica": 18,
+    "driveMinutesOffPeak": 35,
+    "driveMinutesPeak": 55,
+    "ring": "0-20",
+    "nightlyFrom": {
+      "value": 85,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": 270,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": 527,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 1984,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Monthly floor on the park record."
+    },
+    "monthlyTo": {
+      "value": 5568,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Monthly ceiling on the park record."
+    },
+    "electricExtra": {
+      "value": "included in site rate; occupancy tax extra",
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Published rates exclude ~15% occupancy tax. Extra vehicle $10/night. Pets extra. Weekly 15% off / monthly 20% off listed on 2026 rate card.",
+    "maxRvLengthFt": {
+      "value": 37,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "pull-through",
+      "ocean-view",
+      "mountain-view"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "fee",
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "$10 per extra vehicle per night",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office",
+      "gated entry"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "store",
+      "laundry",
+      "showers",
+      "hot tub",
+      "playground",
+      "game room",
+      "dump station"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway",
+      "tourist"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 820,
+    "reviewCampendium": 4.4,
+    "bestFor": [
+      "Class C view week",
+      "bluff-top Pacific",
+      "splurge, not a base"
+    ],
+    "watchOuts": [
+      "PCH is scenic and slow",
+      "monthly 20% off still $2k–$5k",
+      "28-night cap typical",
+      "sites pack tight; many are W/E only"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.maliburv.com/rates",
+      "https://maps.campendium.com/us/malibu-ca/camping-rv/malibu-beach-rv-park-malibu-ca--0"
+    ],
+    "lastVerified": "2026-09",
+    "officialUrl": "https://www.maliburv.com/rates",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 28,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.maliburv.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "blocked",
+      "checkedAt": "2026-09-22T04:52:50.939Z",
+      "error": "Blocked. Tried https://www.maliburv.com/rates and https://www.maliburv.com/. Old number kept."
+    }
+  },
+  {
+    "id": "hollywood-rv",
+    "name": "Hollywood RV Park",
+    "operator": "private",
+    "address": "7740 Balboa Blvd",
+    "city": "Van Nuys",
+    "lat": 34.21133,
+    "lng": -118.50089,
+    "website": "https://hollywoodrvpark.com/",
+    "phone": "(818) 785-0949",
+    "driveMilesToSantaMonica": 16,
+    "driveMinutesOffPeak": 28,
+    "driveMinutesPeak": 55,
+    "ring": "0-20",
+    "nightlyFrom": {
+      "value": 79,
+      "sourceUrl": "https://hollywoodrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Daily rate on the Hollywood homepage."
+    },
+    "nightlyTo": {
+      "value": 79,
+      "sourceUrl": "https://hollywoodrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "One published daily rate."
+    },
+    "weeklyFrom": {
+      "value": 395,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 1500,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Application page: monthly starting at, plus electricity."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Starting at. No ceiling on the application page."
+    },
+    "monthlyFloorOnly": true,
+    "electricExtra": {
+      "value": "not included; application says $1,500 plus electricity",
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Application page adds electricity on top of the monthly."
+    },
+    "taxesFeesNote": "Park site: daily $79 plus tax. Monthly application: starting at $1,500 plus electricity, two people. The $1,400 / $1,600 length split is not on the current official pages.",
+    "maxRvLengthFt": {
+      "value": 60,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "included",
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Reservation includes one RV and one car; trailers may have extra fees — call ahead",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "24hr security guard",
+      "staffed office",
+      "cameras"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "gym",
+      "clubhouse",
+      "mail service",
+      "full hookups"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.7,
+    "reviewCountGoogle": 745,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Trailer + Tesla long-term",
+      "Valley 405 commute",
+      "staffed urban base"
+    ],
+    "watchOuts": [
+      "$1,500 is the starting monthly. Electricity is extra.",
+      "Reservation includes one RV and one car. A trailer may mean an extra fee — call.",
+      "Sites can be tight for a trailer + Tesla"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://hollywoodrvpark.com/",
+      "https://hollywoodrvpark.com/application/",
+      "https://hollywoodrvpark.com/about/faqs/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://hollywoodrvpark.com/application/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://hollywoodrvpark.com/application/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:50.940Z",
+      "error": null
+    }
+  },
+  {
+    "id": "silverland",
+    "name": "Silverland RV Park",
+    "operator": "private",
+    "address": "9849 Lemona Ave",
+    "city": "North Hills",
+    "lat": 34.2497,
+    "lng": -118.4738,
+    "website": "https://silverlandrv.com/",
+    "phone": "(818) 268-5372",
+    "driveMilesToSantaMonica": 19,
+    "driveMinutesOffPeak": 32,
+    "driveMinutesPeak": 60,
+    "ring": "0-20",
+    "nightlyFrom": {
+      "value": 75,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Daily rate on silverlandrv.com."
+    },
+    "nightlyTo": {
+      "value": 75,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Single published daily rate."
+    },
+    "weeklyFrom": {
+      "value": 415,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 1300,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly rate on silverlandrv.com."
+    },
+    "monthlyTo": {
+      "value": 1300,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Single published monthly."
+    },
+    "electricExtra": {
+      "value": "included (site rate includes sewer, water, electric, Wi-Fi, tax)",
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Rate line includes electric."
+    },
+    "taxesFeesNote": "Published daily/weekly/monthly include sewer, water, electric, Wi-Fi, tax, and a car or truck. RV older than 15 years needs manager approval.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "included",
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Car or truck included in the published rate."
+    },
+    "extraVehicleFee": "Car or truck included in published rates",
+    "unhitchFriendly": "unknown",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "electric gate",
+      "24-hour security",
+      "on-site manager"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "restrooms",
+      "showers",
+      "dog park",
+      "wifi included",
+      "gated"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 90,
+    "reviewCampendium": null,
+    "bestFor": [
+      "Trailer + Tesla monthly",
+      "cheapest published Valley monthly with extra vehicle included",
+      "no stay cap advertised"
+    ],
+    "watchOuts": [
+      "Max length and pull-through versus back-in are not on the rate page",
+      "Urban North Hills setting, not a resort",
+      "Confirm the assigned pad fits the trailer and the car"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://silverlandrv.com/",
+      "https://silverlandrv.com/booking/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://silverlandrv.com/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://silverlandrv.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:50.941Z",
+      "error": null
+    }
+  },
+  {
+    "id": "leo-carrillo",
+    "name": "Leo Carrillo State Park",
+    "operator": "state",
+    "address": "35000 Pacific Coast Highway",
+    "city": "Malibu",
+    "lat": 34.0448,
+    "lng": -118.9339,
+    "website": "https://www.parks.ca.gov/?page_id=616",
+    "phone": "(805) 488-1827",
+    "driveMilesToSantaMonica": 28,
+    "driveMinutesOffPeak": 48,
+    "driveMinutesPeak": 70,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 45,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": 60,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Monthly floor on the park record."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Monthly ceiling on the park record."
+    },
+    "electricExtra": {
+      "value": "electric sites $60/night (20/30/50 amp); no water or sewer at the post",
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "ReserveCalifornia fee. Extra vehicle $12/night in overflow/day-use. Token showers.",
+    "maxRvLengthFt": {
+      "value": 31,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "canyon",
+      "electric-only"
+    ],
+    "hookups": {
+      "water": false,
+      "sewer": false,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": false
+    },
+    "extraVehicle": {
+      "value": "fee",
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "$12 extra vehicle; park in day-use overflow",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "risky",
+    "security": [
+      "park rangers",
+      "camp host"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "sycamore canyon shade",
+      "token showers",
+      "dump station",
+      "camp store",
+      "beach access via underpass",
+      "fire rings"
+    ],
+    "wifi": "poor",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 4200,
+    "reviewCampendium": 4.3,
+    "bestFor": [
+      "Class C under 31 ft",
+      "canyon camping with a beach",
+      "value coastal nights"
+    ],
+    "watchOuts": [
+      "31 ft / 13.5 ft height limit",
+      "no water/sewer hookups",
+      "state stay cap; not a Tesla storage yard",
+      "PCH drive is slow in weekend traffic"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.parks.ca.gov/?page_id=616",
+      "https://www.reservecalifornia.com/"
+    ],
+    "lastVerified": "2026-09",
+    "officialUrl": "https://www.parks.ca.gov/?page_id=616",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 30,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=616",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "stale",
+      "checkedAt": "2026-09-22T04:52:51.996Z",
+      "error": "Page fetched. Parse was not confident. Number left as recorded."
+    }
+  },
+  {
+    "id": "walnut",
+    "name": "Walnut RV Park",
+    "operator": "private",
+    "address": "19130 Nordhoff St",
+    "city": "Northridge",
+    "lat": 34.2356,
+    "lng": -118.551,
+    "website": "https://www.walnutrvpark.com/",
+    "phone": "(818) 775-0704",
+    "driveMilesToSantaMonica": 22,
+    "driveMinutesOffPeak": 35,
+    "driveMinutesPeak": 65,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 119,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Nightly starts at the basic site."
+    },
+    "nightlyTo": {
+      "value": 169,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Pull-through premium nightly on the same card."
+    },
+    "weeklyFrom": {
+      "value": 750,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 1650,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly Rates on walnutrvpark.com."
+    },
+    "monthlyTo": {
+      "value": 1650,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Single published monthly, not a range."
+    },
+    "electricExtra": {
+      "value": "metered; $200 deposit for final electric charges",
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Deposit line next to the monthly rate."
+    },
+    "taxesFeesNote": "Rates for two people; extra person $5/day. Plus tax and electric. Daily/weekly include sewer, water, trash. Good Sam / AAA on nightly/weekly. Month-to-month up to 6 months after approval.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "pull-through",
+      "premium-100ft"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "included",
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Typical one tow/car culture; confirm Tesla + trailer pad assignment",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "24hr on-site staff",
+      "24/7 audio and visual cameras",
+      "staffed office"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "heated pool",
+      "free laundry",
+      "clubhouse",
+      "dog park",
+      "walk to Costco/Target/Vons/Porto's"
+    ],
+    "wifi": "good",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 419,
+    "reviewCampendium": 4.5,
+    "bestFor": [
+      "Class C long-term",
+      "Trailer + Tesla base",
+      "walkable Valley errands",
+      "film/work stays"
+    ],
+    "watchOuts": [
+      "Breed restrictions (Rottweiler, GSD, pit, Doberman listed)",
+      "Pets may not be left outside unattended",
+      "405 peak traffic still hurts the SM run",
+      "Monthly requires approval form"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.walnutrvpark.com/",
+      "https://www.walnutrvpark.com/about",
+      "https://www.walnutrvpark.com/faq"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.walnutrvpark.com/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": 180,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.walnutrvpark.com/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:52.175Z",
+      "error": null
+    }
+  },
+  {
+    "id": "valencia-travel-village",
+    "name": "Valencia Travel Village",
+    "operator": "private",
+    "address": "27946 Henry Mayo Dr",
+    "city": "Castaic",
+    "lat": 34.4436,
+    "lng": -118.6264,
+    "website": "https://valenciatravelvillagellc.com/rates-reservations/",
+    "phone": "(661) 257-3333",
+    "driveMilesToSantaMonica": 42,
+    "driveMinutesOffPeak": 50,
+    "driveMinutesPeak": 85,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 85,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "October–May daily rate."
+    },
+    "nightlyTo": {
+      "value": 105,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Daily card is listed as $85–$105."
+    },
+    "weeklyFrom": {
+      "value": 539,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly section says contact for pricing. No monthly dollar."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly ceiling published."
+    },
+    "electricExtra": {
+      "value": "$10/day resort fee (from 6/1/2025) covers wifi, amenities, utilities on daily/weekly",
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Official rate page: daily $85 (Oct 1–May 31) / $95 (Jun 1–Sep 30), holiday up to $105. Weekly $539 / $574 for those same seasons. $10/day resort fee from 6/1/2025. Monthly is listed with occupancy rules and no dollar amount. Call (661) 257-3333. Do not use an older $1,300–$1,600 figure.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "pull-through",
+      "back-in",
+      "full-hookup",
+      "partial-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "On-site RV/vehicle storage lot exists; extra-vehicle-at-site policy not published — call",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "24/7 security",
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "three pools",
+      "spa",
+      "store",
+      "laundry",
+      "dog run",
+      "playground",
+      "pull-throughs",
+      "RV storage"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 3.8,
+    "bestFor": [
+      "big-rig pull-through",
+      "resort amenities as a base",
+      "I-5 corridor"
+    ],
+    "watchOuts": [
+      "Call for monthly. The rate page does not publish one.",
+      "Worse commute than the Valley parks",
+      "On-site storage exists; extra vehicle at the site is not published"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://valenciatravelvillagellc.com/rates-reservations/",
+      "https://valenciatravelvillagellc.com/resort/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:52.456Z",
+      "error": null
+    }
+  },
+  {
+    "id": "golden-shore",
+    "name": "Golden Shore RV Resort",
+    "operator": "private",
+    "address": "101 Golden Shore",
+    "city": "Long Beach",
+    "lat": 33.76464,
+    "lng": -118.20203,
+    "website": "https://goldenshorervresort.com/rates",
+    "phone": "(562) 435-4646",
+    "driveMilesToSantaMonica": 28,
+    "driveMinutesOffPeak": 40,
+    "driveMinutesPeak": 70,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 85,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Sunday–Thursday nightly."
+    },
+    "nightlyTo": {
+      "value": 90,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Friday–Saturday nightly. Grand Prix weekend is excluded."
+    },
+    "weeklyFrom": {
+      "value": 515,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Published weekly rate."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Rates page lists daily and weekly, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly ceiling."
+    },
+    "electricExtra": {
+      "value": "winter monthly historically plus electricity; nightly/weekly utilities included in published rate",
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Sun–Thu $85, Fri–Sat $90, holiday $95. Extra person $5 (max 6). Dogs $2/night. Summer two-week max. Winter monthly (Oct 2026–Apr 2027) is 3–6 months — call for the number.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "waterfront",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "limited",
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "One tow vehicle per site; two if fully contained within the site",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office",
+      "gated"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "pool",
+      "spa",
+      "club room",
+      "laundry",
+      "store",
+      "playground",
+      "walk to downtown Long Beach"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "tourist"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "waterfront Long Beach week",
+      "winter seasonal monthly if you can get the unpublished quote",
+      "Queen Mary / aquarium base"
+    ],
+    "watchOuts": [
+      "Summer 14-night cap",
+      "2026 winter monthly price is unpublished (2013 $770 figure is not usable)",
+      "Grand Prix weekends spike rates",
+      "Tight waterfront pads"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://goldenshorervresort.com/",
+      "https://goldenshorervresort.com/rates",
+      "https://goldenshorervresort.com/park-guidelines"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://goldenshorervresort.com/rates",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": 14,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Two-week maximum during summer months."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://goldenshorervresort.com/rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "changed",
+      "checkedAt": "2026-09-22T04:52:53.269Z",
+      "error": null
+    }
+  },
+  {
+    "id": "pacific-wilmington",
+    "name": "Pacific RV Park",
+    "operator": "private",
+    "address": "1025 McFarland Ave",
+    "city": "Wilmington",
+    "lat": 33.789,
+    "lng": -118.2625,
+    "website": "https://www.pacificrvpark.com/",
+    "phone": "(310) 740-3542",
+    "driveMilesToSantaMonica": 24,
+    "driveMinutesOffPeak": 35,
+    "driveMinutesPeak": 65,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 75,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Weekday daily rate."
+    },
+    "nightlyTo": {
+      "value": 125,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Friday–Saturday daily rate."
+    },
+    "weeklyFrom": {
+      "value": 500,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 1450,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly starting at. Varies by length, occupants, and pets."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Starting at. No ceiling on the rates page."
+    },
+    "monthlyFloorOnly": true,
+    "electricExtra": {
+      "value": "not stated on the rates page",
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Official rates page, 1025 McFarland Ave, Wilmington: weekdays $75, Sunday $90, Fri–Sat $125. Monthly starting at $1,450, varying by RV length, occupants, and pets. $25/dog/month. One-month deposit. Storage starts at $250/month and is a separate product.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "paved",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Not on the rates page. Ask before counting on a second vehicle.",
+    "unhitchFriendly": "unknown",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "gated",
+      "security cameras",
+      "on-site staff"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "mailroom",
+      "paved pads",
+      "storage from $250/mo"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.6,
+    "reviewCountGoogle": 40,
+    "reviewCampendium": null,
+    "bestFor": [
+      "Trailer + Tesla harbor base",
+      "port / contractor long-term",
+      "gated monthly without a beach premium"
+    ],
+    "watchOuts": [
+      "Industrial Wilmington, not pretty",
+      "Smaller park; sites close together",
+      "No public showers",
+      "Fewer public reviews"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.pacificrvpark.com/",
+      "https://www.pacificrvpark.com/sites-rates/",
+      "https://www.pacificrvpark.com/long-term-stays/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.pacificrvpark.com/sites-rates/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:53.297Z",
+      "error": null
+    }
+  },
+  {
+    "id": "fairplex",
+    "name": "Fairplex RV Park",
+    "operator": "county",
+    "address": "2200 N White Ave",
+    "city": "Pomona",
+    "lat": 34.081,
+    "lng": -117.7655,
+    "website": "https://fairplex.com/stay/fairplex-rv-park/",
+    "phone": "(909) 593-8915",
+    "driveMilesToSantaMonica": 40,
+    "driveMinutesOffPeak": 50,
+    "driveMinutesPeak": 90,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 71,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": 99,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Monthly floor on the park record."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Monthly ceiling on the park record."
+    },
+    "electricExtra": {
+      "value": "unknown; monthly quote from Sept 2025 guest report",
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "No longer a KOA — operated by Fairplex. Sept 2025 guest: $1,320/mo + $70/dog; extra parking fee if tow does not fit on site. Nightly $71–$99 from directories. Confirm 2026.",
+    "maxRvLengthFt": {
+      "value": 55,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "pull-through",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "fee",
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Extra parking fee if the tow vehicle cannot fit on the (tight) site",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "pool",
+      "spa",
+      "laundry",
+      "gym",
+      "mini-market",
+      "clubhouse",
+      "wifi"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 3.9,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 3.6,
+    "bestFor": [
+      "monthly east of LA",
+      "Fairplex / 10 corridor",
+      "former KOA amenity stack"
+    ],
+    "watchOuts": [
+      "Very tight former-KOA pads",
+      "Fair weeks are loud and full",
+      "Monthly number is a 2025 guest report, not a posted 2026 card"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fairplex.com/stay/fairplex-rv-park/",
+      "https://campgrounds.rvlife.com/questions/answer/12096"
+    ],
+    "lastVerified": "2026-09",
+    "officialUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://fairplex.com/stay/fairplex-rv-park/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "stale",
+      "checkedAt": "2026-09-22T04:52:53.318Z",
+      "error": "Page fetched. Parse was not confident. Number left as recorded."
+    }
+  },
+  {
+    "id": "bolsa-chica",
+    "name": "Bolsa Chica State Beach",
+    "operator": "state",
+    "address": "17851 Pacific Coast Highway",
+    "city": "Huntington Beach",
+    "lat": 33.6955,
+    "lng": -118.0489,
+    "website": "https://www.parks.ca.gov/?page_id=642",
+    "phone": "(714) 846-1114",
+    "driveMilesToSantaMonica": 38,
+    "driveMinutesOffPeak": 48,
+    "driveMinutesPeak": 80,
+    "ring": "20-45",
+    "nightlyFrom": {
+      "value": 60,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Lower of the two full-hookup rows."
+    },
+    "nightlyTo": {
+      "value": 70,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Higher of the two full-hookup rows."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "State park page publishes a nightly camping fee, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly."
+    },
+    "electricExtra": {
+      "value": "water + electric included; dump station extra if not camping",
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Front/beach $70, back/highway $60. Senior $2 off. 2nd vehicle free only if physically towed at check-in. Extra vehicles pay day-use.",
+    "maxRvLengthFt": {
+      "value": 40,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Max trailer length on the state park page."
+    },
+    "siteTypes": [
+      "back-in",
+      "oceanfront",
+      "highway-row"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": false,
+      "amp30": true,
+      "amp50": false,
+      "fullHookups": false
+    },
+    "extraVehicle": {
+      "value": "limited",
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "2nd vehicle free only if towed in; extra vehicles = day-use rate",
+    "unhitchFriendly": "no",
+    "leaveTrailerUnattended": "risky",
+    "security": [
+      "park rangers",
+      "gated night closure"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "beach",
+      "token showers",
+      "dump station",
+      "bike path",
+      "lifeguards"
+    ],
+    "wifi": "poor",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.6,
+    "reviewCountGoogle": 8900,
+    "reviewCampendium": 4.2,
+    "bestFor": [
+      "Class C beach week",
+      "Huntington / Bolsa Chica",
+      "value oceanfront vs Newport Dunes"
+    ],
+    "watchOuts": [
+      "7 nights peak / 14 off-peak / 30 nights per year",
+      "no sewer; no pop-outs/awnings that block the stall",
+      "leaving a trailer while you work in SM is a poor fit",
+      "PCH + 405 commute"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.parks.ca.gov/?page_id=642",
+      "https://www.parks.ca.gov/pages/642/files/Camping%20Regulations%20Flyer%20(Updated%202023)v.2.pdf"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.parks.ca.gov/?page_id=642",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 14,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": 365,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": 7,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:53.857Z",
+      "error": null
+    }
+  },
+  {
+    "id": "canyon-rv",
+    "name": "Canyon RV Park",
+    "operator": "private",
+    "address": "24001 E Santa Ana Canyon Rd",
+    "city": "Anaheim",
+    "lat": 33.8736,
+    "lng": -117.7015,
+    "website": "https://canyonrvpark.com/",
+    "phone": "(714) 637-0210",
+    "driveMilesToSantaMonica": 50,
+    "driveMinutesOffPeak": 55,
+    "driveMinutesPeak": 95,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": 90,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "RV daily rate."
+    },
+    "nightlyTo": {
+      "value": 90,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "One published RV daily rate."
+    },
+    "weeklyFrom": {
+      "value": 505,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "RV weekly rate."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly says call for pricing. No dollar."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly ceiling."
+    },
+    "electricExtra": {
+      "value": "included on nightly/weekly; monthly unpublished",
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Rates for 1 RV, 2 guests, 1 tow vehicle. Extra guest $2/day. Monthly: call. Inside Featherly Wilderness Preserve off the 91.",
+    "maxRvLengthFt": {
+      "value": 45,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "full-hookup",
+      "canyon"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "included",
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "One tow vehicle included; extra vehicle policy not clearly posted — confirm",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office",
+      "park setting"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "canyon preserve",
+      "full hookups",
+      "cabins",
+      "restrooms",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4.3,
+    "bestFor": [
+      "wooded OC base",
+      "Class C that wants trees not asphalt",
+      "91 corridor"
+    ],
+    "watchOuts": [
+      "Not a Santa Monica commute you will love at peak",
+      "Monthly unpublished",
+      "Can feel like a Disneyland-overflow park on weekends"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://canyonrvpark.com/",
+      "https://canyonrvpark.com/reservations"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://canyonrvpark.com/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://canyonrvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:54.077Z",
+      "error": null
+    }
+  },
+  {
+    "id": "newport-dunes",
+    "name": "Newport Dunes Waterfront Resort",
+    "operator": "private",
+    "address": "1131 Back Bay Dr",
+    "city": "Newport Beach",
+    "lat": 33.6185,
+    "lng": -117.893,
+    "website": "https://www.newportdunes.com/extended-stay/",
+    "phone": "(949) 729-3863",
+    "driveMilesToSantaMonica": 50,
+    "driveMinutesOffPeak": 55,
+    "driveMinutesPeak": 90,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": 84,
+      "sourceUrl": "https://www.newportdunes.com/rv-rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Winter small-site daily floor."
+    },
+    "nightlyTo": {
+      "value": 590,
+      "sourceUrl": "https://www.newportdunes.com/rv-rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Highest daily ceiling on the rates page."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 1207,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Winter small-standard monthly."
+    },
+    "monthlyTo": {
+      "value": 2536,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Winter select-deluxe monthly."
+    },
+    "monthlyRankNote": "$1,207 is the winter (Sep–May) small-standard site only. The winter card runs to select deluxe $2,536. Summer small-standard is $2,104 and select deluxe is $4,553. Year-round rank uses the blend of the two season midpoints, not $1,207.",
+    "electricExtra": {
+      "value": "metered; not included in monthly",
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Winter monthly (Sep–May) small standard $1,207 to select deluxe $2,536; summer small standard $2,104 to select deluxe $4,553. $50 background check/adult. Extra vehicle $60/month on monthly rules. Occupancy tax on first 30 days. 180 nights then 7 nights out.",
+    "maxRvLengthFt": {
+      "value": 45,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "waterfront",
+      "standard",
+      "deluxe"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "included",
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Monthly: two vehicle passes + one RV/trailer; extra vehicles $60/month",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "gated",
+      "staffed office",
+      "24hr resort"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "back bay beach",
+      "pool",
+      "marina",
+      "store",
+      "laundry",
+      "wifi",
+      "activities"
+    ],
+    "wifi": "good",
+    "noise": [
+      "tourist"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 2016,
+    "reviewCampendium": 4.3,
+    "bestFor": [
+      "resort winter monthly",
+      "Newport — not Santa Monica",
+      "Class C that wants amenities"
+    ],
+    "watchOuts": [
+      "You are paying Newport prices to commute to SM",
+      "Summer monthly $2,104–$4,553",
+      "180-night cap + 7-night out; cannot store the rig in their lot during the week out",
+      "Background check and 20-year RV rule"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.newportdunes.com/extended-stay/",
+      "https://www.newportdunes.com/rv-rates/",
+      "https://www.newportdunes.com/wp-content/uploads/Monthly-Agreement-2024.pdf"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.newportdunes.com/extended-stay/",
+    "monthlyWinter": {
+      "value": {
+        "from": 1207,
+        "to": 2536
+      },
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Winter column, small standard through select deluxe."
+    },
+    "monthlySummer": {
+      "value": {
+        "from": 2104,
+        "to": 4553
+      },
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Summer column, small standard through select deluxe."
+    },
+    "stayCapNights": {
+      "value": 180,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Must leave for 7 nights after this many nights."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.newportdunes.com/extended-stay/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:54.509Z",
+      "error": null
+    }
+  },
+  {
+    "id": "evergreen-oxnard",
+    "name": "Evergreen RV Park",
+    "operator": "private",
+    "address": "2135 N Oxnard Blvd",
+    "city": "Oxnard",
+    "lat": 34.2205,
+    "lng": -119.177,
+    "website": "https://www.stayatevergreenrv.com/rates",
+    "phone": "(805) 485-1936",
+    "driveMilesToSantaMonica": 55,
+    "driveMinutesOffPeak": 60,
+    "driveMinutesPeak": 95,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Monthly floor on the park record."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Monthly ceiling on the park record."
+    },
+    "rateUnverified": true,
+    "electricExtra": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "The rates page did not load. Nightly, weekly, monthly, and the extra-vehicle fee are not shown.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Not on a page that loaded.",
+    "unhitchFriendly": "unknown",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "RFID gate",
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "clubhouse",
+      "dog run",
+      "wifi",
+      "year-round living"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 210,
+    "reviewCampendium": 3.2,
+    "bestFor": [
+      "Oxnard monthly",
+      "Trailer + Tesla if you accept the 101 drive",
+      "year-round living"
+    ],
+    "watchOuts": [
+      "Unverified rate.",
+      "The rates page did not load. Do not treat $1,445–$1,545 as current.",
+      "Commercial Oxnard Blvd, not the beach"
+    ],
+    "confidence": "low",
+    "sources": [
+      "https://www.stayatevergreenrv.com/rates",
+      "https://www.stayatevergreenrv.com/"
+    ],
+    "lastVerified": "2026-09",
+    "officialUrl": "https://www.stayatevergreenrv.com/rates",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.stayatevergreenrv.com/rates",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "blocked",
+      "checkedAt": "2026-09-22T04:52:54.754Z",
+      "error": "Blocked. Tried https://www.stayatevergreenrv.com/rates and https://www.stayatevergreenrv.com/. Old number kept."
+    }
+  },
+  {
+    "id": "ventura-beach",
+    "name": "Ventura Beach RV Resort",
+    "operator": "private",
+    "address": "800 W Main St",
+    "city": "Ventura",
+    "lat": 34.2764,
+    "lng": -119.2998,
+    "website": "https://www.vbrvresort.com/rv-site-rates",
+    "phone": "(805) 643-9137",
+    "driveMilesToSantaMonica": 62,
+    "driveMinutesOffPeak": 70,
+    "driveMinutesPeak": 100,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": 140,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Lowest daily RV rate on the rate card, with tax."
+    },
+    "nightlyTo": {
+      "value": 244,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Highest RV rate on the card, including holiday, with tax."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Rate card is daily and holiday, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly."
+    },
+    "electricExtra": {
+      "value": "included in published nightly (rates listed with tax)",
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "2026 card is with tax: Canary from $140, full hookup back-in $176, pull-through $210, premier $227. Extra vehicle driven in separately $10/day + tax. Consecutive 28-day stay may be discounted if paid ahead. One ~$1,800/month guest report — not a posted rate.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "pull-through",
+      "back-in",
+      "premier"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "fee",
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "$10/day + tax for any vehicle driven in separately; trailer tow vehicle included",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office",
+      "wristband access"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "pool",
+      "walk-to-beach neighborhood",
+      "laundry",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 3.6,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 3,
+    "bestFor": [
+      "coastal week in Ventura",
+      "pull-through Class C",
+      "walkable downtown/beach"
+    ],
+    "watchOuts": [
+      "101 freeway noise on many sites",
+      "Nightly with tax is resort-priced",
+      "Mixed reviews / past flooding complaints",
+      "28-day discount is not a true month-to-month"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.vbrvresort.com/rv-site-rates",
+      "https://www.vbrvresort.com/resort-policies"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.vbrvresort.com/rv-site-rates",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 28,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "changed",
+      "checkedAt": "2026-09-22T04:52:54.758Z",
+      "error": null
+    }
+  },
+  {
+    "id": "emma-wood",
+    "name": "Emma Wood State Beach",
+    "operator": "state",
+    "address": "Off Hwy 101 at the Ventura River estuary",
+    "city": "Ventura",
+    "lat": 34.2915,
+    "lng": -119.3375,
+    "website": "https://www.parks.ca.gov/?page_id=604",
+    "phone": "(805) 585-1850",
+    "driveMilesToSantaMonica": 64,
+    "driveMinutesOffPeak": 72,
+    "driveMinutesPeak": 100,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": 40,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": 40,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Monthly floor on the park record."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Monthly ceiling on the park record."
+    },
+    "electricExtra": {
+      "value": "none — primitive, self-contained only",
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "North Beach closed for road repair through June 2026; camping reopen is uncertain after that. When open: ~$40 peak / sometimes $30 off-season + ReserveCalifornia fee.",
+    "maxRvLengthFt": {
+      "value": 40,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "primitive",
+      "oceanfront",
+      "uneven"
+    ],
+    "hookups": {
+      "water": false,
+      "sewer": false,
+      "amp30": false,
+      "amp50": false,
+      "fullHookups": false
+    },
+    "extraVehicle": {
+      "value": "limited",
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Standard state extra-vehicle rules when open",
+    "unhitchFriendly": "no",
+    "leaveTrailerUnattended": "risky",
+    "security": [
+      "park rangers"
+    ],
+    "pets": "restricted",
+    "amenities": [
+      "oceanfront",
+      "portable toilets when open"
+    ],
+    "wifi": "poor",
+    "noise": [
+      "freeway",
+      "train"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1600,
+    "reviewCampendium": 3.8,
+    "bestFor": [
+      "self-contained Class C on the sand",
+      "value beach when open"
+    ],
+    "watchOuts": [
+      "CLOSED through at least June 2026 — camping may stay closed after road work",
+      "No hookups, water, dump, or restrooms",
+      "101 + railroad noise",
+      "Not a trailer-storage commute base"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.parks.ca.gov/?page_id=604",
+      "https://www.parks.ca.gov/?page_id=31922"
+    ],
+    "lastVerified": "2026-09",
+    "officialUrl": "https://www.parks.ca.gov/?page_id=604",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 30,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.parks.ca.gov/?page_id=604",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "stale",
+      "checkedAt": "2026-09-22T04:52:55.075Z",
+      "error": "Page fetched. Parse was not confident. Number left as recorded."
+    }
+  },
+  {
+    "id": "rincon-parkway",
+    "name": "Rincon Parkway",
+    "operator": "county",
+    "address": "Pacific Coast Highway between Faria and Hobson",
+    "city": "Ventura",
+    "lat": 34.3265,
+    "lng": -119.389,
+    "website": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+    "phone": "(805) 654-3951",
+    "driveMilesToSantaMonica": 70,
+    "driveMinutesOffPeak": 78,
+    "driveMinutesPeak": 110,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": 47,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Off-season RV daily rate."
+    },
+    "nightlyTo": {
+      "value": 51,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Peak-season RV daily rate."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "County page publishes a daily fee, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly."
+    },
+    "electricExtra": {
+      "value": "none — dry camping, self-contained only",
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "2026 county schedule: peak $51 / off-season $47. Extra unit $17/night if allowed. Dog $3/day. Portable toilets only.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "oceanfront",
+      "dry",
+      "paved-shoulder"
+    ],
+    "hookups": {
+      "water": false,
+      "sewer": false,
+      "amp30": false,
+      "amp50": false,
+      "fullHookups": false
+    },
+    "extraVehicle": {
+      "value": "fee",
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "One extra vehicle if it fits in the site, extra-vehicle fee per night",
+    "unhitchFriendly": "no",
+    "leaveTrailerUnattended": "risky",
+    "security": [
+      "county parks patrol"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "literally on the water",
+      "Channel Islands views"
+    ],
+    "wifi": "poor",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4.4,
+    "bestFor": [
+      "self-contained Class C ocean night",
+      "cheap Pacific",
+      "photos"
+    ],
+    "watchOuts": [
+      "7 nights peak / 14 off-peak then 7 nights out",
+      "No hookups, water, dump, or showers",
+      "PCH shoulder camping — theft/exposure risk for an unattended trailer",
+      "Not a work-from-SM base"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "https://cdn.parks.venturacounty.gov/wp-content/uploads/2026/07/Rent-and-Fee-Schedule-Approved-6.23.26.pdf"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 7,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "7 days across the three beach parks."
+    },
+    "stayCapWindowDays": {
+      "value": 30,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:55.505Z",
+      "error": null
+    }
+  },
+  {
+    "id": "faria-beach",
+    "name": "Faria Beach Park",
+    "operator": "county",
+    "address": "4350 Pacific Coast Hwy",
+    "city": "Ventura",
+    "lat": 34.318,
+    "lng": -119.378,
+    "website": "https://parks.venturacounty.gov/",
+    "phone": "(805) 654-3951",
+    "driveMilesToSantaMonica": 68,
+    "driveMinutesOffPeak": 76,
+    "driveMinutesPeak": 108,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": 67,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Lowest hook-up daily rate on the county page."
+    },
+    "nightlyTo": {
+      "value": 74,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Highest hook-up daily rate on the county page."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "County page publishes a daily fee, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly."
+    },
+    "electricExtra": {
+      "value": "full-hookup beach sites on the 2026 fee schedule; confirm site type when booking",
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Ventura County 2026: improved ~$47, full hookup beach ~$67, premium no-campfire ~$69. Same stay-cap family as Rincon/Hobson.",
+    "maxRvLengthFt": {
+      "value": 35,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "oceanfront",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": false,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "fee",
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "County extra-unit fee if a second vehicle is allowed",
+    "unhitchFriendly": "tight",
+    "leaveTrailerUnattended": "risky",
+    "security": [
+      "county parks patrol",
+      "camp host"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "oceanfront",
+      "full hookups on some sites",
+      "restrooms"
+    ],
+    "wifi": "poor",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "on-sand",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 380,
+    "reviewCampendium": 4.1,
+    "bestFor": [
+      "Class C oceanfront with hookups",
+      "Ventura County beach week"
+    ],
+    "watchOuts": [
+      "7-night peak cap shared with Rincon/Hobson",
+      "Tiny beach lots — bad trailer+Tesla logistics",
+      "PCH noise"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://cdn.parks.venturacounty.gov/wp-content/uploads/2026/07/Rent-and-Fee-Schedule-Approved-6.23.26.pdf",
+      "https://parks.venturacounty.gov/reservation-announcement/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 7,
+      "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "7 days across the three beach parks."
+    },
+    "stayCapWindowDays": {
+      "value": 30,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://parks.venturacounty.gov/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "changed",
+      "checkedAt": "2026-09-22T04:52:56.335Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ventura-oaks",
+    "name": "Ventura Oaks RV Park",
+    "operator": "private",
+    "address": "255 Burnham Rd",
+    "city": "Oak View",
+    "lat": 34.4005,
+    "lng": -119.298,
+    "website": "https://www.venturaoaks.com/amenities-rates",
+    "phone": "(805) 649-9103",
+    "driveMilesToSantaMonica": 75,
+    "driveMinutesOffPeak": 85,
+    "driveMinutesPeak": 115,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 950,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Long-term monthly floor on venturaoaks.com."
+    },
+    "monthlyTo": {
+      "value": 1330,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Long-term monthly ceiling on venturaoaks.com."
+    },
+    "electricExtra": {
+      "value": "unknown; confirm whether electric is metered",
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Official amenities page: long-term stays up to 6 months, monthly $950–$1,330. Nightly is not posted. The page does not say whether electric is inside that range.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "full-hookup"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "showers",
+      "BBQ",
+      "quiet country setting",
+      "near Lake Casitas and Ojai"
+    ],
+    "wifi": "unknown",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "short-drive",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 160,
+    "reviewCampendium": null,
+    "bestFor": [
+      "quiet Ojai-adjacent monthly",
+      "price vs Ventura Beach RV Resort"
+    ],
+    "watchOuts": [
+      "85+ minutes to Santa Monica off-peak",
+      "Nightly unpublished",
+      "Electric may be extra — the rate page does not say",
+      "Extra vehicle is not published"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.venturaoaks.com/",
+      "https://www.venturaoaks.com/amenities-rates"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.venturaoaks.com/amenities-rates",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": 180,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:56.402Z",
+      "error": null
+    }
+  },
+  {
+    "id": "san-bernardino-rv",
+    "name": "San Bernardino RV Park",
+    "operator": "private",
+    "address": "1080 E 9th St",
+    "city": "San Bernardino",
+    "lat": 34.1085,
+    "lng": -117.27,
+    "website": "https://www.sanbernardinorvpark.com/",
+    "phone": "(909) 381-2276",
+    "driveMilesToSantaMonica": 72,
+    "driveMinutesOffPeak": 80,
+    "driveMinutesPeak": 120,
+    "ring": "45-80",
+    "nightlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 700,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly rates starting at. Water and electric are extra."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Starting at. No ceiling on the page."
+    },
+    "monthlyFloorOnly": true,
+    "electricExtra": {
+      "value": "metered 30/50 amp; not included in the $700",
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Page says water is a flat fee and electric is metered."
+    },
+    "taxesFeesNote": "Official site: monthly starting at $700. Sewer, trash, and Wi-Fi are included. Water is a $25 flat fee. Electric is metered 30/50 amp. The old $775 midpoint and the $850 ceiling are not on the page.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "full-hookup",
+      "concrete-patio"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Not on the park page",
+    "unhitchFriendly": "unknown",
+    "leaveTrailerUnattended": "unknown",
+    "security": [
+      "gated",
+      "on-site management"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "pet park",
+      "BBQ pavilion",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "freeway"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 3.8,
+    "reviewCountGoogle": 120,
+    "reviewCampendium": null,
+    "bestFor": [
+      "budget monthly",
+      "Inland Empire work",
+      "if price is the only goal"
+    ],
+    "watchOuts": [
+      "$700 is the starting monthly. Water is $25 and electric is metered.",
+      "Not a Santa Monica commute you can do daily",
+      "Extra vehicle and max length are not on the page"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.sanbernardinorvpark.com/",
+      "https://www.boavidacommunities.com/communities/san-bernardino-rv/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.sanbernardinorvpark.com/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.sanbernardinorvpark.com/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:56.539Z",
+      "error": null
+    }
+  },
+  {
+    "id": "golden-village-palms",
+    "name": "Golden Village Palms RV Resort",
+    "operator": "private",
+    "address": "3600 W Florida Ave",
+    "city": "Hemet",
+    "lat": 33.747,
+    "lng": -117.022,
+    "website": "https://www.goldenvillagepalms.com/",
+    "phone": "(888) 787-8297",
+    "driveMilesToSantaMonica": 98,
+    "driveMinutesOffPeak": 110,
+    "driveMinutesPeak": 145,
+    "ring": "80-140",
+    "nightlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Nightly floor on the park record."
+    },
+    "nightlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Monthly floor on the park record."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Monthly ceiling on the park record."
+    },
+    "electricExtra": {
+      "value": "third-party listing says utilities included; confirm — park site does not publish the number",
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Call for monthly. The resort site does not publish a dollar. A third-party range is not used. Optional storage has been advertised at $200/month — confirm.",
+    "maxRvLengthFt": {
+      "value": 45,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "pull-through",
+      "resort"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "Not on the resort rate card. Confirm before you count on storage.",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "gated",
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "three pools",
+      "pickleball",
+      "clubhouse",
+      "dog parks",
+      "activities",
+      "700+ sites"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 1400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "snowbird monthly",
+      "resort amenities on an IE budget"
+    ],
+    "watchOuts": [
+      "Unverified rate.",
+      "Call (888) 787-8297. The resort site does not publish a monthly dollar.",
+      "Often marketed as active-adult — confirm age policy",
+      "Too far for a daily Santa Monica run"
+    ],
+    "rateUnverified": true,
+    "confidence": "low",
+    "sources": [
+      "https://www.goldenvillagepalms.com/",
+      "https://www.goldenvillagepalms.com/promotions-and-offers",
+      "https://www.goldenvillagepalms.com/faqs"
+    ],
+    "lastVerified": "2026-09",
+    "officialUrl": "https://www.goldenvillagepalms.com/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 180,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.goldenvillagepalms.com/",
+      "lastVerified": null,
+      "confidence": "low",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "blocked",
+      "checkedAt": "2026-09-22T04:52:56.804Z",
+      "error": "Blocked. Tried https://www.goldenvillagepalms.com/ and https://www.goldenvillagepalms.com/faqs. Old number kept."
+    }
+  },
+  {
+    "id": "ramona-oaks",
+    "name": "Ramona Oaks RV Park",
+    "operator": "private",
+    "address": "24340 Highway 78",
+    "city": "Ramona",
+    "lat": 33.047,
+    "lng": -116.802,
+    "website": "https://rorvpark.com/rates/",
+    "phone": "(760) 276-5742",
+    "driveMilesToSantaMonica": 130,
+    "driveMinutesOffPeak": 140,
+    "driveMinutesPeak": 175,
+    "ring": "80-140",
+    "nightlyFrom": {
+      "value": 65,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Back-in full-hookup nightly floor."
+    },
+    "nightlyTo": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Nightly ceiling on the park record."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": 800,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Monthly starting at, plus utilities."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Starting at. No ceiling on the rates page."
+    },
+    "monthlyFloorOnly": true,
+    "electricExtra": {
+      "value": "utilities extra; not included in the $800",
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "Official rates page: monthly starting at $800 plus utilities. Tent sites from $55/night. An RV nightly dollar is not on that page. Phone on the page is (760) 276-5742.",
+    "maxRvLengthFt": {
+      "value": 45,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "pull-through",
+      "full-hookup",
+      "oak-shaded"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "unknown",
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "on-site management"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "pool",
+      "jacuzzi",
+      "clubhouse",
+      "dog park",
+      "fishing pond",
+      "mini golf",
+      "laundry"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 280,
+    "reviewCampendium": 3.9,
+    "bestFor": [
+      "if price is the only goal",
+      "inland monthly with amenities"
+    ],
+    "watchOuts": [
+      "$800 is the starting monthly. Utilities are extra.",
+      "~2 hours to Santa Monica — not a daily commute"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://rorvpark.com/",
+      "https://rorvpark.com/rates/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://rorvpark.com/rates/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay cap on the park record."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://rorvpark.com/rates/",
+      "lastVerified": null,
+      "confidence": "medium",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "changed",
+      "checkedAt": "2026-09-22T04:52:56.957Z",
+      "error": null
+    }
+  },
+  {
+    "id": "pismo-coast-village",
+    "name": "Pismo Coast Village RV Resort",
+    "operator": "private",
+    "address": "165 S Dolliver St",
+    "city": "Pismo Beach",
+    "lat": 35.1385,
+    "lng": -120.6415,
+    "website": "https://www.visitpcv.com/rates/",
+    "phone": "(888) 782-3224",
+    "driveMilesToSantaMonica": 175,
+    "driveMinutesOffPeak": 180,
+    "driveMinutesPeak": 210,
+    "ring": "80-140",
+    "nightlyFrom": {
+      "value": 111,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Non-prime starting nightly, before tax."
+    },
+    "nightlyTo": {
+      "value": 126,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Prime starting nightly, before tax."
+    },
+    "weeklyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Weekly rate on the park record."
+    },
+    "monthlyFrom": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Rate page publishes a nightly start, not a monthly."
+    },
+    "monthlyTo": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "No monthly."
+    },
+    "electricExtra": {
+      "value": "included in nightly; plus ~14.5% Pismo taxes/fees",
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Electric note on the park record."
+    },
+    "taxesFeesNote": "2026: $111 non-prime / $126 prime before 11% bed tax + 1.5% lodging + 2% TMD. Max 29 consecutive nights on many sites. Occupied 4 nights/week rule. This is a weekend-from-base stretch, not a Santa Monica commute.",
+    "maxRvLengthFt": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Maximum length on the park record."
+    },
+    "siteTypes": [
+      "back-in",
+      "full-hookup",
+      "beach-town"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": {
+      "value": "limited",
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Extra-vehicle rule on the park record."
+    },
+    "extraVehicleFee": "On-site parking is limited per resort rules",
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office",
+      "gated resort"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "400 full-hookup sites",
+      "beach town",
+      "store",
+      "laundry",
+      "pool"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "tourist"
+    ],
+    "beachAccess": "short-walk",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 2100,
+    "reviewCampendium": 4.2,
+    "bestFor": [
+      "stretch SoCal / weekend-from-base",
+      "Pismo beach town"
+    ],
+    "watchOuts": [
+      "175 miles — not a Santa Monica commute",
+      "29-night cap on north-side requests",
+      "Must occupy 4 nights/week",
+      "Label this as a getaway, not a base"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.visitpcv.com/rates/",
+      "https://www.visitpcv.com/rules-regulations/"
+    ],
+    "lastVerified": "2026-09-21",
+    "officialUrl": "https://www.visitpcv.com/rates/",
+    "monthlyWinter": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate winter monthly on the record."
+    },
+    "monthlySummer": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "No separate summer monthly on the record."
+    },
+    "stayCapNights": {
+      "value": 29,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": "2026-09-21",
+      "confidence": "high",
+      "sourceNote": "Maximum consecutive nights."
+    },
+    "stayCapWindowDays": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Stay window on the park record."
+    },
+    "stayCapSummerNights": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Summer stay cap on the park record."
+    },
+    "stayCapPeakNights": {
+      "value": null,
+      "sourceUrl": "https://www.visitpcv.com/rates/",
+      "lastVerified": null,
+      "confidence": "high",
+      "sourceNote": "Peak stay cap on the park record."
+    },
+    "verify": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T04:52:57.315Z",
+      "error": null
+    }
+  }
+]

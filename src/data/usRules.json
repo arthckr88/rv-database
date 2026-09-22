@@ -1,0 +1,45 @@
+{
+  "headline": "Yellow land is not a campsite",
+  "points": [
+    {
+      "id": "blm",
+      "title": "BLM",
+      "body": "Bureau of Land Management, mostly the western United States. Dispersed camping with no hookups is allowed on much of it unless the area is posted closed, withdrawn, or limited to designated sites. Typical stay is 14 days in a 28-day window, then move — often about 25 miles. This is recreation, not a home."
+    },
+    {
+      "id": "usfs",
+      "title": "National Forest",
+      "body": "You camp along roads the forest Motor Vehicle Use Map (MVUM) marks open. The map does not mean you may drive anywhere. Fire restrictions and seasonal closures are common, especially around Los Angeles."
+    },
+    {
+      "id": "nps",
+      "title": "National Parks",
+      "body": "Usually not free dispersed camping. Joshua Tree, Death Valley, and Lake Mead are developed-campground or permit systems. Do not read a park boundary as boondocking."
+    },
+    {
+      "id": "ltva",
+      "title": "LTVAs",
+      "body": "Long Term Visitor Areas around Quartzsite and Yuma are the honest cheap-month public option, and they are not free. BLM posts a fee season of September 15–April 15: about $180 for the season, $80 for four weeks, $40 for two weeks. Some sites allow 14-day camping only after April 15. Self-contained rigs are required at several of them."
+    },
+    {
+      "id": "crown",
+      "title": "Crown land is not BLM",
+      "body": "Canada has no national yellow layer on this map. Crown land is provincial or territorial, and the rules are not the U.S. 14-days-in-28 BLM stay. Use the province picker and that province’s official atlas."
+    },
+    {
+      "id": "la",
+      "title": "Closest to Santa Monica",
+      "body": "Almost no trailer-friendly free BLM sits next to Santa Monica. The winter belt is Imperial, Blythe, Quartzsite, and Yuma — not Malibu. Forest roads in the Angeles and Los Padres are a different, often closed, product."
+    },
+    {
+      "id": "tesla",
+      "title": "Trailer + Tesla",
+      "body": "A Model Y towing a trailer does not belong on 4x4 two-tracks or soft sand. Those areas are hidden in Trailer + Tesla mode. Graded gravel can still be a bad idea after rain."
+    },
+    {
+      "id": "click",
+      "title": "Click the map",
+      "body": "A click asks official BLM and PAD-US services who manages that point. The answer is a manager, not permission. If the query fails, the page says unknown."
+    }
+  ]
+}

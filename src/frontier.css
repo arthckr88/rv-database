@@ -1,0 +1,155 @@
+.frontier {
+  background-image:
+    radial-gradient(1200px 500px at 8% -12%, rgba(79, 150, 166, 0.22), transparent 52%),
+    radial-gradient(900px 420px at 100% 0%, rgba(197, 107, 74, 0.12), transparent 48%);
+}
+
+.gowild-strip,
+.warn-strip,
+.hub-board,
+.trip-board {
+  width: min(1240px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.horizon-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gowild-strip {
+  margin-top: 8px;
+  background: var(--elev);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+}
+
+.gowild-strip p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 82ch;
+}
+
+.warn-strip {
+  margin-top: 10px;
+  background: rgba(208, 113, 82, 0.12);
+  border: 1px solid rgba(208, 113, 82, 0.35);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+}
+
+.warn-strip p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 92ch;
+}
+
+.hub-board,
+.trip-board {
+  padding: 28px 0 8px;
+}
+
+.hub-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+}
+
+.trip-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hub-card,
+.trip-card {
+  background: var(--elev);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+  text-align: left;
+  color: inherit;
+  display: grid;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.hub-card .kicker,
+.trip-card .kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.trip-card .kicker {
+  color: var(--sand);
+}
+
+.hub-card h3,
+.trip-card h3 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.hub-card p,
+.trip-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.hub-card.is-active,
+.trip-card.is-active {
+  border-color: var(--sand);
+  box-shadow: 0 0 0 1px var(--sand);
+}
+
+.hub-card:hover,
+.hub-card:focus-visible,
+.trip-card:hover,
+.trip-card:focus-visible {
+  border-color: var(--sand);
+}
+
+.pin.airport {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  background: var(--foam);
+  border: 2px solid var(--ink);
+}
+
+.pin.airport span {
+  transform: rotate(-45deg);
+  font-size: 8px;
+}
+
+.pin.storage {
+  border-radius: 3px;
+}
+
+.frontier .grid {
+  min-width: 1320px;
+}
+
+.grid .muted {
+  color: var(--muted);
+  font-size: 0.86em;
+}
+
+@media (max-width: 900px) {
+  .trip-grid,
+  .horizon-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 389px) {
+  .gowild-strip,
+  .warn-strip,
+  .hub-board,
+  .trip-board {
+    width: min(100% - 20px, 1240px);
+  }
+}

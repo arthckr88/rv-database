@@ -1,0 +1,32 @@
+name: Verify park rates
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+      - run: npm ci
+      - run: npm run verify:parks
+      - name: Commit rate changes
+        run: |
+          git config user.name "park-verify"
+          git config user.email "park-verify@users.noreply.github.com"
+          git add src/data/parks.json src/data/verifyLog.json
+          if git diff --cached --quiet; then
+            echo "No rate changes"
+          else
+            git commit -m "chore: weekly park rate verify"
+            git push
+          fi

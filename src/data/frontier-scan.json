@@ -1,0 +1,4938 @@
+[
+  {
+    "id": "dtw-belleville-koa",
+    "name": "Detroit / Greenfield KOA",
+    "operator": "KOA",
+    "address": "6680 King Road",
+    "city": "Belleville",
+    "state": "MI",
+    "region": "great-lakes",
+    "lat": 42.204,
+    "lng": -83.485,
+    "website": "https://koa.com/campgrounds/detroit-greenfield/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Belleville. ~15 min Uber to DTW. Frontier announced daily DTW–LAX from 20 Nov 2026. This is the new last-minute LA product in the Midwest — summer for the rig, year-round for the airport.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "airport"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Park 15 min from DTW for announced daily LAX"
+    ],
+    "watchOuts": [
+      "Confirm DTW–LAX still files past November",
+      "Winter freeze on the trailer"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/detroit-greenfield/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 16,
+    "driveMilesToAirport": 8,
+    "hub": "DTW",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "dtw-storage-romulus",
+    "name": "Metro Airport RV / truck storage (Romulus)",
+    "operator": "private",
+    "address": "Near Merriman & I-94",
+    "city": "Romulus",
+    "state": "MI",
+    "region": "great-lakes",
+    "lat": 42.24,
+    "lng": -83.35,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 90,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Planning placeholder for DTW-adjacent RV/truck parking. Call current lots — airport parking is still the wrong answer for a trailer. ~$140/mo class outdoor is the Midwest storage analog.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": false,
+      "sewer": false,
+      "amp30": false,
+      "amp50": false,
+      "fullHookups": false
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "good",
+    "security": [
+      "gated",
+      "cameras"
+    ],
+    "pets": "n/a",
+    "amenities": [
+      "storage"
+    ],
+    "wifi": "none",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 3.8,
+    "reviewCountGoogle": 20,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Leave the rig 10 min from DTW"
+    ],
+    "watchOuts": [
+      "Call the lot — this is a scan entry not a branded resort",
+      "Monthly minimum"
+    ],
+    "confidence": "low",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 10,
+    "driveMilesToAirport": 5,
+    "hub": "DTW",
+    "kind": "storage",
+    "sitWhileGone": "storage-lot",
+    "shortAbsence": "storage-lot",
+    "shortAbsenceMinDays": 30,
+    "storageMonthlyFrom": 140,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "fll-markham",
+    "name": "Markham Park Campground",
+    "operator": "Broward County",
+    "address": "16001 W State Road 84",
+    "city": "Sunrise",
+    "state": "FL",
+    "region": "florida",
+    "lat": 26.134,
+    "lng": -80.356,
+    "website": "https://www.broward.org/Parks/Pages/Park.aspx?park=23",
+    "phone": null,
+    "nightlyFrom": 40,
+    "nightlyTo": 40,
+    "weeklyFrom": null,
+    "monthlyFrom": 600,
+    "monthlyTo": 600,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "County park west of FLL. Stay cap often 14 days. Frontier FLL is a Florida bank (DEN–FLL daily from 20 Nov 2026) — not an LAX nonstop. Connect to LA.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "FLL-area cheap stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "LAX is a connect",
+      "Hurricane"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.broward.org/Parks/Pages/Park.aspx?park=23"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18,
+    "hub": "FLL",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "fll-yacht-haven",
+    "name": "Yacht Haven Park & Marina",
+    "operator": "private",
+    "address": "2323 State Road 84",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "region": "florida",
+    "lat": 26.084,
+    "lng": -80.168,
+    "website": "https://www.yachthavenpark.com/",
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1100,
+    "monthlyTo": 1100,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~15–20 min to FLL. Occupied monthly is not cheap. Last-minute LA is still a connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Close FLL live-in"
+    ],
+    "watchOuts": [
+      "Connect to LAX",
+      "Hurricane",
+      "Price"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.yachthavenpark.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 8,
+    "hub": "FLL",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "mci-kc-koa",
+    "name": "Kansas City East KOA",
+    "operator": "KOA",
+    "address": "22703 E Wyatt Road",
+    "city": "Blue Springs",
+    "state": "MO",
+    "region": "plains",
+    "lat": 39.017,
+    "lng": -94.274,
+    "website": "https://koa.com/campgrounds/kansas-city/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 825,
+    "monthlyTo": 825,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "MCI is a Frontier city. Nov 20 2026 adds MCI–MCO 4x/week — not LAX. Last-minute LA is a connect unless they file LAX later.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 700,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "KC monthly on a Frontier spoke"
+    ],
+    "watchOuts": [
+      "No announced LAX nonstop",
+      "Tornado season"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/kansas-city/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 22,
+    "hub": "MCI",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "bna-two-rivers",
+    "name": "Two Rivers Campground",
+    "operator": "private",
+    "address": "2616 Music Valley Drive",
+    "city": "Nashville",
+    "state": "TN",
+    "region": "southeast",
+    "lat": 36.232,
+    "lng": -86.694,
+    "website": "https://www.tworiverscampground.com/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Music Valley. ~20 min to BNA. Frontier BNA–TPA from 9 Oct 2026. LAX is typically a connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "tourist"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Nashville monthly next to BNA"
+    ],
+    "watchOuts": [
+      "Connect to LAX",
+      "Tourist noise"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://www.tworiverscampground.com/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "BNA",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "stl-koa-f9",
+    "name": "St. Louis West KOA",
+    "operator": "KOA",
+    "address": "18475 Old State Road N",
+    "city": "Eureka",
+    "state": "MO",
+    "region": "plains",
+    "lat": 38.496,
+    "lng": -90.628,
+    "website": "https://koa.com/campgrounds/st-louis-west/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~35 min to STL.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "St. Louis Frontier presence"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/st-louis-west/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 35,
+    "driveMilesToAirport": 24,
+    "hub": "STL",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "ind-koa-f9",
+    "name": "Indianapolis KOA Holiday",
+    "operator": "KOA",
+    "address": "5896 W 200 N",
+    "city": "Greenfield",
+    "state": "IN",
+    "region": "midwest",
+    "lat": 39.82,
+    "lng": -85.82,
+    "website": "https://koa.com/campgrounds/indianapolis/",
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Already on the nationwide list. Frontier IND–DEN type flying. LAX connect. ~25–35 min to IND.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 860,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Indy monthly on Frontier"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://koa.com/campgrounds/indianapolis/"
+    ],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18,
+    "hub": "IND",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "cvg-cincinnati-koa",
+    "name": "Cincinnati North KOA",
+    "operator": "KOA",
+    "address": "5811 Vine Street",
+    "city": "Cincinnati",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 39.203,
+    "lng": -84.473,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "CVG is a Frontier city (TPA and others). LAX connect. ~30 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "CVG monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 20,
+    "hub": "CVG",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "cmh-columbus-koa",
+    "name": "Columbus KOA",
+    "operator": "KOA",
+    "address": "2200 E Powell Road",
+    "city": "Lewis Center",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 40.16,
+    "lng": -82.98,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 825,
+    "monthlyTo": 825,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "North of CMH. Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Columbus monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "CMH",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "msy-pontchartrain-f9",
+    "name": "Pontchartrain Landing",
+    "operator": "private",
+    "address": "6000 France Road",
+    "city": "New Orleans",
+    "state": "LA",
+    "region": "gulf",
+    "lat": 30.027,
+    "lng": -90.027,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier MSY–MCO etc. LAX connect. Hurricane. ~20 min to MSY.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "New Orleans monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "MSY",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "aus-lone-star-f9",
+    "name": "Austin Lone Star RV Resort",
+    "operator": "private",
+    "address": "7009 S I-35",
+    "city": "Austin",
+    "state": "TX",
+    "region": "texas-hill",
+    "lat": 30.19,
+    "lng": -97.77,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~15–20 min to AUS. Frontier AUS–DEN/LAS. LAX often a connect; confirm the forward table.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 540,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Austin monthly next to AUS"
+    ],
+    "watchOuts": [
+      "Summer heat",
+      "Confirm LAX filing"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "AUS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "sat-san-antonio-koa",
+    "name": "San Antonio KOA Holiday",
+    "operator": "KOA",
+    "address": "602 Gembler Road",
+    "city": "San Antonio",
+    "state": "TX",
+    "region": "texas-hill",
+    "lat": 29.44,
+    "lng": -98.41,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~15 min to SAT. Frontier LAS/DEN type. LAX typically connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "San Antonio monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "SAT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "okc-east-f9",
+    "name": "Oklahoma City East KOA",
+    "operator": "KOA",
+    "address": "12115 NE 23rd Street",
+    "city": "Nicoma Park",
+    "state": "OK",
+    "region": "plains",
+    "lat": 35.49,
+    "lng": -97.32,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier spoke. LAX connect. Tornado alley.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 430,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "OKC monthly"
+    ],
+    "watchOuts": [
+      "Tornado",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14,
+    "hub": "OKC",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "tul-tulsa-f9",
+    "name": "Tulsa KOA Holiday",
+    "operator": "KOA",
+    "address": "215 W 81st Street N",
+    "city": "Sperry",
+    "state": "OK",
+    "region": "plains",
+    "lat": 36.28,
+    "lng": -95.99,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier PHX/MCO type seasonal. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 430,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Tulsa monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "TUL",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "bwi-capitol-f9",
+    "name": "Washington DC / Capitol KOA",
+    "operator": "KOA",
+    "address": "768 Cecil Avenue S",
+    "city": "Millersville",
+    "state": "MD",
+    "region": "mid-atlantic",
+    "lat": 39.052,
+    "lng": -76.633,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "~25 min to BWI. Frontier TPA etc. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 1400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BWI monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "BWI",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "rdu-raleigh-f9",
+    "name": "Raleigh KOA",
+    "operator": "KOA",
+    "address": "1734 N Fayetteville Street",
+    "city": "Asheboro",
+    "state": "NC",
+    "region": "southeast",
+    "lat": 35.74,
+    "lng": -79.81,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Stretch past 45 min. Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "RDU-area monthly"
+    ],
+    "watchOuts": [
+      ">45 min",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 55,
+    "driveMilesToAirport": 42,
+    "hub": "RDU",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "clt-fort-mill-f9",
+    "name": "Charlotte / Fort Mill KOA",
+    "operator": "KOA",
+    "address": "940 Gold Hill Road",
+    "city": "Fort Mill",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 35.007,
+    "lng": -80.945,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier CLT–DFW type. LAX connect. ~30 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1200,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "CLT monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 30,
+    "driveMilesToAirport": 18,
+    "hub": "CLT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "msp-maple-grove-f9",
+    "name": "Minneapolis Northwest KOA",
+    "operator": "KOA",
+    "address": "10440 96th Avenue N",
+    "city": "Maple Grove",
+    "state": "MN",
+    "region": "great-lakes",
+    "lat": 45.131,
+    "lng": -93.456,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier DFW type. LAX connect. Summer only for the rig.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 810,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MSP summer monthly"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 20,
+    "hub": "MSP",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "mke-sturtevant-f9",
+    "name": "Milwaukee KOA",
+    "operator": "KOA",
+    "address": "I-94",
+    "city": "Sturtevant",
+    "state": "WI",
+    "region": "great-lakes",
+    "lat": 42.698,
+    "lng": -87.904,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~20 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 540,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MKE monthly"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 12,
+    "hub": "MKE",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "boi-riverside-f9",
+    "name": "Boise Riverside RV Park",
+    "operator": "private",
+    "address": "6000 Glenwood Road",
+    "city": "Boise",
+    "state": "ID",
+    "region": "rockies",
+    "lat": 43.66,
+    "lng": -116.28,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "LAS–BOI started 10 Sep 2026 (4x/week). Not LAX. Summer live-in. Connect to LA via DEN/LAS.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 390,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Boise monthly on a new Frontier spoke"
+    ],
+    "watchOuts": [
+      "No LAX nonstop announced",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "BOI",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "geg-spokane-f9",
+    "name": "Spokane KOA Holiday",
+    "operator": "KOA",
+    "address": "3025 N Barker Road",
+    "city": "Otis Orchards",
+    "state": "WA",
+    "region": "pacific-nw",
+    "lat": 47.701,
+    "lng": -117.194,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier PHX type. LAX connect. ~25 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Spokane monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "GEG",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "lit-little-rock-f9",
+    "name": "Little Rock KOA Holiday",
+    "operator": "KOA",
+    "address": "6900 Crystal Hill Road",
+    "city": "North Little Rock",
+    "state": "AR",
+    "region": "plains",
+    "lat": 34.82,
+    "lng": -92.36,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier MCO seasonal type. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "LIT monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "LIT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "dsm-clive-f9",
+    "name": "Des Moines West KOA",
+    "operator": "KOA",
+    "address": "15502 Hickman Road",
+    "city": "Clive",
+    "state": "IA",
+    "region": "plains",
+    "lat": 41.614,
+    "lng": -93.785,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier PHX seasonal type. LAX connect. ~20 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "DSM monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 12,
+    "hub": "DSM",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "oma-gretna-f9",
+    "name": "Omaha KOA Holiday",
+    "operator": "KOA",
+    "address": "Gretna / I-80",
+    "city": "Gretna",
+    "state": "NE",
+    "region": "plains",
+    "lat": 41.101,
+    "lng": -96.245,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 680,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "OMA monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18,
+    "hub": "OMA",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "pit-north-f9",
+    "name": "Pittsburgh North KOA",
+    "operator": "KOA",
+    "address": "168 KOA Road",
+    "city": "New Wilmington",
+    "state": "PA",
+    "region": "mid-atlantic",
+    "lat": 41.12,
+    "lng": -80.33,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Stretch past 45 min. Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 510,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "PIT-area monthly"
+    ],
+    "watchOuts": [
+      ">45 min",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 38,
+    "hub": "PIT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "jax-yulee-f9",
+    "name": "Jacksonville North KOA",
+    "operator": "KOA",
+    "address": "1112 State Road 200",
+    "city": "Yulee",
+    "state": "FL",
+    "region": "florida",
+    "lat": 30.63,
+    "lng": -81.64,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~25 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 700,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "JAX monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "JAX",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "sdf-clarksville-f9",
+    "name": "Louisville KOA Holiday",
+    "operator": "KOA",
+    "address": "900 Marriott Drive",
+    "city": "Clarksville",
+    "state": "IN",
+    "region": "midwest",
+    "lat": 38.313,
+    "lng": -85.764,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~20 min to SDF.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "SDF monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 11,
+    "hub": "SDF",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "mem-millington-f9",
+    "name": "Memphis KOA Holiday",
+    "operator": "KOA",
+    "address": "1986 Highway 51 S",
+    "city": "Millington",
+    "state": "TN",
+    "region": "southeast",
+    "lat": 35.332,
+    "lng": -89.897,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 560,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MEM monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "MEM",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "bhm-pelham-f9",
+    "name": "Birmingham KOA Holiday",
+    "operator": "KOA",
+    "address": "222 Highway 52 E",
+    "city": "Pelham",
+    "state": "AL",
+    "region": "southeast",
+    "lat": 33.285,
+    "lng": -86.81,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BHM monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "BHM",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "buf-grand-island-f9",
+    "name": "Buffalo / Niagara KOA",
+    "operator": "KOA",
+    "address": "1700 Grand Island Boulevard",
+    "city": "Grand Island",
+    "state": "NY",
+    "region": "great-lakes",
+    "lat": 43.02,
+    "lng": -78.96,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. Summer.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 620,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BUF monthly"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "BUF",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "mdw-windy-f9",
+    "name": "Windy City RV Campground",
+    "operator": "private",
+    "address": "1860 Milwaukee Avenue",
+    "city": "Glenview",
+    "state": "IL",
+    "region": "midwest",
+    "lat": 42.071,
+    "lng": -87.841,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 65,
+    "nightlyTo": 65,
+    "weeklyFrom": null,
+    "monthlyFrom": 1100,
+    "monthlyTo": 1100,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Closer to ORD than MDW. Midway is a Frontier base too. LAX still a connect on the current table. ~40 min to MDW, 28 to ORD.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 310,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "Chicago Frontier presence"
+    ],
+    "watchOuts": [
+      "ORD/MDW neither is a live LAX nonstop on the Sep 2026 table"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 40,
+    "driveMilesToAirport": 28,
+    "hub": "MDW",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "ric-maidens-f9",
+    "name": "Richmond KOA",
+    "operator": "KOA",
+    "address": "2625 Old Mill Road",
+    "city": "Maidens",
+    "state": "VA",
+    "region": "mid-atlantic",
+    "lat": 37.68,
+    "lng": -77.88,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier MCO type. LAX connect. ~35 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 560,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "RIC monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 35,
+    "driveMilesToAirport": 24,
+    "hub": "RIC",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "chs-ravenel-f9",
+    "name": "Charleston KOA Holiday",
+    "operator": "KOA",
+    "address": "4375 Highway 162",
+    "city": "Ravenel",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 32.78,
+    "lng": -80.22,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. Hurricane.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 880,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "CHS monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 32,
+    "driveMilesToAirport": 20,
+    "hub": "CHS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "bos-cape-f9",
+    "name": "Cape Cod KOA",
+    "operator": "KOA",
+    "address": "75 Herring Pond Road",
+    "city": "Bourne",
+    "state": "MA",
+    "region": "new-england",
+    "lat": 41.746,
+    "lng": -70.598,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1200,
+    "monthlyTo": 1200,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier ATL type from BOS. Stretch drive. LAX connect. In the scan because Boston is a real Frontier city.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BOS-area monthly"
+    ],
+    "watchOuts": [
+      "70 min drive",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 70,
+    "driveMilesToAirport": 55,
+    "hub": "BOS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "pwm-westbrook-f9",
+    "name": "Portland West KOA",
+    "operator": "KOA",
+    "address": "1068 Saco Street",
+    "city": "Westbrook",
+    "state": "ME",
+    "region": "new-england",
+    "lat": 43.66,
+    "lng": -70.37,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~15 min to PWM.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "PWM monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8,
+    "hub": "PWM",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "bdl-strawberry-f9",
+    "name": "Strawberry Park Resort",
+    "operator": "private",
+    "address": "42 Pierce Road",
+    "city": "Preston",
+    "state": "CT",
+    "region": "new-england",
+    "lat": 41.528,
+    "lng": -71.982,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 70,
+    "nightlyTo": 70,
+    "weeklyFrom": null,
+    "monthlyFrom": 1100,
+    "monthlyTo": 1100,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Stretch for BDL. Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BDL-area monthly"
+    ],
+    "watchOuts": [
+      ">45 min",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 50,
+    "driveMilesToAirport": 38,
+    "hub": "BDL",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "alb-saratoga-f9",
+    "name": "Albany / Saratoga KOA",
+    "operator": "KOA",
+    "address": "78 Traver Road",
+    "city": "Gansevoort",
+    "state": "NY",
+    "region": "mid-atlantic",
+    "lat": 43.18,
+    "lng": -73.67,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "ALB monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 28,
+    "driveMilesToAirport": 18,
+    "hub": "ALB",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "grr-division-f9",
+    "name": "Grand Rapids KOA Holiday",
+    "operator": "KOA",
+    "address": "6045 S Division Avenue",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "region": "great-lakes",
+    "lat": 42.86,
+    "lng": -85.66,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~15 min.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 480,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "GRR monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "GRR",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "avl-gerties-f9",
+    "name": "Mama Gertie's Hideaway",
+    "operator": "private",
+    "address": "937 Patton Cove Road",
+    "city": "Swannanoa",
+    "state": "NC",
+    "region": "southeast",
+    "lat": 35.6,
+    "lng": -82.41,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier AVL seasonal. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 890,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "AVL monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "AVL",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "sav-creekfire-f9",
+    "name": "Creekfire RV Resort",
+    "operator": "private",
+    "address": "9 Creekfire Drive",
+    "city": "Savannah",
+    "state": "GA",
+    "region": "southeast",
+    "lat": 32.16,
+    "lng": -81.24,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier spoke. LAX connect. Hurricane coast.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "SAV monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14,
+    "hub": "SAV",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "myr-travel-f9",
+    "name": "Myrtle Beach Travel Park",
+    "operator": "private",
+    "address": "10108 Kings Road",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 33.76,
+    "lng": -78.81,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier MYR is a leisure spoke. LAX connect. Hurricane.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 2100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MYR monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "MYR",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "orf-vabeach-f9",
+    "name": "Virginia Beach KOA",
+    "operator": "KOA",
+    "address": "1240 General Booth Boulevard",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "region": "mid-atlantic",
+    "lat": 36.79,
+    "lng": -75.99,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 880,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "ORF monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Hurricane remnants"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 25,
+    "driveMilesToAirport": 16,
+    "hub": "ORF",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "elp-west-f9",
+    "name": "El Paso West RV Park",
+    "operator": "private",
+    "address": "1415 Lomaland Drive",
+    "city": "El Paso",
+    "state": "TX",
+    "region": "desert-sw",
+    "lat": 31.784,
+    "lng": -106.268,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 550,
+    "monthlyTo": 550,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Cheap desert monthly. Frontier spoke. LAX typically a connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 190,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "ELP winter monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "ELP",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "abq-american-f9",
+    "name": "American RV Park",
+    "operator": "private",
+    "address": "13500 Central Avenue SW",
+    "city": "Albuquerque",
+    "state": "NM",
+    "region": "desert-sw",
+    "lat": 35.06,
+    "lng": -106.74,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 650,
+    "monthlyTo": 650,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier PHX/DEN type. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 540,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "ABQ monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "ABQ",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "cos-koa-f9",
+    "name": "Colorado Springs KOA",
+    "operator": "KOA",
+    "address": "8100 Highway 24",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "region": "rockies",
+    "lat": 38.85,
+    "lng": -104.72,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 900,
+    "monthlyTo": 900,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. DEN is the LAX product; COS is the cheaper Front Range live-in with a connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1200,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "COS monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "COS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "rno-sparks-f9",
+    "name": "Reno RV Park",
+    "operator": "private",
+    "address": "600 S Rock Boulevard",
+    "city": "Sparks",
+    "state": "NV",
+    "region": "desert-sw",
+    "lat": 39.527,
+    "lng": -119.766,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier LAS type. LAX connect. ~10 min to RNO.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4,
+    "reviewCountGoogle": 240,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "RNO monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter freeze"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6,
+    "hub": "RNO",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "pns-koa-f9",
+    "name": "Pensacola KOA Holiday",
+    "operator": "KOA",
+    "address": "6350 Mobile Highway",
+    "city": "Pensacola",
+    "state": "FL",
+    "region": "gulf",
+    "lat": 30.47,
+    "lng": -87.34,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. Hurricane.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 580,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "PNS monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14,
+    "hub": "PNS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "tys-knox-f9",
+    "name": "Knoxville East KOA Holiday",
+    "operator": "KOA",
+    "address": "3388 Hwy 11 E",
+    "city": "Kodak",
+    "state": "TN",
+    "region": "southeast",
+    "lat": 35.98,
+    "lng": -83.62,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 1100,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "TYS monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14,
+    "hub": "TYS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "lex-horse-f9",
+    "name": "Kentucky Horse Park Campground",
+    "operator": "Kentucky Horse Park",
+    "address": "4089 Iron Works Parkway",
+    "city": "Lexington",
+    "state": "KY",
+    "region": "midwest",
+    "lat": 38.148,
+    "lng": -84.519,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. ~20 min to LEX.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 1600,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "LEX monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Derby weeks"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "LEX",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "ict-wichita-f9",
+    "name": "All Seasons RV Park",
+    "operator": "private",
+    "address": "145 NE 90th Street",
+    "city": "Park City",
+    "state": "KS",
+    "region": "plains",
+    "lat": 37.8,
+    "lng": -97.32,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 600,
+    "monthlyTo": 600,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.1,
+    "reviewCountGoogle": 210,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "ICT monthly"
+    ],
+    "watchOuts": [
+      "Tornado",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "ICT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "rap-rapid-f9",
+    "name": "Rapid City KOA Holiday",
+    "operator": "KOA",
+    "address": "3950 S Highway 16",
+    "city": "Rapid City",
+    "state": "SD",
+    "region": "plains",
+    "lat": 44.05,
+    "lng": -103.26,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier seasonal. LAX connect. Summer only.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "RAP summer"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8,
+    "hub": "RAP",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "far-fargo-f9",
+    "name": "Fargo KOA Journey",
+    "operator": "KOA",
+    "address": "1101 28th Avenue N",
+    "city": "Fargo",
+    "state": "ND",
+    "region": "plains",
+    "lat": 46.912,
+    "lng": -96.806,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier seasonal. LAX connect. Summer only.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 510,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "FAR summer"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 7,
+    "hub": "FAR",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "msn-deforest-f9",
+    "name": "Madison KOA",
+    "operator": "KOA",
+    "address": "4859 County Road V",
+    "city": "DeForest",
+    "state": "WI",
+    "region": "great-lakes",
+    "lat": 43.24,
+    "lng": -89.34,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MSN monthly"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "MSN",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "cid-cedar-f9",
+    "name": "Cedar Rapids KOA",
+    "operator": "KOA",
+    "address": "6200 Elmont Road SW",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "region": "plains",
+    "lat": 41.94,
+    "lng": -91.72,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 280,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "CID monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8,
+    "hub": "CID",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "hsv-huntsville-f9",
+    "name": "Huntsville KOA Holiday",
+    "operator": "KOA",
+    "address": "1238 Jordan Road",
+    "city": "Huntsville",
+    "state": "AL",
+    "region": "southeast",
+    "lat": 34.73,
+    "lng": -86.67,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 360,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "HSV monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "HSV",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "gpt-pass-f9",
+    "name": "Gulfport KOA Holiday",
+    "operator": "KOA",
+    "address": "23685 Cannon Road",
+    "city": "Pass Christian",
+    "state": "MS",
+    "region": "gulf",
+    "lat": 30.348,
+    "lng": -89.248,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 750,
+    "monthlyTo": 750,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect. Hurricane.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 640,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "GPT monthly"
+    ],
+    "watchOuts": [
+      "Hurricane",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14,
+    "hub": "GPT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "srq-sunnfun-f9",
+    "name": "Sun-N-Fun Resort",
+    "operator": "private",
+    "address": "7125 Fruitville Road",
+    "city": "Sarasota",
+    "state": "FL",
+    "region": "florida",
+    "lat": 27.34,
+    "lng": -82.45,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 850,
+    "monthlyTo": 850,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier SRQ leisure. Prefer TPA/MCO if the point is a bank; LAX is still a connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 1400,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "SRQ winter"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Hurricane"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 15,
+    "driveMilesToAirport": 8,
+    "hub": "SRQ",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "gsp-duncan-f9",
+    "name": "Greenville / Spartanburg KOA",
+    "operator": "KOA",
+    "address": "268 Lindsey Lane",
+    "city": "Duncan",
+    "state": "SC",
+    "region": "southeast",
+    "lat": 34.92,
+    "lng": -82.14,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 520,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "GSP monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "GSP",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "day-brookville-f9",
+    "name": "Dayton KOA",
+    "operator": "KOA",
+    "address": "7796 Wellbaum Road",
+    "city": "Brookville",
+    "state": "OH",
+    "region": "midwest",
+    "lat": 39.84,
+    "lng": -84.41,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": 800,
+    "monthlyTo": 800,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Frontier spoke. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 290,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "DAY monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 22,
+    "driveMilesToAirport": 14,
+    "hub": "DAY",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "btv-burlington-f9",
+    "name": "North Beach Campground",
+    "operator": "private",
+    "address": "60 Institute Road",
+    "city": "Burlington",
+    "state": "VT",
+    "region": "new-england",
+    "lat": 44.49,
+    "lng": -73.23,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 45,
+    "nightlyTo": 45,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier seasonal. LAX connect. Summer only.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.4,
+    "reviewCountGoogle": 410,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "BTV summer"
+    ],
+    "watchOuts": [
+      "Winter",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 12,
+    "driveMilesToAirport": 6,
+    "hub": "BTV",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "mht-hampton-f9",
+    "name": "Hampton Beach State Park",
+    "operator": "NH State Parks",
+    "address": "160 Ocean Boulevard",
+    "city": "Hampton",
+    "state": "NH",
+    "region": "new-england",
+    "lat": 42.911,
+    "lng": -70.812,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 50,
+    "nightlyTo": 50,
+    "weeklyFrom": null,
+    "monthlyFrom": null,
+    "monthlyTo": null,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Stay cap. Frontier spoke. LAX connect. ~45 min to MHT.",
+    "maxStayNights": 14,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.5,
+    "reviewCountGoogle": 1800,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "MHT-area short stay"
+    ],
+    "watchOuts": [
+      "Stay cap",
+      "Connect to LA"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 45,
+    "driveMilesToAirport": 35,
+    "hub": "MHT",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "pvd-mystic-f9",
+    "name": "Mystic / Westerly KOA",
+    "operator": "KOA",
+    "address": "118 Pendleton Hill Road",
+    "city": "North Stonington",
+    "state": "CT",
+    "region": "new-england",
+    "lat": 41.45,
+    "lng": -71.88,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 1000,
+    "monthlyTo": 1000,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "CT/RI line. Frontier PVD. LAX connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 760,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "PVD monthly"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Winter"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 45,
+    "driveMilesToAirport": 32,
+    "hub": "PVD",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "tus-voyager-f9",
+    "name": "Voyager RV Resort",
+    "operator": "private",
+    "address": "8701 S Kolb Road",
+    "city": "Tucson",
+    "state": "AZ",
+    "region": "desert-sw",
+    "lat": 32.12,
+    "lng": -110.82,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 55,
+    "nightlyTo": 55,
+    "weeklyFrom": null,
+    "monthlyFrom": 700,
+    "monthlyTo": 700,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Nationwide park. Frontier TUS. PHX is the LAX nonstop; Tucson is the cheaper desert live-in with a connect.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.3,
+    "reviewCountGoogle": 980,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "TUS winter"
+    ],
+    "watchOuts": [
+      "Connect to LA",
+      "Summer heat"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 20,
+    "driveMilesToAirport": 12,
+    "hub": "TUS",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  },
+  {
+    "id": "smf-west-sac-f9",
+    "name": "Sacramento West KOA",
+    "operator": "KOA",
+    "address": "3951 Lake Road",
+    "city": "West Sacramento",
+    "state": "CA",
+    "region": "ca-inland",
+    "lat": 38.58,
+    "lng": -121.55,
+    "website": null,
+    "phone": null,
+    "nightlyFrom": 60,
+    "nightlyTo": 60,
+    "weeklyFrom": null,
+    "monthlyFrom": 950,
+    "monthlyTo": 950,
+    "electricExtra": "Confirm electric on monthly.",
+    "taxesFeesNote": "Do not park here to fly to LA — you are already in California. In the scan as Frontier presence, scored as a connect / skip for last-minute LA.",
+    "maxStayNights": null,
+    "maxStayWindowDays": null,
+    "maxRvLengthFt": 45,
+    "siteTypes": [
+      "back-in",
+      "pull-through"
+    ],
+    "hookups": {
+      "water": true,
+      "sewer": true,
+      "amp30": true,
+      "amp50": true,
+      "fullHookups": true
+    },
+    "extraVehicle": "included",
+    "extraVehicleFee": null,
+    "unhitchFriendly": "yes",
+    "leaveTrailerUnattended": "ok",
+    "security": [
+      "staffed office"
+    ],
+    "pets": "yes",
+    "amenities": [
+      "laundry",
+      "wifi",
+      "showers"
+    ],
+    "wifi": "ok",
+    "noise": [
+      "quiet"
+    ],
+    "beachAccess": "none",
+    "reviewGoogle": 4.2,
+    "reviewCountGoogle": 720,
+    "reviewCampendium": 4,
+    "bestFor": [
+      "SMF monthly if you are not trying to Go Wild to LA"
+    ],
+    "watchOuts": [
+      "You are already in CA",
+      "Not an LA shuttle"
+    ],
+    "confidence": "medium",
+    "sources": [],
+    "lastVerified": "2026-09",
+    "ageRestriction": "all-ages",
+    "nearestAirport": null,
+    "driveMinutesToAirport": 18,
+    "driveMilesToAirport": 10,
+    "hub": "SMF",
+    "kind": "live-in",
+    "sitWhileGone": "keep-site",
+    "shortAbsence": "keep-paying-site",
+    "shortAbsenceMinDays": null,
+    "storageMonthlyFrom": null,
+    "storageDailyFrom": null
+  }
+]

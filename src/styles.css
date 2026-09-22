@@ -659,7 +659,13 @@ th:focus-visible {
 }
 
 .lookup-switch {
+  width: fit-content;
+  max-width: 100%;
   margin: 8px 0 16px;
+}
+
+.lookup-switch button {
+  flex: 0 0 auto;
 }
 
 section.shortlist {

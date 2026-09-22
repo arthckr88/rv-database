@@ -7,6 +7,8 @@ import canada from "./data/canadaRules.json";
 import { esc, PIER, COST_LABEL, ACCESS_LABEL } from "./lib/format.js";
 import { inMexico, inCanadaRough } from "./lib/scope.js";
 import { addDarkBasemap } from "./lib/basemap.js";
+import { placeContext, frontierHubOptions, passesPlace, crossBrief, crossFilterMarkup } from "./lib/cross.js";
+import { hubLaxAt, DEFAULT_HORIZON } from "./lib/frontier.js";
 
 const SERVICES = [
   {
@@ -78,6 +80,10 @@ export function createLand(root, options = {}) {
   filter: "season",
   q: "",
   osm: false,
+  frontierHub: "",
+  frontierLax: options.cross === "frontier" ? "nonstop" : "",
+  frontierMax: "",
+  frontierStorage: false,
 };
 
 let map;
@@ -100,9 +106,33 @@ function styleFor(area) {
   return { dim, warn, hidden, color: warn ? "#8c3d2a" : COST_COLOR[area.cost] || "#3d6f78" };
 }
 
+function frontierMatch(area) {
+  return placeContext(area.lat, area.lng, {
+    excludeLandId: area.id,
+    horizon: DEFAULT_HORIZON,
+    hubId: state.frontierHub,
+    lax: state.frontierLax,
+  });
+}
+
+function passesFrontier(area) {
+  return passesPlace(
+    area.lat,
+    area.lng,
+    {
+      hub: state.frontierHub,
+      lax: state.frontierLax,
+      max: state.frontierMax,
+      storage: state.frontierStorage,
+    },
+    { excludeLandId: area.id },
+  );
+}
+
 function passesFilter(area) {
   const look = styleFor(area);
   if (look.hidden) return false;
+  if (!passesFrontier(area)) return false;
   if (state.q && !`${area.name} ${area.agency} ${area.notes}`.toLowerCase().includes(state.q)) return false;
   if (state.filter === "ltva") return area.cost === "ltva";
   if (state.filter === "free") return area.cost === "free";
@@ -114,7 +144,11 @@ function passesFilter(area) {
 }
 
 function visibleAreas() {
-  return areas.filter(passesFilter);
+  const list = areas.filter(passesFilter);
+  if (state.frontierHub || state.frontierLax || state.frontierMax || state.frontierStorage) {
+    list.sort((a, b) => (frontierMatch(a).minutes ?? 9999) - (frontierMatch(b).minutes ?? 9999));
+  }
+  return list;
 }
 
 function implication(code, name) {
@@ -195,7 +229,12 @@ function renderProvince(id) {
 
 function renderAreas() {
   const list = visibleAreas();
-  q("#area-count").textContent = `${list.length} areas · ${state.rig === "trailer" ? "4x4 and soft sand hidden" : "Class C sees rough roads, labeled"}`;
+  const frontierOn = state.frontierHub || state.frontierLax || state.frontierMax || state.frontierStorage;
+  const insideCap = list.filter((area) => (frontierMatch(area).minutes ?? 999) <= 45).length;
+  q("#area-count").textContent = `${list.length} areas · ${state.rig === "trailer" ? "4x4 and soft sand hidden" : "Class C sees rough roads, labeled"}${frontierOn ? ` · ${insideCap} inside 45 min of a Frontier airport` : ""}`;
+  if (map && frontierOn && list.length) {
+    map.fitBounds(L.latLngBounds(list.map((area) => [area.lat, area.lng])).pad(0.2));
+  }
   q("#area-list").innerHTML = list
     .map((area) => {
       const look = styleFor(area);
@@ -205,6 +244,7 @@ function renderAreas() {
         <h3>${esc(area.name)}</h3>
         <p>${esc(area.stayLimit)}</p>
         <p class="fine">${esc(ACCESS_LABEL[area.access])} · Class C ${esc(area.fitClassC)} · Trailer ${esc(area.fitTrailerTesla)} · ${hub ? esc(hub.name) : "No listed hub"} · ${esc(area.confidence)} confidence${area.lastChecked ? ` · checked ${esc(area.lastChecked)}` : ""}${look.warn ? " · heat warning" : ""}${look.dim ? " · poor month" : ""}</p>
+        <p class="fine">${crossBrief(area.lat, area.lng, { excludeLandId: area.id, hubId: state.frontierHub, lax: state.frontierLax, omitLand: true })}</p>
       </article>`;
     })
     .join("");
@@ -213,7 +253,7 @@ function renderAreas() {
 
 function popupHtml(area) {
   const hub = hubById(area.nearestHub);
-  return `<strong>${esc(area.name)}</strong><br>${esc(area.agency)} · ${esc(COST_LABEL[area.cost] || "")}<br>${esc(area.stayLimit)}<br><em>Not a reserved site.</em><br><a href="${esc(area.officialUrl)}" target="_blank" rel="noreferrer">Official page</a>${area.lastChecked ? `<br>Checked ${esc(area.lastChecked)}` : ""}${hub ? `<br>Nearest hub: ${esc(hub.name)}` : ""}`;
+  return `<strong>${esc(area.name)}</strong><br>${esc(area.agency)} · ${esc(COST_LABEL[area.cost] || "")}<br>${esc(area.stayLimit)}<br><em>Not a reserved site.</em><br><a href="${esc(area.officialUrl)}" target="_blank" rel="noreferrer">Official page</a>${area.lastChecked ? `<br>Checked ${esc(area.lastChecked)}` : ""}${hub ? `<br>Resupply: ${esc(hub.name)}` : ""}<br>${crossBrief(area.lat, area.lng, { excludeLandId: area.id, hubId: state.frontierHub, lax: state.frontierLax, omitLand: true })}`;
 }
 
 function drawAreaMarkers(list) {
@@ -537,10 +577,47 @@ function bootMap() {
   });
   map.on("click", () => map.scrollWheelZoom.enable());
   new ResizeObserver(() => map.invalidateSize()).observe(q("#land-map"));
+  hubOrderAirports().forEach((hub) => {
+    const marker = L.marker([hub.lat, hub.lng], {
+      icon: L.divIcon({
+        className: "pin airport",
+        html: `<span>${esc(hub.code)}</span>`,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+      }),
+      zIndexOffset: 400,
+    });
+    marker.bindTooltip(`${hub.code} · ${hub.city} · ${hub.laxNonstop ? "LAX nonstop" : "connect"}`, { direction: "top" });
+    marker.addTo(map);
+  });
   bootLayers();
 }
 
+function hubOrderAirports() {
+  return frontierHubOptions().map(([id]) => hubLaxAt(id, DEFAULT_HORIZON)).filter((hub) => hub.lat != null);
+}
+
+function mountFrontierFilters() {
+  const tools = q(".land-tools");
+  if (!tools || tools.querySelector("[data-cross=hub]")) return;
+  tools.insertAdjacentHTML("beforeend", crossFilterMarkup());
+  tools.querySelector("[data-cross=hub]").value = state.frontierHub;
+  tools.querySelector("[data-cross=lax]").value = state.frontierLax;
+  tools.querySelector("[data-cross=max]").value = state.frontierMax;
+  tools.querySelector("[data-cross=storage]").checked = state.frontierStorage;
+  tools.addEventListener("change", (event) => {
+    const field = event.target.closest("[data-cross]");
+    if (!field) return;
+    if (field.dataset.cross === "hub") state.frontierHub = field.value;
+    if (field.dataset.cross === "lax") state.frontierLax = field.value;
+    if (field.dataset.cross === "max") state.frontierMax = field.value;
+    if (field.dataset.cross === "storage") state.frontierStorage = field.checked;
+    renderAreas();
+  });
+}
+
 function mount() {
+  mountFrontierFilters();
   renderTeach();
   renderMonth();
   renderProvinceSelect();

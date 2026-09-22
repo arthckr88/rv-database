@@ -7,6 +7,7 @@ import parksUs from "./data/us-parks.json";
 import parksMarket from "./data/us-market.json";
 import { US_CENTER } from "./lib/geo.js";
 import { materialize } from "./lib/facts.js";
+import { crossHtml, crossBrief, crossFilterMarkup, emptyCross, readCross, passesPlace } from "./lib/cross.js";
 import {
   enrichPark,
   compareParks,
@@ -53,6 +54,7 @@ const state = {
     minValue: "",
     maxAirport: "",
   },
+  cross: emptyCross(),
 };
 
 const els = {
@@ -132,6 +134,7 @@ function visibleParks() {
       if (v == null || v < Number(f.minValue)) return false;
     }
     if (season && f.seasonFit === "hide" && (p.avoidSeasons || []).includes(season)) return false;
+    if (!passesPlace(p.lat, p.lng, state.cross)) return false;
     return true;
   });
 }
@@ -305,7 +308,7 @@ function renderTable() {
       const fitWord = fit >= 8.5 ? "in season" : fit <= 3.5 ? "off season" : "shoulder";
       return `<tr data-id="${p.id}" class="${p.id === state.selectedId ? "is-selected" : ""}">
         <td>${rank}</td>
-        <td><div class="park-cell"><strong>${p.name}</strong><small>${p.regionLabel}${isClosed(p) ? " · closed" : ""}${p.ageRestriction === "55+" ? " · 55+" : ""}</small></div></td>
+        <td><div class="park-cell"><strong>${p.name}</strong><small>${p.regionLabel}${isClosed(p) ? " · closed" : ""}${p.ageRestriction === "55+" ? " · 55+" : ""}</small><small>${crossBrief(p.lat, p.lng, { hubId: state.cross.hub, lax: state.cross.lax })}</small></div></td>
         <td>${p.state}</td>
         <td>${p.city}</td>
         <td>${p.nearestAirport ? `${p.nearestAirport}${p.driveMinutesToAirport != null ? ` · ${p.driveMinutesToAirport}m` : ""}` : "—"}</td>
@@ -474,6 +477,7 @@ function drawerHtml(park) {
     <p class="eyebrow">${park.operator} · ${park.stateName} · ${park.confidence} confidence</p>
     <h2 id="drawer-title">${park.name}</h2>
     <p>${placeLine(park)}</p>
+    ${crossHtml(park.lat, park.lng, { hubId: state.cross.hub, lax: state.cross.lax })}
     <div class="meta-row">
       <span class="chip">${park.regionLabel}</span>
       <span class="chip">${hookupLine(park.hookups)}</span>
@@ -552,6 +556,7 @@ function readFiltersFromForm() {
   for (const key of Object.keys(state.filters)) {
     state.filters[key] = data.get(key) || "";
   }
+  readCross(els.filters, state.cross);
 }
 
 function renderAll() {
@@ -672,9 +677,15 @@ function bind() {
   });
 }
 
+function mountCrossFilters() {
+  if (els.filters.querySelector("[data-cross=hub]")) return;
+  els.filters.insertAdjacentHTML("beforeend", crossFilterMarkup({ includeLand: true }));
+}
+
 try {
   state.mode = localStorage.getItem("rv-rig") === "trailer" ? "trailer" : "classC";
   qa(".mode-btn").forEach((b) => b.classList.toggle("is-active", b.dataset.mode === state.mode));
+  mountCrossFilters();
   populateFilterOptions();
   els.filters.elements.seasonFit.value = "hide";
   readFiltersFromForm();

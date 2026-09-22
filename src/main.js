@@ -13,9 +13,9 @@ const panels = {
   "santa-monica": document.querySelector("#lookup-santa"),
 };
 
-const santaLand = createLand(panels["santa-monica"], { focus: "socal" });
-const nationLand = createLand(panels.nationwide, { focus: "us" });
-const frontierLand = createLand(panels.frontier, { focus: "us" });
+const santaLand = createLand(panels["santa-monica"], { focus: "socal", cross: "open" });
+const nationLand = createLand(panels.nationwide, { focus: "us", cross: "open" });
+const frontierLand = createLand(panels.frontier, { focus: "us", cross: "frontier" });
 const lands = {
   nationwide: nationLand,
   frontier: frontierLand,

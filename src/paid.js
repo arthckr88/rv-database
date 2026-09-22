@@ -5,6 +5,7 @@ import { MILES_TO_METERS, RING_COLORS, RING_ORDER, RINGS, ringLabel } from "./li
 import { addDarkBasemap } from "./lib/basemap.js";
 import { esc, money, monthlyLabel, stayLabel, parkBadges, PIER } from "./lib/format.js";
 import { oldestVerified, verifyMarks } from "./lib/facts.js";
+import { crossHtml, crossBrief, crossFilterMarkup, emptyCross, readCross, passesPlace } from "./lib/cross.js";
 import {
   enrichPark,
   compareParks,
@@ -35,6 +36,7 @@ const state = {
     monthly: "",
     hookups: "",
   },
+  cross: emptyCross(),
 };
 
 let map;
@@ -95,6 +97,7 @@ function visible() {
     if (f.monthly === "yes" && (rate.estimated || rate.value == null)) return false;
     if (f.monthly === "no" && !rate.estimated && rate.value != null) return false;
     if (f.hookups === "yes" && !p.hookups?.fullHookups) return false;
+    if (!passesPlace(p.lat, p.lng, state.cross)) return false;
     return true;
   });
 }
@@ -172,7 +175,7 @@ function renderTable() {
       const miles = p.roadMiles == null ? "—" : `${p.roadMiles} mi${p.milesEstimated ? " est." : ""}`;
       return `<tr data-open="${esc(p.id)}" class="${state.selectedId === p.id ? "is-selected" : ""}">
         <td>${rankValue(p, state.rig, state.rateMode).toFixed(1)}</td>
-        <td><span class="park-name">${esc(p.name)}</span><span class="sub">${esc(p.city)} · ${marksHtml(p)}</span>${badges.length ? `<span class="sub">${esc(badges.join(" · "))}</span>` : ""}</td>
+        <td><span class="park-name">${esc(p.name)}</span><span class="sub">${esc(p.city)} · ${marksHtml(p)}</span><span class="sub">${crossBrief(p.lat, p.lng, { hubId: state.cross.hub, lax: state.cross.lax })}</span>${badges.length ? `<span class="sub">${esc(badges.join(" · "))}</span>` : ""}</td>
         <td>${esc(ringLabel(p.ring))}</td>
         <td>${p.driveMinutesOffPeak ?? "—"}<span class="sub">${esc(miles)}</span></td>
         <td>${linked(p, monthlyLabel(p, state.rateMode))}<span class="sub">${esc(monthlyHint(p))}</span></td>
@@ -333,6 +336,7 @@ function fillDrawer(park) {
     <p class="kicker">${esc(park.city)} · ${esc(ringLabel(park.ring))} · ${marksHtml(park)}${badges.length ? ` · ${esc(badges.join(" · "))}` : ""}</p>
     <h2 id="drawer-title">${esc(park.name)}</h2>
     <p>${esc(park.address)}</p>
+    ${crossHtml(park.lat, park.lng, { hubId: state.cross.hub, lax: state.cross.lax })}
     <p><a href="${esc(park.website)}" target="_blank" rel="noreferrer">Park site</a>${park.phone ? ` · ${esc(park.phone)}` : ""}</p>
     <dl class="facts">
       <div><dt>Off-peak to the pier</dt><dd>${park.driveMinutesOffPeak ?? "—"} min · peak ${park.driveMinutesPeak ?? "—"} · ${esc(miles)}</dd></div>
@@ -437,6 +441,10 @@ function fillRings() {
 }
 
 export function mountPaid() {
+  const form = q("#park-filters");
+  if (!form.querySelector("[data-cross=hub]")) {
+    form.insertAdjacentHTML("beforeend", crossFilterMarkup({ includeLand: true }));
+  }
   fillRings();
   renderLegend();
   q("#method-weights").innerHTML = QUALITY_WEIGHTS.map((w) => `<li>${esc(w.key)} ${w.pct}%</li>`).join("");
@@ -449,12 +457,14 @@ export function mountPaid() {
     state.filters.monthly = form.monthly.value;
     state.filters.hookups = form.hookups.value;
     state.rateMode = form.rates.value || "blended";
+    readCross(form, state.cross);
     paint();
   });
   q("#reset-parks").addEventListener("click", () => {
     q("#park-filters").reset();
     state.rateMode = "blended";
     state.filters = { q: "", ring: "", longTerm: false, maxMonthly: "", monthly: "", hookups: "" };
+    state.cross = emptyCross();
     paint();
   });
   q("#park-table").addEventListener("click", (event) => {

@@ -23,6 +23,7 @@ import {
   laxStatusWord,
   goWildLabel,
 } from "./lib/frontier.js";
+import { crossHtml, crossBrief, placeContext } from "./lib/cross.js";
 import {
   enrichFrontierPark,
   frontierRank,
@@ -74,6 +75,7 @@ const state = {
     extraVehicle: "",
     minQuality: "",
     age: "",
+    maxLand: "",
   },
 };
 
@@ -221,6 +223,10 @@ function visibleParks() {
     if (f.extraVehicle && p.extraVehicle !== f.extraVehicle) return false;
     if (f.minQuality && p.qualityScore < Number(f.minQuality)) return false;
     if (f.age === "all-ages" && p.ageRestriction === "55+") return false;
+    if (f.maxLand) {
+      const land = placeContext(p.lat, p.lng, { hubId: p.hub }).land;
+      if (!land || land.minutes > Number(f.maxLand)) return false;
+    }
     if (f.skipHazard && (p.hazards || []).includes(f.skipHazard)) return false;
     if (season && f.seasonFit === "hide" && (p.avoidSeasons || []).includes(season)) return false;
     return true;
@@ -467,7 +473,7 @@ function renderTable() {
       const word = laxWord(p);
       return `<tr data-id="${p.id}" class="${p.id === state.selectedId ? "is-selected" : ""}">
         <td>${rank}</td>
-        <td><div class="park-cell"><strong>${p.name}</strong><small>${p.city}, ${p.state} · ${kindLabel(p.kind)}${p.ageRestriction === "55+" ? " · 55+" : ""}</small></div></td>
+        <td><div class="park-cell"><strong>${p.name}</strong><small>${p.city}, ${p.state} · ${kindLabel(p.kind)}${p.ageRestriction === "55+" ? " · 55+" : ""}</small><small>${crossBrief(p.lat, p.lng, { hubId: p.hub })}</small></div></td>
         <td>${p.hub}</td>
         <td>${p.driveMinutesToAirport != null ? `${p.driveMinutesToAirport} min` : "—"}</td>
         <td>${money(p.uberRoundTripUsd)}</td>
@@ -683,6 +689,7 @@ function drawerHtml(park) {
     <p class="eyebrow">${park.operator} · ${park.stateName} · ${kindLabel(park.kind)} · ${park.confidence} confidence</p>
     <h2 id="drawer-title">${park.name}</h2>
     <p>${placeLine(park)}</p>
+    ${crossHtml(park.lat, park.lng, { hubId: park.hub })}
     <div class="meta-row">
       <span class="chip">${park.hub} · ${hub?.airport ?? ""}</span>
       <span class="chip">${park.driveMinutesToAirport} min / ${park.driveMilesToAirport} mi to airport</span>

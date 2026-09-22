@@ -4,7 +4,7 @@ import parksRaw from "./data/parks.json";
 import { MILES_TO_METERS, RING_COLORS, RING_ORDER, RINGS, ringLabel } from "./lib/geo.js";
 import { addDarkBasemap } from "./lib/basemap.js";
 import { esc, money, monthlyLabel, stayLabel, parkBadges, PIER } from "./lib/format.js";
-import { oldestVerified, verifyMarks, verifyCopy } from "./lib/facts.js";
+import { verifyMarks } from "./lib/facts.js";
 import { crossHtml, crossBrief, crossFilterMarkup, emptyCross, readCross, passesPlace } from "./lib/cross.js";
 import {
   enrichPark,
@@ -154,7 +154,7 @@ function renderShortlist() {
         <p class="kicker">${esc(kicker)}</p>
         <h3><button type="button" data-open="${esc(park.id)}">${esc(park.name)}</button></h3>
         <p class="pick-meta">${esc(park.city)} · ${esc(ringLabel(park.ring))} · ${esc(monthlyLabel(park, state.rateMode))}</p>
-        <p>${esc(why)}${park.confidence === "medium" ? " Confirm the monthly before you book." : ""}</p>
+        <p>${esc(why)}</p>
         <p class="score-line">${marksHtml(park)} · Rank ${rankValue(park, rig, state.rateMode).toFixed(1)} · quality ${park.qualityScore.toFixed(1)} · ${esc(fitWord(park, rig))} for ${esc(rigName(rig))}</p>
       </article>`;
     })
@@ -323,7 +323,7 @@ function linked(park, label) {
 function renderBanner() {
   const el = q("#rate-banner");
   if (!el) return;
-  el.textContent = `A date means we read that park's own page. “Rate page wouldn't load” and “Old rate” mean call the park — that price is the last one saved. Oldest date in this list: ${oldestVerified(ranked())}.`;
+  el.hidden = true;
 }
 
 function fillDrawer(park) {
@@ -352,14 +352,12 @@ function fillDrawer(park) {
       <div><dt>Hookups</dt><dd>${park.hookups?.fullHookups ? "Full" : "Not full"}</dd></div>
       <div><dt>Wifi / noise</dt><dd>${esc(park.wifi)} · ${(park.noise || []).map(esc).join(", ") || "—"}</dd></div>
     </dl>
-    ${park.monthlyFrom == null && park.monthlyWinterFrom == null ? `<p>Call for monthly.</p>` : ""}
     <p class="score-line">Quality ${park.qualityScore.toFixed(1)} · price ${rate.priceScore.toFixed(1)} · proximity ${park.proximityScore.toFixed(1)} · Class C fit ${park.fitClassCScore.toFixed(1)} (${esc(park.fitClassC)}) · Trailer fit ${park.fitTrailerScore.toFixed(1)} (${esc(park.fitTrailerTesla)})</p>
     <p class="score-line">Rank ${rate.rankClassC.toFixed(1)} Class C · ${rate.rankTrailer.toFixed(1)} Trailer + Tesla. Value index ${rate.valueIndex == null ? "—" : rate.valueIndex.toFixed(1)} (quality per $1,000 of the monthly used for rank).</p>
     ${park.monthlyRankNote ? `<p>${esc(park.monthlyRankNote)}</p>` : ""}
     ${park.taxesFeesNote ? `<p>${esc(park.taxesFeesNote)}</p>` : ""}
     <h3>Watch</h3>
     <ul>${(park.watchOuts || []).map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
-    <p class="fine">${esc(verifyCopy(park).detail)}</p>
     <h3>Sources</h3>
     <ul class="sources">${sources}</ul>
   `;

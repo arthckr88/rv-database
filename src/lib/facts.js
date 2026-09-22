@@ -102,7 +102,7 @@ export function needsCall(park) {
   return park.confidence === "low" || !!park.rateUnverified || (park.monthlyFrom == null && park.monthlyWinterFrom == null);
 }
 
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 export function verifyDay(iso) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || "")) return null;
@@ -110,46 +110,13 @@ export function verifyDay(iso) {
   return `${MONTHS[month - 1]} ${day}, ${year}`;
 }
 
-/** One viewer-facing line. The check log still uses blocked / stale / failed. */
+/** Three viewer lines. The check log still uses blocked / stale / failed. */
 export function verifyCopy(park) {
   const day = verifyDay(park.lastVerified);
-  if (isBlockedStatus(park)) {
-    return {
-      cls: "tag-blocked",
-      short: "Rate page wouldn't load",
-      detail: "The park's rate page would not open. The price on this row is the last one saved. Call the park before you book.",
-    };
-  }
-  if (isStale(park)) {
-    return {
-      cls: "tag-stale",
-      short: "Old rate — call the park",
-      detail: day
-        ? `We could not re-read this rate. The price is from ${day}. Call the park before you book.`
-        : "We could not re-read this rate. The price is the last one saved. Call the park before you book.",
-    };
-  }
-  if (needsCall(park)) {
-    return {
-      cls: "tag-call",
-      short: "Call the park for the rate",
-      detail: "This rate is not on the park's site. Call before you book.",
-    };
-  }
-  if (park.confidence === "high") {
-    return {
-      cls: "tag-high",
-      short: day ? `Checked ${day}` : "Checked on the park site",
-      detail: day ? `Read on the park's site on ${day}.` : "Read on the park's site.",
-    };
-  }
-  return {
-    cls: "tag-mid",
-    short: "Confirm the rate before you book",
-    detail: day
-      ? `On file as of ${day}. Confirm the monthly with the park before you book.`
-      : "Confirm the monthly with the park before you book.",
-  };
+  const updated = day && park.confidence === "high" && !isBlockedStatus(park) && !isStale(park) && !needsCall(park);
+  if (updated) return { cls: "tag-high", short: `Rate updated ${day}`, detail: `Rate updated ${day}` };
+  if (needsCall(park)) return { cls: "tag-call", short: "Call the park for the latest rate", detail: "Call the park for the latest rate" };
+  return { cls: "tag-blocked", short: "Rate unconfirmed", detail: "Rate unconfirmed" };
 }
 
 export function verifyMarks(park) {

@@ -4,7 +4,7 @@ import parksRaw from "./data/parks.json";
 import { MILES_TO_METERS, RING_COLORS, RING_ORDER, RINGS, ringLabel } from "./lib/geo.js";
 import { addDarkBasemap } from "./lib/basemap.js";
 import { esc, money, monthlyLabel, stayLabel, parkBadges, PIER } from "./lib/format.js";
-import { oldestVerified, verifyMarks } from "./lib/facts.js";
+import { oldestVerified, verifyMarks, verifyCopy } from "./lib/facts.js";
 import { crossHtml, crossBrief, crossFilterMarkup, emptyCross, readCross, passesPlace } from "./lib/cross.js";
 import {
   enrichPark,
@@ -323,7 +323,7 @@ function linked(park, label) {
 function renderBanner() {
   const el = q("#rate-banner");
   if (!el) return;
-  el.textContent = `Rates last checked ${oldestVerified(ranked())}. Yellow = confirm before you tow.`;
+  el.textContent = `A date means we read that park's own page. “Rate page wouldn't load” and “Old rate” mean call the park — that price is the last one saved. Oldest date in this list: ${oldestVerified(ranked())}.`;
 }
 
 function fillDrawer(park) {
@@ -359,7 +359,7 @@ function fillDrawer(park) {
     ${park.taxesFeesNote ? `<p>${esc(park.taxesFeesNote)}</p>` : ""}
     <h3>Watch</h3>
     <ul>${(park.watchOuts || []).map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
-    <p class="fine">Checked ${esc(park.lastVerified)}. ${esc(park.confidence)} confidence.</p>
+    <p class="fine">${esc(verifyCopy(park).detail)}</p>
     <h3>Sources</h3>
     <ul class="sources">${sources}</ul>
   `;

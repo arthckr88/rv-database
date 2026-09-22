@@ -4,7 +4,7 @@ import hubs from "./data/hubs.json";
 import seasons from "./data/seasons.json";
 import usRules from "./data/usRules.json";
 import canada from "./data/canadaRules.json";
-import { esc, PIER, COST_LABEL, ACCESS_LABEL } from "./lib/format.js";
+import { esc, PIER, COST_LABEL, ACCESS_LABEL, trustClause } from "./lib/format.js";
 import { inMexico, inCanadaRough } from "./lib/scope.js";
 import { addDarkBasemap } from "./lib/basemap.js";
 import { placeContext, frontierHubOptions, passesPlace, crossBrief, crossFilterMarkup } from "./lib/cross.js";
@@ -243,7 +243,7 @@ function renderAreas() {
         <p class="kicker">${esc(COST_LABEL[area.cost] || area.cost)} · ${esc(area.agency)}</p>
         <h3>${esc(area.name)}</h3>
         <p>${esc(area.stayLimit)}</p>
-        <p class="fine">${esc(ACCESS_LABEL[area.access])} · Class C ${esc(area.fitClassC)} · Trailer ${esc(area.fitTrailerTesla)} · ${hub ? esc(hub.name) : "No listed hub"} · ${esc(area.confidence)} confidence${area.lastChecked ? ` · checked ${esc(area.lastChecked)}` : ""}${look.warn ? " · heat warning" : ""}${look.dim ? " · poor month" : ""}</p>
+        <p class="fine">${esc(ACCESS_LABEL[area.access])} · Class C ${esc(area.fitClassC)} · Trailer ${esc(area.fitTrailerTesla)} · ${hub ? esc(hub.name) : "No listed hub"}${trustClause(area.confidence) ? ` · ${esc(trustClause(area.confidence))}` : ""}${area.lastChecked ? ` · checked ${esc(area.lastChecked)}` : ""}${look.warn ? " · heat warning" : ""}${look.dim ? " · poor month" : ""}</p>
         <p class="fine">${crossBrief(area.lat, area.lng, { excludeLandId: area.id, hubId: state.frontierHub, lax: state.frontierLax, omitLand: true })}</p>
       </article>`;
     })

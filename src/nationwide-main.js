@@ -8,6 +8,7 @@ import parksMarket from "./data/us-market.json";
 import { US_CENTER } from "./lib/geo.js";
 import { materialize } from "./lib/facts.js";
 import { crossHtml, crossBrief, crossFilterMarkup, emptyCross, readCross, passesPlace } from "./lib/cross.js";
+import { trustClause } from "./lib/format.js";
 import {
   enrichPark,
   compareParks,
@@ -474,7 +475,7 @@ function drawerHtml(park) {
     .filter(Boolean)
     .join(" · ");
   return `
-    <p class="eyebrow">${park.operator} · ${park.stateName} · ${park.confidence} confidence</p>
+    <p class="eyebrow">${park.operator} · ${park.stateName}${trustClause(park.confidence) ? ` · ${trustClause(park.confidence)}` : ""}</p>
     <h2 id="drawer-title">${park.name}</h2>
     <p>${placeLine(park)}</p>
     ${crossHtml(park.lat, park.lng, { hubId: state.cross.hub, lax: state.cross.lax })}

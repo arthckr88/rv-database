@@ -58,33 +58,34 @@ export function stayLabel(park) {
   return `${cap} nights`;
 }
 
-function capBadge(park) {
-  const cap = stayCapNights(park);
-  const summer = park.maxStaySummerNights;
-  const peak = park.maxStayPeakNights;
-  if (summer != null && summer === cap && (park.maxStayNights == null || summer < park.maxStayNights)) return `${cap} summer`;
-  if (peak != null && peak === cap && park.maxStayNights != null && peak < park.maxStayNights) return `${cap} peak`;
-  if (park.maxStayNights != null && park.maxStayWindowDays && cap === park.maxStayNights) {
-    return `${cap}/${park.maxStayWindowDays}`;
-  }
-  return String(cap);
-}
-
 export function parkBadges(park, rateMode = "blended") {
   const rate = activeRate(park, rateMode);
   const estimated = rate ? rate.estimated : !!park.monthlyEstimated;
   const value = rate ? rate.value : park.effectiveMonthly;
   const cap = stayCapNights(park);
   const badges = [];
-  if (!estimated && value != null && (cap == null || cap >= 28)) badges.push("MONTHLY");
-  if (cap != null && cap < 28) badges.push(`CAPPED (${capBadge(park)})`);
-  if (estimated) badges.push("ESTIMATE");
-  if (park.far) badges.push("FAR");
+  if (!estimated && value != null && (cap == null || cap >= 28)) badges.push("Monthly stay");
+  if (cap != null && cap < 28) badges.push(stayCapPhrase(park, cap));
+  if (estimated) badges.push("Estimated from the nightly rate");
+  if (park.far) badges.push("Far from the pier");
   return badges;
 }
 
-export function confidenceLabel(park) {
-  return String(park.confidence || "low").toUpperCase();
+function stayCapPhrase(park, cap) {
+  const summer = park.maxStaySummerNights;
+  const peak = park.maxStayPeakNights;
+  if (summer != null && summer === cap && (park.maxStayNights == null || summer < park.maxStayNights)) return `${cap}-night summer max`;
+  if (peak != null && peak === cap && park.maxStayNights != null && peak < park.maxStayNights) return `${cap}-night peak max`;
+  if (park.maxStayNights != null && park.maxStayWindowDays && cap === park.maxStayNights) {
+    return `${cap} nights in ${park.maxStayWindowDays}`;
+  }
+  return `${cap}-night max`;
+}
+
+export function trustClause(confidence) {
+  if (confidence === "low") return "thin record, read the official page";
+  if (confidence === "medium") return "confirm on the official page";
+  return "";
 }
 
 export const PIER = { lat: 34.01, lng: -118.4963, name: "Santa Monica Pier" };

@@ -43,7 +43,7 @@ npm run verify:parks
 
 That fetches each park’s official page (15 second timeout, desktop user-agent), saves the HTML in `.cache/verify/{id}.html`, and compares it with `src/data/parks.json`. There is no model in this pipeline. The script does not call OpenAI, Grok, or ChatGPT, and it does not read Campendium, iOverlander, AllStays, Google, or Yelp.
 
-A money or rule field is `{ value, sourceUrl, lastVerified, confidence, sourceNote }`. `lastVerified` moves to today only when that park’s parser is confident. If the parse is weak, the old number stays and the row is **STALE**. If the host returns 403 or 404, the script tries one other official URL. If that is blocked too, the status is **BLOCKED** and the old number stays. A blocked page does not invent a rate.
+A money or rule field is `{ value, sourceUrl, lastVerified, confidence, sourceNote }`. `lastVerified` moves to today only when that park’s parser is confident. If the parse is weak, the old number stays and the row says **Old rate — call the park**. If the host returns 403 or 404, the script tries one other official URL. If that page will not open either, the row says **Rate page wouldn't load** and the old number stays. A page that will not open does not invent a rate. The check log still records `stale` or `blocked`.
 
 Each run appends to `src/data/verifyLog.json` (`ok`, `changed`, `failed`, `stale`, or `blocked`). The process exits 0 unless it crashes. Public land is not part of this check.
 
@@ -51,7 +51,7 @@ Each run appends to `src/data/verifyLog.json` (`ok`, `changed`, `failed`, `stale
 
 GitHub Actions runs `.github/workflows/verify-parks.yml` every Monday at 16:00 UTC, and on demand (`workflow_dispatch`). The job checks out `main`, uses Node LTS, runs `npm ci` and `npm run verify:parks`, and if `parks.json` or `verifyLog.json` changed it commits `chore: weekly park rate verify` and pushes to `main`. That same job publishes the site, because a token push does not start a second workflow. Any other push to `main` is published by `.github/workflows/deploy.yml`. The verify workflow has `contents: write`.
 
-A blocked or unparsed official page keeps the old number and is marked STALE or BLOCKED. The job does not invent a rate.
+A page that will not open, or a page the parser cannot read, keeps the old number. The row tells the viewer to call the park. The job does not invent a rate.
 
 Rings are miles from the pier: 0–20, 20–45, 45–80, 80–140.
 

@@ -24,6 +24,7 @@ import {
   goWildLabel,
 } from "./lib/frontier.js";
 import { crossHtml, crossBrief, placeContext } from "./lib/cross.js";
+import { trustClause } from "./lib/format.js";
 import {
   enrichFrontierPark,
   frontierRank,
@@ -686,7 +687,7 @@ function drawerHtml(park) {
         ? `<span class="chip">LAS–BUR ended ${hub.burUntil} — LAX only</span>`
         : "";
   return `
-    <p class="eyebrow">${park.operator} · ${park.stateName} · ${kindLabel(park.kind)} · ${park.confidence} confidence</p>
+    <p class="eyebrow">${park.operator} · ${park.stateName} · ${kindLabel(park.kind)}${trustClause(park.confidence) ? ` · ${trustClause(park.confidence)}` : ""}</p>
     <h2 id="drawer-title">${park.name}</h2>
     <p>${placeLine(park)}</p>
     ${crossHtml(park.lat, park.lng, { hubId: park.hub })}

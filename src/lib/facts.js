@@ -102,18 +102,65 @@ export function needsCall(park) {
   return park.confidence === "low" || !!park.rateUnverified || (park.monthlyFrom == null && park.monthlyWinterFrom == null);
 }
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+export function verifyDay(iso) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || "")) return null;
+  const [year, month, day] = iso.split("-").map(Number);
+  return `${MONTHS[month - 1]} ${day}, ${year}`;
+}
+
+/** One viewer-facing line. The check log still uses blocked / stale / failed. */
+export function verifyCopy(park) {
+  const day = verifyDay(park.lastVerified);
+  if (isBlockedStatus(park)) {
+    return {
+      cls: "tag-blocked",
+      short: "Rate page wouldn't load",
+      detail: "The park's rate page would not open. The price on this row is the last one saved. Call the park before you book.",
+    };
+  }
+  if (isStale(park)) {
+    return {
+      cls: "tag-stale",
+      short: "Old rate — call the park",
+      detail: day
+        ? `We could not re-read this rate. The price is from ${day}. Call the park before you book.`
+        : "We could not re-read this rate. The price is the last one saved. Call the park before you book.",
+    };
+  }
+  if (needsCall(park)) {
+    return {
+      cls: "tag-call",
+      short: "Call the park for the rate",
+      detail: "This rate is not on the park's site. Call before you book.",
+    };
+  }
+  if (park.confidence === "high") {
+    return {
+      cls: "tag-high",
+      short: day ? `Checked ${day}` : "Checked on the park site",
+      detail: day ? `Read on the park's site on ${day}.` : "Read on the park's site.",
+    };
+  }
+  return {
+    cls: "tag-mid",
+    short: "Confirm the rate before you book",
+    detail: day
+      ? `On file as of ${day}. Confirm the monthly with the park before you book.`
+      : "Confirm the monthly with the park before you book.",
+  };
+}
+
 export function verifyMarks(park) {
-  const marks = [];
-  if (needsCall(park)) marks.push({ cls: "tag-call", text: "CALL TO CONFIRM" });
-  if (isBlockedStatus(park)) marks.push({ cls: "tag-blocked", text: "BLOCKED" });
-  else if (isStale(park)) marks.push({ cls: "tag-stale", text: "STALE" });
-  else if (park.confidence === "high") marks.push({ cls: "tag-high", text: `HIGH ${park.lastVerified}` });
-  else marks.push({ cls: "tag-mid", text: `${String(park.confidence || "medium").toUpperCase()} ${park.lastVerified}` });
-  return marks;
+  const copy = verifyCopy(park);
+  return [{ cls: copy.cls, text: copy.short }];
 }
 
 export function oldestVerified(parks) {
   const dates = parks.map((park) => park.lastVerified).filter((day) => typeof day === "string" && day.length > 0);
   dates.sort();
-  return dates[0] || "unknown";
+  const raw = dates[0];
+  if (!raw) return "unknown";
+  return verifyDay(raw) || (/^\d{4}-\d{2}$/.test(raw) ? `${MONTHS[Number(raw.slice(5, 7)) - 1]} ${raw.slice(0, 4)}` : raw);
 }

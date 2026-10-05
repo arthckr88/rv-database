@@ -16,14 +16,14 @@
     "nightlyFrom": {
       "value": 65,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Back-row full hookup per day."
     },
     "nightlyTo": {
       "value": 75,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Front-row full hookup per day."
     },
@@ -37,14 +37,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "County page publishes a daily fee and a night cap, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly on the county page."
     },
@@ -59,7 +59,7 @@
     "maxRvLengthFt": {
       "value": 40,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Recreational vehicle size limit."
     },
@@ -123,7 +123,7 @@
       "https://beaches.lacounty.gov/dockweiler-rv-park/",
       "https://file.lacounty.gov/SDSInter/dbh/docs/1138926_RVPARK-Rules.pdf"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
     "monthlyWinter": {
       "value": null,
@@ -142,14 +142,14 @@
     "stayCapNights": {
       "value": 21,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Maximum stay on the county page."
     },
     "stayCapWindowDays": {
       "value": 60,
       "sourceUrl": "https://beaches.lacounty.gov/dockweiler-rv-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Stay window on the county page."
     },
@@ -169,7 +169,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.008Z",
+      "checkedAt": "2026-10-05T22:17:59.471Z",
       "error": null
     }
   },
@@ -345,7 +345,7 @@
     },
     "verify": {
       "status": "blocked",
-      "checkedAt": "2026-09-28T21:32:32.037Z",
+      "checkedAt": "2026-10-05T22:17:59.505Z",
       "error": "Blocked. Tried https://www.maliburv.com/rates and https://www.maliburv.com/. Old number kept."
     }
   },
@@ -366,14 +366,14 @@
     "nightlyFrom": {
       "value": 79,
       "sourceUrl": "https://hollywoodrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Daily rate on the Hollywood homepage."
     },
     "nightlyTo": {
       "value": 79,
       "sourceUrl": "https://hollywoodrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "One published daily rate."
     },
@@ -387,14 +387,14 @@
     "monthlyFrom": {
       "value": 1500,
       "sourceUrl": "https://hollywoodrvpark.com/application/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Application page: monthly starting at, plus electricity."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://hollywoodrvpark.com/application/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Starting at. No ceiling on the application page."
     },
@@ -402,7 +402,7 @@
     "electricExtra": {
       "value": "not included; application says $1,500 plus electricity",
       "sourceUrl": "https://hollywoodrvpark.com/application/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Application page adds electricity on top of the monthly."
     },
@@ -473,7 +473,7 @@
       "https://hollywoodrvpark.com/application/",
       "https://hollywoodrvpark.com/about/faqs/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://hollywoodrvpark.com/application/",
     "monthlyWinter": {
       "value": null,
@@ -519,7 +519,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.038Z",
+      "checkedAt": "2026-10-05T22:17:59.506Z",
       "error": null
     }
   },
@@ -689,9 +689,9 @@
       "sourceNote": "Peak stay cap on the park record."
     },
     "verify": {
-      "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.039Z",
-      "error": null
+      "status": "stale",
+      "checkedAt": "2026-10-05T22:17:59.508Z",
+      "error": "Page fetched. Parse was not confident. Number left as recorded."
     }
   },
   {
@@ -863,7 +863,7 @@
     },
     "verify": {
       "status": "stale",
-      "checkedAt": "2026-09-28T21:32:32.430Z",
+      "checkedAt": "2026-10-05T22:17:59.874Z",
       "error": "Page fetched. Parse was not confident. Number left as recorded."
     }
   },
@@ -884,14 +884,14 @@
     "nightlyFrom": {
       "value": 119,
       "sourceUrl": "https://www.walnutrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Nightly starts at the basic site."
     },
     "nightlyTo": {
       "value": 169,
       "sourceUrl": "https://www.walnutrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Pull-through premium nightly on the same card."
     },
@@ -905,21 +905,21 @@
     "monthlyFrom": {
       "value": 1650,
       "sourceUrl": "https://www.walnutrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Monthly Rates on walnutrvpark.com."
     },
     "monthlyTo": {
       "value": 1650,
       "sourceUrl": "https://www.walnutrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Single published monthly, not a range."
     },
     "electricExtra": {
       "value": "metered; $200 deposit for final electric charges",
       "sourceUrl": "https://www.walnutrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Deposit line next to the monthly rate."
     },
@@ -992,7 +992,7 @@
       "https://www.walnutrvpark.com/about",
       "https://www.walnutrvpark.com/faq"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.walnutrvpark.com/",
     "monthlyWinter": {
       "value": null,
@@ -1038,7 +1038,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.438Z",
+      "checkedAt": "2026-10-05T22:18:00.025Z",
       "error": null
     }
   },
@@ -1059,14 +1059,14 @@
     "nightlyFrom": {
       "value": 85,
       "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "October–May daily rate."
     },
     "nightlyTo": {
       "value": 105,
       "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Daily card is listed as $85–$105."
     },
@@ -1080,14 +1080,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Monthly section says contact for pricing. No monthly dollar."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly ceiling published."
     },
@@ -1167,7 +1167,7 @@
       "https://valenciatravelvillagellc.com/rates-reservations/",
       "https://valenciatravelvillagellc.com/resort/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://valenciatravelvillagellc.com/rates-reservations/",
     "monthlyWinter": {
       "value": null,
@@ -1213,7 +1213,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.457Z",
+      "checkedAt": "2026-10-05T22:18:00.239Z",
       "error": null
     }
   },
@@ -1234,35 +1234,35 @@
     "nightlyFrom": {
       "value": 85,
       "sourceUrl": "https://goldenshorervresort.com/rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Sunday–Thursday nightly."
     },
     "nightlyTo": {
       "value": 90,
       "sourceUrl": "https://goldenshorervresort.com/rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Friday–Saturday nightly. Grand Prix weekend is excluded."
     },
     "weeklyFrom": {
       "value": 515,
       "sourceUrl": "https://goldenshorervresort.com/rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Published weekly rate."
     },
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://goldenshorervresort.com/rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Rates page lists daily and weekly, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://goldenshorervresort.com/rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly ceiling."
     },
@@ -1342,7 +1342,7 @@
       "https://goldenshorervresort.com/rates",
       "https://goldenshorervresort.com/park-guidelines"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://goldenshorervresort.com/rates",
     "monthlyWinter": {
       "value": null,
@@ -1375,7 +1375,7 @@
     "stayCapSummerNights": {
       "value": 14,
       "sourceUrl": "https://goldenshorervresort.com/rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Two-week maximum during summer months."
     },
@@ -1388,7 +1388,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.693Z",
+      "checkedAt": "2026-10-05T22:18:00.359Z",
       "error": null
     }
   },
@@ -1409,14 +1409,14 @@
     "nightlyFrom": {
       "value": 75,
       "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Weekday daily rate."
     },
     "nightlyTo": {
       "value": 125,
       "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Friday–Saturday daily rate."
     },
@@ -1430,14 +1430,14 @@
     "monthlyFrom": {
       "value": 1450,
       "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Monthly starting at. Varies by length, occupants, and pets."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://www.pacificrvpark.com/sites-rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Starting at. No ceiling on the rates page."
     },
@@ -1517,7 +1517,7 @@
       "https://www.pacificrvpark.com/sites-rates/",
       "https://www.pacificrvpark.com/long-term-stays/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.pacificrvpark.com/sites-rates/",
     "monthlyWinter": {
       "value": null,
@@ -1563,7 +1563,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.741Z",
+      "checkedAt": "2026-10-05T22:18:00.541Z",
       "error": null
     }
   },
@@ -1735,7 +1735,7 @@
     },
     "verify": {
       "status": "stale",
-      "checkedAt": "2026-09-28T21:32:32.790Z",
+      "checkedAt": "2026-10-05T22:18:00.590Z",
       "error": "Page fetched. Parse was not confident. Number left as recorded."
     }
   },
@@ -1756,14 +1756,14 @@
     "nightlyFrom": {
       "value": 60,
       "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Lower of the two full-hookup rows."
     },
     "nightlyTo": {
       "value": 70,
       "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Higher of the two full-hookup rows."
     },
@@ -1777,14 +1777,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "State park page publishes a nightly camping fee, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly."
     },
@@ -1799,7 +1799,7 @@
     "maxRvLengthFt": {
       "value": 40,
       "sourceUrl": "https://www.parks.ca.gov/?page_id=642",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Max trailer length on the state park page."
     },
@@ -1861,7 +1861,7 @@
       "https://www.parks.ca.gov/?page_id=642",
       "https://www.parks.ca.gov/pages/642/files/Camping%20Regulations%20Flyer%20(Updated%202023)v.2.pdf"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.parks.ca.gov/?page_id=642",
     "monthlyWinter": {
       "value": null,
@@ -1907,7 +1907,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.905Z",
+      "checkedAt": "2026-10-05T22:18:00.729Z",
       "error": null
     }
   },
@@ -1928,35 +1928,35 @@
     "nightlyFrom": {
       "value": 90,
       "sourceUrl": "https://canyonrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "RV daily rate."
     },
     "nightlyTo": {
       "value": 90,
       "sourceUrl": "https://canyonrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "One published RV daily rate."
     },
     "weeklyFrom": {
       "value": 505,
       "sourceUrl": "https://canyonrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "RV weekly rate."
     },
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://canyonrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Monthly says call for pricing. No dollar."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://canyonrvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly ceiling."
     },
@@ -2032,7 +2032,7 @@
       "https://canyonrvpark.com/",
       "https://canyonrvpark.com/reservations"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://canyonrvpark.com/",
     "monthlyWinter": {
       "value": null,
@@ -2078,7 +2078,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.934Z",
+      "checkedAt": "2026-10-05T22:18:00.787Z",
       "error": null
     }
   },
@@ -2099,14 +2099,14 @@
     "nightlyFrom": {
       "value": 84,
       "sourceUrl": "https://www.newportdunes.com/rv-rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Winter small-site daily floor."
     },
     "nightlyTo": {
       "value": 590,
       "sourceUrl": "https://www.newportdunes.com/rv-rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Highest daily ceiling on the rates page."
     },
@@ -2120,14 +2120,14 @@
     "monthlyFrom": {
       "value": 1207,
       "sourceUrl": "https://www.newportdunes.com/extended-stay/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Winter small-standard monthly."
     },
     "monthlyTo": {
       "value": 2536,
       "sourceUrl": "https://www.newportdunes.com/extended-stay/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Winter select-deluxe monthly."
     },
@@ -2210,7 +2210,7 @@
       "https://www.newportdunes.com/rv-rates/",
       "https://www.newportdunes.com/wp-content/uploads/Monthly-Agreement-2024.pdf"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.newportdunes.com/extended-stay/",
     "monthlyWinter": {
       "value": {
@@ -2218,7 +2218,7 @@
         "to": 2536
       },
       "sourceUrl": "https://www.newportdunes.com/extended-stay/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Winter column, small standard through select deluxe."
     },
@@ -2228,14 +2228,14 @@
         "to": 4553
       },
       "sourceUrl": "https://www.newportdunes.com/extended-stay/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Summer column, small standard through select deluxe."
     },
     "stayCapNights": {
       "value": 180,
       "sourceUrl": "https://www.newportdunes.com/extended-stay/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Must leave for 7 nights after this many nights."
     },
@@ -2262,7 +2262,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:32.957Z",
+      "checkedAt": "2026-10-05T22:18:00.909Z",
       "error": null
     }
   },
@@ -2433,7 +2433,7 @@
     },
     "verify": {
       "status": "blocked",
-      "checkedAt": "2026-09-28T21:32:32.993Z",
+      "checkedAt": "2026-10-05T22:18:01.272Z",
       "error": "Blocked. Tried https://www.stayatevergreenrv.com/rates and https://www.stayatevergreenrv.com/. Old number kept."
     }
   },
@@ -2454,14 +2454,14 @@
     "nightlyFrom": {
       "value": 140,
       "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Lowest daily RV rate on the rate card, with tax."
     },
     "nightlyTo": {
       "value": 244,
       "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Highest RV rate on the card, including holiday, with tax."
     },
@@ -2475,14 +2475,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Rate card is daily and holiday, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://www.vbrvresort.com/rv-site-rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly."
     },
@@ -2558,7 +2558,7 @@
       "https://www.vbrvresort.com/rv-site-rates",
       "https://www.vbrvresort.com/resort-policies"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.vbrvresort.com/rv-site-rates",
     "monthlyWinter": {
       "value": null,
@@ -2604,7 +2604,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.062Z",
+      "checkedAt": "2026-10-05T22:18:01.441Z",
       "error": null
     }
   },
@@ -2772,7 +2772,7 @@
     },
     "verify": {
       "status": "stale",
-      "checkedAt": "2026-09-28T21:32:33.289Z",
+      "checkedAt": "2026-10-05T22:18:01.704Z",
       "error": "Page fetched. Parse was not confident. Number left as recorded."
     }
   },
@@ -2793,14 +2793,14 @@
     "nightlyFrom": {
       "value": 47,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Off-season RV daily rate."
     },
     "nightlyTo": {
       "value": 51,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Peak-season RV daily rate."
     },
@@ -2814,14 +2814,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "County page publishes a daily fee, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly."
     },
@@ -2894,7 +2894,7 @@
       "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
       "https://cdn.parks.venturacounty.gov/wp-content/uploads/2026/07/Rent-and-Fee-Schedule-Approved-6.23.26.pdf"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
     "monthlyWinter": {
       "value": null,
@@ -2913,7 +2913,7 @@
     "stayCapNights": {
       "value": 7,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/beach-front-parks-rincon-parkway/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "7 days across the three beach parks."
     },
@@ -2940,7 +2940,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.314Z",
+      "checkedAt": "2026-10-05T22:18:01.712Z",
       "error": null
     }
   },
@@ -2961,14 +2961,14 @@
     "nightlyFrom": {
       "value": 67,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Lowest hook-up daily rate on the county page."
     },
     "nightlyTo": {
       "value": 74,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Highest hook-up daily rate on the county page."
     },
@@ -2982,14 +2982,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "County page publishes a daily fee, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly."
     },
@@ -3062,7 +3062,7 @@
       "https://cdn.parks.venturacounty.gov/wp-content/uploads/2026/07/Rent-and-Fee-Schedule-Approved-6.23.26.pdf",
       "https://parks.venturacounty.gov/reservation-announcement/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
     "monthlyWinter": {
       "value": null,
@@ -3081,7 +3081,7 @@
     "stayCapNights": {
       "value": 7,
       "sourceUrl": "https://parks.venturacounty.gov/county-parks/faria-beach-park/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "7 days across the three beach parks."
     },
@@ -3108,7 +3108,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.401Z",
+      "checkedAt": "2026-10-05T22:18:01.722Z",
       "error": null
     }
   },
@@ -3150,14 +3150,14 @@
     "monthlyFrom": {
       "value": 950,
       "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Long-term monthly floor on venturaoaks.com."
     },
     "monthlyTo": {
       "value": 1330,
       "sourceUrl": "https://www.venturaoaks.com/amenities-rates",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Long-term monthly ceiling on venturaoaks.com."
     },
@@ -3231,7 +3231,7 @@
       "https://www.venturaoaks.com/",
       "https://www.venturaoaks.com/amenities-rates"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.venturaoaks.com/amenities-rates",
     "monthlyWinter": {
       "value": null,
@@ -3277,7 +3277,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.484Z",
+      "checkedAt": "2026-10-05T22:18:01.733Z",
       "error": null
     }
   },
@@ -3319,14 +3319,14 @@
     "monthlyFrom": {
       "value": 700,
       "sourceUrl": "https://www.sanbernardinorvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Monthly rates starting at. Water and electric are extra."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://www.sanbernardinorvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Starting at. No ceiling on the page."
     },
@@ -3334,7 +3334,7 @@
     "electricExtra": {
       "value": "metered 30/50 amp; not included in the $700",
       "sourceUrl": "https://www.sanbernardinorvpark.com/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Page says water is a flat fee and electric is metered."
     },
@@ -3403,7 +3403,7 @@
       "https://www.sanbernardinorvpark.com/",
       "https://www.boavidacommunities.com/communities/san-bernardino-rv/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.sanbernardinorvpark.com/",
     "monthlyWinter": {
       "value": null,
@@ -3449,7 +3449,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.488Z",
+      "checkedAt": "2026-10-05T22:18:01.887Z",
       "error": null
     }
   },
@@ -3622,9 +3622,9 @@
       "sourceNote": "Peak stay cap on the park record."
     },
     "verify": {
-      "status": "blocked",
-      "checkedAt": "2026-09-28T21:32:33.714Z",
-      "error": "Blocked. Tried https://www.goldenvillagepalms.com/ and https://www.goldenvillagepalms.com/faqs. Old number kept."
+      "status": "stale",
+      "checkedAt": "2026-10-05T22:18:01.890Z",
+      "error": "Page fetched. Parse was not confident. Number left as recorded."
     }
   },
   {
@@ -3644,7 +3644,7 @@
     "nightlyFrom": {
       "value": 65,
       "sourceUrl": "https://rorvpark.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Back-in full-hookup nightly floor."
     },
@@ -3665,14 +3665,14 @@
     "monthlyFrom": {
       "value": 800,
       "sourceUrl": "https://rorvpark.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Monthly starting at, plus utilities."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://rorvpark.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Starting at. No ceiling on the rates page."
     },
@@ -3749,7 +3749,7 @@
       "https://rorvpark.com/",
       "https://rorvpark.com/rates/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://rorvpark.com/rates/",
     "monthlyWinter": {
       "value": null,
@@ -3795,7 +3795,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.757Z",
+      "checkedAt": "2026-10-05T22:18:01.936Z",
       "error": null
     }
   },
@@ -3816,14 +3816,14 @@
     "nightlyFrom": {
       "value": 111,
       "sourceUrl": "https://www.visitpcv.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Non-prime starting nightly, before tax."
     },
     "nightlyTo": {
       "value": 126,
       "sourceUrl": "https://www.visitpcv.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Prime starting nightly, before tax."
     },
@@ -3837,14 +3837,14 @@
     "monthlyFrom": {
       "value": null,
       "sourceUrl": "https://www.visitpcv.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Rate page publishes a nightly start, not a monthly."
     },
     "monthlyTo": {
       "value": null,
       "sourceUrl": "https://www.visitpcv.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "No monthly."
     },
@@ -3920,7 +3920,7 @@
       "https://www.visitpcv.com/rates/",
       "https://www.visitpcv.com/rules-regulations/"
     ],
-    "lastVerified": "2026-09-28",
+    "lastVerified": "2026-10-05",
     "officialUrl": "https://www.visitpcv.com/rates/",
     "monthlyWinter": {
       "value": null,
@@ -3939,7 +3939,7 @@
     "stayCapNights": {
       "value": 29,
       "sourceUrl": "https://www.visitpcv.com/rates/",
-      "lastVerified": "2026-09-28",
+      "lastVerified": "2026-10-05",
       "confidence": "high",
       "sourceNote": "Maximum consecutive nights."
     },
@@ -3966,7 +3966,7 @@
     },
     "verify": {
       "status": "ok",
-      "checkedAt": "2026-09-28T21:32:33.785Z",
+      "checkedAt": "2026-10-05T22:18:01.984Z",
       "error": null
     }
   }
